@@ -43,14 +43,6 @@ public class BackendService extends HttpServlet {
         count++;
         long start = System.currentTimeMillis();
 
-//        if(true) {
-//            throw new RuntimeException(UUID.randomUUID().toString());
-//        }
-//        if( true ) {
-//            System.out.println("throwwwwwwwwwwwwwwwwwwwwwwwwww");
-//            throw new RuntimeException("twitter.com/poo\uD83D\uDCA9.html");
-//        }
-
         String name = request.getParameter("name");
         System.out.println("Received request : " + String.valueOf(name));
         // Declare response encoding and types
