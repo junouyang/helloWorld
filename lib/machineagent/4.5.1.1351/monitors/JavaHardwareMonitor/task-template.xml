@@ -1,0 +1,14 @@
+<config>
+    <disk aggregate="false" enabled="false">devfs</disk>
+    <disk aggregate="false" enabled="false">/dev/disk1s1</disk>
+    <disk aggregate="false" enabled="false">/dev/disk1s3</disk>
+    <disk aggregate="false" enabled="false">/dev/disk1s4</disk>
+    <network aggregate="true" enabled="false">p2p0</network>
+    <network aggregate="true" enabled="false">gpd0</network>
+    <network aggregate="true" enabled="true">en0</network>
+    <network aggregate="true" enabled="false">bridge0</network>
+    <network aggregate="true" enabled="false">en2</network>
+    <network aggregate="true" enabled="false">en1</network>
+    <network aggregate="true" enabled="false">lo0</network>
+    <network aggregate="true" enabled="false">awdl0</network>
+</config>

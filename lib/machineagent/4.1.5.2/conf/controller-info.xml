@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    <controller-host>localhost</controller-host>
+    <controller-port>8080</controller-port>
+    <controller-ssl-enabled>false</controller-ssl-enabled>
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- If the controller is running in multi-tenant mode, specify the account name
+         and access key for this agent to authenticate with the controller.
+         If the controller is running in single-tenant mode, there is no need to
+         specify these values. -->
+    <account-name>customer1</account-name>
+    <account-access-key>SJ5b2m7d1$354</account-access-key>
+
+    <!--  For Auto Agent Registration specify the application name, tier name,
+          and node name. If the application, tier, or node does not
+          exist already it will be created. -->
+    <application-name>hello1</application-name>
+    <tier-name>web</tier-name>
+    <node-name>web-node1</node-name>
+    
+    <force-agent-registration>false</force-agent-registration>
+    
+    <!--<agent-runtime-dir>/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.1.5.2/</agent-runtime-dir>-->
+</controller-info>

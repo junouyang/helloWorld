@@ -1,0 +1,1624 @@
+Install Directory resolved to[/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2]
+Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [app1]
+Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [bookservice]
+Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [bookservice-node]
+Full Agent Registration Info Resolver using selfService [false]
+Full Agent Registration Info Resolver using selfService [false]
+Full Agent Registration Info Resolver using application name [app1]
+Full Agent Registration Info Resolver using tier name [bookservice]
+Full Agent Registration Info Resolver using node name [bookservice-node]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver is running
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [app1]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [bookservice]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [bookservice-node]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using application name [app1]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using tier name [bookservice]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using node name [bookservice-node]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver finished running
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Agent runtime directory set to [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: AgentInstallManager - Agent node directory set to [bookservice-node]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: JavaAgent - Using Java Agent Version [Server Agent v4.2.15.0 GA #14646 rd5a50da75e9a07502c72fb801a105f55c2fabc47 25-4.2.15.next-build]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: JavaAgent - Running IBM Java Agent [No]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: JavaAgent - Java Agent Directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0]
+[Thread-0] Thu Oct 12 15:37:27 PDT 2017[INFO]: JavaAgent - Java Agent AppAgent directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0]
+Agent Logging Directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0/logs/bookservice-node]
+15:37:28,007  INFO [Thread-0] BusinessTransactions - Starting BT Logs at Thu Oct 12 15:37:28 PDT 2017
+15:37:28,007  INFO [Thread-0] BusinessTransactions - ###########################################################
+15:37:28,007  INFO [Thread-0] BusinessTransactions - Using Java Agent Version [Server Agent v4.2.15.0 GA #14646 rd5a50da75e9a07502c72fb801a105f55c2fabc47 25-4.2.15.next-build]
+15:37:28,008  INFO [Thread-0] BusinessTransactions - Running IBM Java Agent [No]
+15:37:28,008  INFO [Thread-0] JavaAgent - ####################################################################################
+15:37:28,008  INFO [Thread-0] JavaAgent - Java Agent Directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0]
+15:37:28,008  INFO [Thread-0] JavaAgent - Java Agent AppAgent directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0]
+15:37:28,008  INFO [Thread-0] JavaAgent - Using Java Agent Version [Server Agent v4.2.15.0 GA #14646 rd5a50da75e9a07502c72fb801a105f55c2fabc47 25-4.2.15.next-build]
+15:37:28,008  INFO [Thread-0] JavaAgent - All agent classes have been pre-loaded
+15:37:28,010  INFO [Thread-0] AgentKernel - Starting Java Agent at Thu Oct 12 15:37:28 PDT 2017 ...
+15:37:28,071  INFO [Thread-0] XMLConfigManager - Orchestration is disabled - disabling virtualization resolvers by default.
+15:37:28,080  INFO [Thread-0] XMLConfigManager - Default Controller Info Resolver found system property [appdynamics.controller.hostName] for controller host name [localhost]
+15:37:28,080  INFO [Thread-0] XMLConfigManager - Default Controller Info Resolver found system property [appdynamics.controller.port] for controller port [8080]
+15:37:28,119  INFO [Thread-0] XMLConfigManager - Default Host Identifier Resolver using host name for unique host identifier [jouyang-osx.corp.appdynamics.com]
+15:37:28,127  INFO [Thread-0] XMLConfigManager - Default IP Address Resolver found IP addresses [[fe80:0:0:0:5876:c4ff:fe1c:9e1d%awdl0, 192.168.99.1, 10.10.40.70, fe80:0:0:0:f65c:89ff:fe8c:c917%en0, 10.0.64.211, fe80:0:0:0:0:0:0:1%lo0]]
+15:37:28,128  INFO [Thread-0] XMLConfigManager - Default Agent Account Info Resolver found system property [appdynamics.agent.accountAccessKey] for account access key [SJ5b2m7d1$354]
+15:37:28,129  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [app1]
+15:37:28,129  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [bookservice]
+15:37:28,129  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [bookservice-node]
+15:37:28,141  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using selfService [false]
+15:37:28,152  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using selfService [false]
+15:37:28,153  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using application name [app1]
+15:37:28,153  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using tier name [bookservice]
+15:37:28,153  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using node name [bookservice-node]
+15:37:28,161  INFO [Thread-0] XMLConfigManager - XML Controller Info Resolver found controller host [localhost]
+15:37:28,162  WARN [Thread-0] XMLConfigManager - XML Controller Info Resolver found invalid controller port information [$controller.port] in controller-info.xml; Please specify a valid value if it is not already set in system properties.
+15:37:28,170  INFO [Thread-0] XMLConfigManager - XML Controller Info Resolver found controller host [localhost]
+15:37:28,170  WARN [Thread-0] XMLConfigManager - XML Controller Info Resolver found invalid controller port information [$controller.port] in controller-info.xml; Please specify a valid value if it is not already set in system properties.
+15:37:28,177  INFO [Thread-0] XMLConfigManager - XML Agent Account Info Resolver did not find account name since [$account.name] is considered a token only. Using default account name [customer1]
+15:37:28,178  INFO [Thread-0] XMLConfigManager - XML Agent Account Info Resolver using account access key [SJ5b2m7d1$354]
+15:37:28,179  INFO [Thread-0] XMLConfigManager - Configuration Channel is using ControllerInfo:: host:[localhost] port:[8080] sslEnabled:[unknown] keystoreFile:[DEFAULT:cacerts.jks] use-encrypted-credentials:[false] secureCredentialStoreFileName:[] secureCredentialStorePassword:[] use-ssl-client-auth:[false] asymmetricKeysStoreFilename:[] asymmetricKeysStorePassword:[] asymmetricKeyPassword:[] validation:[UNSPECIFIED]
+15:37:28,425  INFO [Thread-0] AgentConfigWatchdog - Agent overwrite set to false
+15:37:28,429  INFO [Thread-0] AgentConfigWatchdog - Parsed 2 filters from <sensitive-data-filters> section
+15:37:28,433  INFO [Thread-0] AgentConfigWatchdog - Service properties for SnapshotService=[{enable-startup-snapshot-policy=true, on-demand-snapshots=true, coalesced-cg-generation=true}]
+15:37:28,433  INFO [Thread-0] AgentConfigWatchdog - Service properties for TransactionMonitoringService=[{capture-raw-sql=true, config-file-path=transactions.xml, service-endpoint-config-file-path=service-endpoints.xml}]
+15:37:28,433  INFO [Thread-0] AgentConfigWatchdog - Service properties for JMXService=[{jmx-gc-majorCollectionBean=, config-file-path=jmx-config.xml, jmx-gc-minorCollectionBean=, jmx-shell=false, jmx-mbeanserver-findDelayInMinutes=1, jmx-use-local-xml-config=false}]
+15:37:28,433  INFO [Thread-0] AgentConfigWatchdog - Service properties for ObjectMonitoringService=[{enable-collection-monitoring=false, minimum-age-for-evaluation-in-minutes=5, jmap-histo-option=-all, enable-object-size-monitoring=false, minimum-size-for-evaluation-in-mb=5, disable-collection-capture=false, enable-instance-monitoring=false, collection-capture-period-in-minutes=30}]
+15:37:28,434  INFO [Thread-0] AgentConfigWatchdog - Service properties for AgentDiagnosticsService=[{memory-monitor-methods=, memory-monitoring-enable=false, call-tracer-methods=, memory-monitor-max-depth=500, memory-monitor-class-filter=, memory-monitoring-interval-in-minutes=10, enable-thread-dump=false, memory-monitor-static-fields=, dump-all-threads=true, memory-monitor-total-objects=500, thread-dump-logger=log4j, enable-shutdown-hook=false, thread-dump-interval=300}]
+15:37:28,434  INFO [Thread-0] AgentConfigWatchdog - Service properties for DynamicServiceManager=[{external-service-directory=external-services}]
+15:37:28,434  INFO [Thread-0] AgentConfigWatchdog - Service properties for MultiAgentManager=[{enabled=true, num.agents=0}]
+15:37:28,454  INFO [Thread-0] XMLConfigManager - Node will not be marked as historical at shutdown
+15:37:28,457  INFO [Thread-0] AgentKernel - JVM Runtime: 
+	java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_77-b03
+	java.io.tmpdir=/var/folders/8q/rgr01f1x02n92jkbj189gqg92z1z00/T/
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+15:37:28,457  INFO [Thread-0] AgentKernel - OS Runtime: 
+	os.name=Mac OS X
+	os.arch=x86_64
+	os.version=10.11.6
+	user.name=jun.ouyang
+	user.home=/Users/jun.ouyang
+	user.dir=/Users/jun.ouyang/source/helloWorld
+15:37:28,458  INFO [Thread-0] AgentKernel - Filtering data with key = [appdynamics.agent.accountAccessKey]
+15:37:28,462  INFO [Thread-0] AgentKernel - JVM Args : -Dappdynamics.controller.hostName=localhost | -Dappdynamics.controller.port=8080 | -Dappdynamics.agent.accountAccessKey=***** | -javaagent:/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/javaagent.jar | -Dappdynamics.agent.applicationName=app1 | -Dappdynamics.agent.tierName=bookservice | -Dappdynamics.agent.nodeName=bookservice-node | 
+15:37:28,463  INFO [Thread-0] AgentKernel - JVM Runtime Name: 77214@jouyang-osx.corp.appdynamics.com
+15:37:28,463  INFO [Thread-0] AgentKernel - JVM PID: 77214
+15:37:28,463  INFO [Thread-0] AgentKernel - Running non-obfuscated agent
+Running non-obfuscated agent
+15:37:28,464  INFO [Thread-0] AgentKernel - No debugger attached
+15:37:28,492  INFO [Thread-0] MetricHandler - Metric Service is : [enabled].
+15:37:28,494  INFO [Thread-0] SecurityConfig - Processing security properties [disabled-features] = [NONE]
+15:37:28,496  INFO [Thread-0] SecurityConfig - SecurityConfig {logRequestPayloadDisabled=false, rawSQLCaptureDisabled=false, customExitSnapDataDisabled=false, methodInvocationDataGathererDisabled=false, httpDataGathererDisabled=false, infoPointsDisabled=false }
+15:37:28,497  INFO [Thread-0] KernelProperties - For Kernel property 'disabled-features' added listener 'com.singularity.ee.agent.appagent.kernel.config.SecurityConfig', notified with value 'NONE'
+15:37:28,524  INFO [Thread-0] LifeCycleManager - Starting service [JMXService]
+15:37:28,541  INFO [Thread-0] JMXService - ###### Using config from controller for JMX operations #########
+15:37:28,549  INFO [Thread-0] ServerMBeanManager - Initialized MBean Finder with delay=120 secs
+15:37:28,572  INFO [Thread-0] MemoryMetricGenerator - Identified minor collection bean :PS Scavenge
+15:37:28,572  INFO [Thread-0] MemoryMetricGenerator - Identified major collection bean :PS MarkSweep
+15:37:28,574  INFO [Thread-0] MemoryMetricGenerator - Initialized Minor Collection GC metrics
+15:37:28,574  INFO [Thread-0] MemoryMetricGenerator - Initialized Major Collection GC metrics
+15:37:28,574  INFO [Thread-0] MemoryMetricGenerator - Initialized Ovearll GC metrics
+15:37:28,576  INFO [Thread-0] MemoryMetricGenerator - Initialized Memory Pool MX Beans [Code Cache, Metaspace, Compressed Class Space, PS Eden Space, PS Survivor Space, PS Old Gen]
+15:37:28,580  INFO [Thread-0] JVMMetricReporter - Number of processors 8
+15:37:28,583  INFO [Thread-0] JMXService - JVM JMX Metric collection initialized with update interval [60] seconds
+15:37:28,586  INFO [Thread-0] HeapShortageMonitor - HeapStorageMonitor is now active
+15:37:28,590  INFO [Thread-0] LifeCycleManager - Started service [JMXService]
+15:37:28,591  INFO [Thread-0] LifeCycleManager - Starting service [Agent16Service]
+15:37:28,599  INFO [Thread-0] LifeCycleManager - Started service [Agent16Service]
+15:37:28,599  INFO [Thread-0] LifeCycleManager - Starting service [DerivedMetricService]
+15:37:28,602  INFO [Thread-0] LifeCycleManager - Started service [DerivedMetricService]
+15:37:28,602  INFO [Thread-0] LifeCycleManager - Starting service [DynamicServiceManager]
+15:37:28,607  INFO [Thread-0] LifeCycleManager - Started service [DynamicServiceManager]
+15:37:28,608  INFO [Thread-0] LifeCycleManager - Starting service [MultiAgentManager]
+15:37:28,617  INFO [Thread-0] LifeCycleManager - Started service [MultiAgentManager]
+15:37:28,617  INFO [Thread-0] LifeCycleManager - Starting service [BCIEngine]
+15:37:28,648  INFO [Thread-0] ClassMemoryLimitTracker - Class Memory limit check before retransform  is enabled
+15:37:28,649  INFO [Thread-0] Java16AgentService - Class retransformation supported in current JVM version
+15:37:28,655  INFO [Thread-0] InstrumentationHandler - Registered class file transformer for re-transformation
+15:37:28,661  INFO [Thread-0] BCIEngineService - BCI Early Rule Appliers are bypassed because retransformation is supported
+15:37:28,661  INFO [Thread-0] LifeCycleManager - Started service [BCIEngine]
+15:37:28,661  INFO [Thread-0] LifeCycleManager - Starting service [SnapshotService]
+15:37:28,695  INFO [Thread-0] TransactionSnapshotService - Agent object monitoring is disabled
+15:37:28,695  INFO [Thread-0] TransactionSnapshotService - Coalesced Call-Stack Sampling is: enabled
+15:37:28,696  INFO [Thread-0] TransactionSnapshotService - CallStackSampler TryLock bounds in Micro Sec: 500
+15:37:28,720  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -null
+15:37:28,720  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -null
+15:37:28,721  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+15:37:28,721  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -null
+15:37:28,721  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+15:37:28,721  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  hotspot-granularity-in-ms  Value -null
+15:37:28,727  INFO [Thread-0] RequestSegmentDataReporter - Request Segment Data reporter setup to report at interval [10000]
+15:37:28,733  INFO [Thread-0] ApplicationStartupPolicy - Startup policy true
+15:37:28,786  INFO [Thread-0] LifeCycleManager - Started service [SnapshotService]
+15:37:28,786  INFO [Thread-0] LifeCycleManager - Starting service [TransactionMonitoringService]
+15:37:29,078  INFO [Thread-0] SlowAndStallRequestMonitor - Stall Request checker setup
+15:37:29,078  INFO [Thread-0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 300 ms, at interval 300 ms.
+15:37:29,082  INFO [Thread-0] Java16DeadlockDetector - Deadlock Detector is scheduled to run every [300] seconds.
+15:37:29,126  INFO [Thread-0] LoggerMessageProcessor - LoggerMessageProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@6bae5155
+15:37:29,129  INFO [Thread-0] AgentErrorProcessor - AgentErrorProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@96332b4
+15:37:29,138  INFO [Thread-0] ErrorRegistry - Error Registry initialized
+15:37:29,148  INFO [Thread-0] AsyncCorrelationADDRepository - Started ADD registration thread to run every [10] seconds
+15:37:29,148  INFO [Thread-0] AsyncCorrelationADDRepository - Max ADD registrations allowed [500]
+15:37:29,149  INFO [Thread-0] AsyncCorrelationADDRepository - Reporting ADD registration failures every [5] minutes
+15:37:29,156  INFO [Thread-0] JVMThreadCPUTimeCalculator - BT CPU Monitoring will stay enabled. Time taken to calculate Thread CPU Time for [1000] iterations is [3 ms] which is within the allowed budget of [10 ms]
+15:37:29,160  INFO [Thread-0] ServiceEndPointADDRegistrar - Starting ADD Registrar with registration period [10] secs
+15:37:29,193  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [group-unmonitoried-backends] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor.setGroupUnmonitoredBackends(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor 1
+15:37:29,194  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> setting [use-new-async-correlation] to true
+15:37:29,196  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [use-flat-thread-chain-model] to true
+15:37:29,196  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [bSyncMetricAggregator] to true
+15:37:29,196  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [asyncAllMetrics] to null
+15:37:29,196  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [useNewEJB3NamingRule] to false
+15:37:29,196  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [disableSocketCollection] to false
+15:37:29,196  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [devModeSuspendCPM] to 500
+15:37:29,196  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [jdbcLRUCacheSize] to 50
+15:37:29,197  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [support-cross-app-correlation] to true
+15:37:29,197  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.CHECK_BT_EXCLUDES_EARLY+"] to false
+15:37:29,197  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxAsyncTransformedClasses] to 100
+15:37:29,197  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxAsyncTransformedClassesByPackage] to 50
+15:37:29,197  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxEJBTransformedClasses] to 500
+15:37:29,197  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxEJBTransformedClassesByPackage] to 200
+15:37:29,197  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxTransformationsPerInterceptor] to 500
+15:37:29,198  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.disableInfoProviderMBean+"] to false
+15:37:29,198  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.infoProviderDetailMode+"] to false
+15:37:29,198  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.maxETELatencyTimestampRetentionInSeconds+"] to 300
+15:37:29,198  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.eteLatencyTimestampScanRetentionIntervalInSeconds+"] to 60
+15:37:29,198  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [enableLogGuidInjection] to false
+15:37:29,211  INFO [Thread-0] TransactionMonitoringService - Initialized [NEW] TransactionDelegate
+15:37:29,221  INFO [Thread-0] WebObjectsRuleApplier - Setting up new scheme for web objects transaction detection: applicationName:requestHandlerKey,applicationURLPrefix,uri
+15:37:29,234  INFO [Thread-0] JaxRsConfiguration - Property capture-raw-sql, Value true
+15:37:29,234  INFO [Thread-0] JaxRsConfiguration - Property config-file-path, Value transactions.xml
+15:37:29,234  INFO [Thread-0] JaxRsConfiguration - Property service-endpoint-config-file-path, Value service-endpoints.xml
+15:37:29,235  INFO [Thread-0] JaxRsConfiguration - Property webobjects-uri-construction-scheme, Value applicationName:requestHandlerKey,applicationURLPrefix,uri
+15:37:29,240  INFO [Thread-0] JDBCRuleApplier - Enabled JDBC Driver support for 13 drivers
+15:37:29,240  INFO [Thread-0] JDBCRuleApplier - DBCam integration enabled=false
+15:37:29,242  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [oracle-clientid-index] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration.setOracleClientIndex(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration 1
+15:37:29,242  INFO [Thread-0] JDBCConfiguration - Applying property capture-raw-sql, val true
+15:37:29,242  INFO [Thread-0] JDBCConfiguration - Applying property config-file-path, val transactions.xml
+15:37:29,242  INFO [Thread-0] JDBCConfiguration - Applying property service-endpoint-config-file-path, val service-endpoints.xml
+15:37:29,242  INFO [Thread-0] JDBCConfiguration - Applying property webobjects-uri-construction-scheme, val applicationName:requestHandlerKey,applicationURLPrefix,uri
+15:37:29,243  INFO [Thread-0] SocketRuleApplier - BCI disabled for Socket stats collection
+15:37:29,269  INFO [Thread-0] LifeCycleManager - Started service [TransactionMonitoringService]
+15:37:29,269  INFO [Thread-0] LifeCycleManager - Starting service [ObjectMonitoringService]
+15:37:29,350  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-collection-monitoring changed to false
+15:37:29,350  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 5
+15:37:29,351  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property jmap-histo-option changed to -all
+15:37:29,351  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-object-size-monitoring changed to false
+15:37:29,365  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-size-for-evaluation-in-mb changed to 5
+15:37:29,365  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to false
+15:37:29,365  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-instance-monitoring changed to false
+15:37:29,365  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property collection-capture-period-in-minutes changed to 30
+15:37:29,365  INFO [Thread-0] LifeCycleManager - Started service [ObjectMonitoringService]
+15:37:29,365  INFO [Thread-0] LifeCycleManager - Starting service [AgentDiagnosticsService]
+15:37:29,375  INFO [Thread-0] AgentDiagnosticConfig - Setting Memory Monitor Enabled false
+15:37:29,375  INFO [Thread-0] AgentDiagnosticConfig - Memory Monitor max stack depth set to 500
+15:37:29,375  INFO [Thread-0] AgentDiagnosticConfig - Memory Monitor total objects set to 500
+15:37:29,376  INFO [Thread-0] MemoryMonitor - Updated monitor class names []. Removed all tracked method objects.
+15:37:29,377  INFO [Thread-0] AgentDiagnosticConfig - Setting Thread Dump Enabled false
+15:37:29,377  INFO [Thread-0] AgentDiagnosticsService - Seeting up Thread dump logger to Log4j based logger context com.singularity.diagnostics.ThreadDumpLogger
+15:37:29,378  INFO [Thread-0] ThreadDumpLogger - #############################################################
+15:37:29,378  INFO [Thread-0] ThreadDumpLogger - Agent Diagnostics Logs at Thu Oct 12 15:37:29 PDT 2017
+15:37:29,378  INFO [Thread-0] ThreadDumpLogger - #############################################################
+15:37:29,378  INFO [Thread-0] AgentDiagnosticConfig - Setting Shutdown hook Enabled false
+15:37:29,379  INFO [Thread-0] AgentDiagnosticsService - JVM Shutdown hook is disabled
+15:37:29,386  INFO [Thread-0] AgentDiagnosticsService - Starting up Agent Diagnostic Logger, setting up Thread dump frequency to [300] seconds
+15:37:29,386  INFO [Thread-0] MemoryMonitor - BCI Rules to apply for Methods[]
+15:37:29,386  INFO [Thread-0] MethodRuleApplier - Finished applying new rule set for {}
+15:37:29,387  INFO [Thread-0] MemoryMonitor - Clearing all current objects from methods being tracked {}
+15:37:29,387  INFO [Thread-0] MemoryMonitor - BCI Rules to apply for Classes[null]
+15:37:29,387  INFO [Thread-0] ClassRuleApplier - Finished applying new rule set for []
+15:37:29,388  INFO [Thread-0] MemoryMonitor - Updated object names to log []
+15:37:29,388  INFO [Thread-0] MemoryMonitor - Memory Monitor started with enabled[false], interval[10]
+15:37:29,388  INFO [Thread-0] MethodRuleApplier - Finished applying new rule set for {}
+15:37:29,388  INFO [Thread-0] LifeCycleManager - Started service [AgentDiagnosticsService]
+15:37:29,388  INFO [Thread-0] XMLConfigManager - Agent will poll for new configuration from controller every [60] seconds
+15:37:29,394  INFO [Thread-0] DerivedMetricService - Derived metric: DerivedMetric{metricIdentifier=Metric Identifier[JVM|Memory:Heap|Custom Current Usage Percentage] ID[0] super=DerivedMetricExpression{operation=multiply, expressions=[DerivedMetricExpression{operation=divide, expressions=[MetricFetch{agentRawMetricIdentifier=Metric Identifier[JVM|Memory:Heap|Current Usage (MB)] ID[0], testStaticValue=''}, MetricFetch{agentRawMetricIdentifier=Metric Identifier[JVM|Memory:Heap|Max Available (MB)] ID[0], testStaticValue=''}]}, StaticNumber{staticValue=10000}]}}
+15:37:29,447  INFO [Thread-0] TransactionMonitoringService - Config Channel not initialized, will use default transaction config to apply BCI rules
+15:37:29,448  INFO [Thread-0] TransactionMonitoringService - Reading transaction config file from the controller.
+15:37:29,466  INFO [Thread-0] TransactionMonitoringService - Parsed Transaction definitions successfully from [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0/conf/bookservice-node/transactions.xml]
+15:37:29,699  INFO [Thread-0] ServletEntryPointDelegate - Servlet Monitoring enabled=true
+15:37:29,699  INFO [Thread-0] ServletRuleApplier - Apply servlet entry point monitoring = true, apply service end point config = false
+15:37:29,707  INFO [Thread-0] ServletRuleApplier - Adding SPRING MVC dispatcher rules
+15:37:29,708  INFO [Thread-0] ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+15:37:29,711  INFO [Thread-0] ServletRuleApplier - Applying Mule HTTP Receiver rules
+15:37:29,716  INFO [Thread-0] ServletRuleApplier - Applying URI Capture rules
+15:37:29,718  INFO [Thread-0] ServletRuleApplier - Capturing HttpServletResponse.setStatus() calls
+15:37:29,718  INFO [Thread-0] ServletRuleApplier - Applying rule to capture Play related error codes
+15:37:29,756  INFO [Thread-0] ServletRuleApplier - Applying rules: Fork-join rules
+15:37:29,757  INFO [Thread-0] ServletRuleApplier - Applying rules: Spray.io rules
+15:37:29,774  INFO [Thread-0] WebMethodsRuleApplier - Applying Web Methods HTTP Receiver rules
+15:37:29,775  INFO [Thread-0] ServletRuleApplier - Applying rules: Jolt Exit Point Rules
+15:37:29,775  INFO [Thread-0] ServletRuleApplier - Applying rules: WebMethods Message Broker rules
+15:37:29,776  INFO [Thread-0] WebObjectsRuleApplier - Applying WebObject rules
+15:37:29,882  INFO [Thread-0] SpringIntegrationRuleApplier - Applying Spring Integration Rules
+15:37:29,885  INFO [Thread-0] SpringIntegrationRuleApplier - spring-integration-receive-marker-classes = null
+15:37:29,885  INFO [Thread-0] SpringIntegrationRuleApplier - Apply Spring Integration Receive Enclosing Marker Rules
+15:37:29,893  INFO [Thread-0] EJBEntryPointDelegate - Applying RMI Rules
+15:37:29,894  INFO [Thread-0] RMIRuleApplier - Applying JBoss Remoting Rules
+15:37:29,906  INFO [Thread-0] RMIRuleApplier - Applying Websphere RMI-IIOP Rules
+15:37:29,918  INFO [Thread-0] RMIRuleApplier - Applying JRMP RMI Rules
+15:37:29,926  INFO [Thread-0] POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [3]
+15:37:29,927  INFO [Thread-0] POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+15:37:29,930  INFO [Thread-0] JMSEntryPointDelegate - JMS monitoring is enabled
+15:37:29,934  INFO [Thread-0] JMSEntryPointDelegate - Adding MDB Annotation onMessage rule 
+15:37:29,935  INFO [Thread-0] JMSEntryPointDelegate - Adding Spring Integration MDB rule 
+15:37:30,046  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Ning async http client rules
+15:37:30,060  INFO [Thread-0] jrubyJRubyRuleApplier - Applying rules: JRuby Httparty Rules
+15:37:30,062  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Netty Async Channel
+15:37:30,067  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Ribbon Async
+15:37:30,071  INFO [Thread-0] MQExitPointDelegate - MQ put/get rules registered
+15:37:30,363  INFO [Thread-0] JMSExitPointDelegate - Applying Amazon SQS Rules
+15:37:30,377  INFO [Thread-0] sqsSQSRuleApplier - Applying rules: Amazon SQS Rules
+15:37:30,379  INFO [Thread-0] AWSExitPointDelegate - Applying DynamoDB Rules
+15:37:30,392  INFO [Thread-0] s3S3ExitPointDelegate - Applying Amazon S3 Rules
+15:37:30,398  INFO [Thread-0] s3S3RuleApplier - Applying rules: Amazon S3 Rules
+15:37:30,399  INFO [Thread-0] snsSNSExitPointDelegate - Applying Amazon SNS Rules
+15:37:30,402  INFO [Thread-0] snsSNSRuleApplier - Applying rules: Amazon SNS Rules
+15:37:30,402  INFO [Thread-0] MongoExitPointDelegate - Applying MongoDB rules
+15:37:30,412  INFO [Thread-0] MongoDBRuleApplier - Applying rules: MongoDB Rules
+15:37:30,452  INFO [Thread-0] BCIFixer - Scheduling BCIFixer at [900000] ms intervals.
+15:37:30,453  INFO [Thread-0] DynamicRulesManager - Reading current dynamic rules from [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0/conf/bookservice-node/bcirules.xml]
+15:37:30,462  INFO [Thread-0] TransactionConfigChannel - Applying out of the box exit point rules
+15:37:30,491  INFO [Thread-0] ExitPointRuleApplier - Adding rules for exit point type [[SAP, Mail, LDAP, DangaMemcache, Coherence, EHCache, REDIS, MongoDB, Memcache]]
+15:37:30,491  INFO [Thread-0] TransactionMonitoringService - Initializing thread delegate and resetting transaction delegate if needed. The current value of [use-new-async-correlation]=true
+15:37:30,514  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+15:37:30,517  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+15:37:30,518  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+15:37:30,519  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+15:37:30,522  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+15:37:30,527  INFO [Thread-0] TransactionMonitoringService - Initialized [NEW] threads delegate
+15:37:30,527  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+15:37:30,527  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+15:37:30,528  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+15:37:30,528  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+15:37:30,528  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+15:37:30,529  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='call', type=EQUALS, pattern='call'}] 
+15:37:30,529  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+15:37:30,529  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='doRun', type=EQUALS, pattern='doRun'}] 
+15:37:30,530  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+15:37:30,530  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='k', type=EQUALS, pattern='k'}] 
+15:37:30,530  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.RecursiveTask', type=EQUALS, pattern='java.util.concurrent.RecursiveTask'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+15:37:30,530  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.RecursiveTask', type=EQUALS, pattern='java.util.concurrent.RecursiveTask'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='compute', type=EQUALS, pattern='compute'}] 
+15:37:30,554  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-async-correlation-for] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier.setEnableAsync(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier 1
+Started AppDynamics Java Agent Successfully.
+15:37:31,264  INFO [Thread-0] JavaAgent - Started AppDynamics Java Agent Successfully.
+15:37:31,351  INFO [AD Thread Pool-Global0] TransformationManager - Class transformations will take place in a background thread
+15:37:31,991  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/net/SocketFlow is scheduled for re-transformation
+15:37:33,433  INFO [AD Thread Pool-Global1] TransformationManager - Class java/net/Socket is scheduled for re-transformation
+15:37:33,451  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/ClassWriter is scheduled for re-transformation
+15:37:33,452  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/ClassVisitor is scheduled for re-transformation
+15:37:33,452  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/ByteVector is scheduled for re-transformation
+15:37:33,453  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/Item is scheduled for re-transformation
+15:37:33,453  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/MethodWriter is scheduled for re-transformation
+15:37:33,454  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/MethodVisitor is scheduled for re-transformation
+15:37:33,455  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/Type is scheduled for re-transformation
+15:37:33,455  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/Label is scheduled for re-transformation
+15:37:33,457  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/Frame is scheduled for re-transformation
+15:37:33,458  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/AnnotationWriter is scheduled for re-transformation
+15:37:33,458  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/AnnotationVisitor is scheduled for re-transformation
+15:37:33,494  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/FieldWriter is scheduled for re-transformation
+15:37:33,494  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/FieldVisitor is scheduled for re-transformation
+15:37:33,510  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/net/SocketFlow$Status is scheduled for re-transformation
+15:37:33,536  INFO [AD Thread Pool-Global0] TransformationManager - Class java/util/concurrent/ThreadPoolExecutor$Worker is scheduled for re-transformation
+Received request : client-3427
+average : 31
+15:37:33,861  INFO [qtp1937348256-45] BoundsEnforcer - BoundsEnforcer.PropertyListener is initialized
+15:37:33,862  INFO [qtp1937348256-45] TopBackendsProcessor - Started TopBackendsProcessor to process every [100] ms
+15:37:33,862  INFO [qtp1937348256-45] TopBackendsProcessor - Started TopBackendsReporter to report every [5] mins
+Received request : client-5431
+average : 16
+15:37:37,011  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/Exported is scheduled for re-transformation
+Received request : client-7436
+average : 10
+Received request : client-9441
+average : 8
+Received request : client-1445
+average : 6
+Received request : client-3448
+average : 5
+Received request : client-5452
+average : 4
+Received request : client-7460
+average : 4
+Received request : client-9463
+average : 3
+Received request : client-1467
+average : 3
+Received request : client-3471
+average : 3
+Received request : client-5476
+average : 2
+Received request : client-7481
+average : 2
+Received request : client-9485
+average : 2
+Received request : client-1489
+average : 2
+Received request : client-3494
+average : 2
+Received request : client-5498
+average : 2
+Received request : client-7505
+average : 1
+Received request : client-9504
+average : 1
+Received request : client-1507
+average : 1
+Received request : client-3511
+average : 1
+Received request : client-5514
+average : 1
+Received request : client-7519
+average : 1
+Received request : client-9522
+average : 1
+Received request : client-1525
+average : 1
+Received request : client-3529
+average : 1
+Received request : client-5533
+average : 1
+Received request : client-7537
+average : 1
+15:38:29,395  INFO [AD Thread Pool-Global0] ConfigurationChannel - Filtering data with key = [appdynamics.agent.accountAccessKey]
+15:38:29,396  INFO [AD Thread Pool-Global0] ConfigurationChannel - Filtering data with key = [appdynamics.agent.accountAccessKey]
+15:38:29,400  INFO [AD Thread Pool-Global0] ConfigurationChannel - Detected node meta info: [Name:ProcessID, Value:77214, Name:appdynamics.ip.addresses, Value:fe80:0:0:0:5876:c4ff:fe1c:9e1d%awdl0,192.168.99.1,10.10.40.70,fe80:0:0:0:f65c:89ff:fe8c:c917%en0,10.0.64.211,fe80:0:0:0:0:0:0:1%lo0, Name:supportsDevMode, Value:true]
+15:38:29,400  INFO [AD Thread Pool-Global0] ConfigurationChannel - Sending Registration request with: Application Name [app1], Tier Name [bookservice], Node Name [bookservice-node], Host Name [jouyang-osx.corp.appdynamics.com] Node Unique Local ID [bookservice-node], Version [Server Agent v4.2.15.0 GA #14646 rd5a50da75e9a07502c72fb801a105f55c2fabc47 25-4.2.15.next-build]
+Received request : client-9542
+average : 1
+Received request : client-1546
+average : 1
+Received request : client-3549
+average : 1
+15:38:34,870  INFO [AD Thread Pool-Global0] ConfigurationChannel - Auto agent registration attempted: Application Name [app1] Component Name [bookservice] Node Name [bookservice-node]
+15:38:34,871  INFO [AD Thread Pool-Global0] ConfigurationChannel - Auto agent registration SUCCEEDED!
+15:38:34,871  INFO [AD Thread Pool-Global0] ConfigurationChannel - Registration information received Node ID[14] Component ID[14] Application ID [10]
+Registered app server agent with Node ID[14] Component ID[14] Application ID [10]
+15:38:34,871  INFO [AD Thread Pool-Global0] ConfigurationChannel -      controllerGUID[1507847688] accountGUID[9be29c28-328b-4531-a72e-035995755f36]
+15:38:34,879  INFO [AD Thread Pool-Global0] JavaAgent - JVM Process Persistence File <pid = 3687    nodeDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2    appName = app1    tierName = bookservice    nodeName = bookservice-node    homeDirectory = /Users/jun.ouyang/source/helloWorld    machineId = 4    uniqueHostId = jouyang-osx.local    controllerHost = localhost    controllerPort = 8080    accountKey = a08f6310-eec1-4441-b182-6c33eb96a4a7    versionDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0> was found
+15:38:34,887  INFO [AD Thread Pool-Global0] JavaAgent - Detected that JVM for PID 3687 is no longer active
+15:38:34,888  INFO [AD Thread Pool-Global0] JavaAgent - JVM Process Persistence file <pid = 3687    nodeDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2    appName = app1    tierName = bookservice    nodeName = bookservice-node    homeDirectory = /Users/jun.ouyang/source/helloWorld    machineId = 4    uniqueHostId = jouyang-osx.local    controllerHost = localhost    controllerPort = 8080    accountKey = a08f6310-eec1-4441-b182-6c33eb96a4a7    versionDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0> does not match current controller or account - ignored
+15:38:34,891  INFO [AD Thread Pool-Global0] JavaAgent - JVM Process Persistence File <pid = 77214    nodeDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2    appName = app1    tierName = bookservice    nodeName = bookservice-node    homeDirectory = /Users/jun.ouyang/source/helloWorld    machineId = 5    uniqueHostId = jouyang-osx.corp.appdynamics.com    controllerHost = localhost    controllerPort = 8080    accountKey = 9be29c28-328b-4531-a72e-035995755f36    versionDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0> was written
+15:38:34,894  INFO [AD Thread Pool-Global1] TransformationManager - Class java/lang/ApplicationShutdownHooks is scheduled for re-transformation
+15:38:35,103  INFO [AD Thread Pool-Global0] ConfigurationChannel - Account edition from controller = ENTERPRISE
+15:38:35,106  INFO [AD Thread Pool-Global0] ConfigurationChannel - New account profile [AccountProfile [dataRetentionInMinutes=-1, agentTypesSupported=[APP_AGENT, DOT_NET_APP_AGENT, DOT_NET_MACHINE_AGENT, MACHINE_AGENT, NODEJS_APP_AGENT, NODEJS_MACHINE_AGENT], automationEnabled=true, azureAutoScalingEnabled=false, systemsPanelEnabled=true, memoryMonitoringEnabled=true, startDateOfTrial=null, endDateOfTrial=null, businessTransactionLimit=50, nodeLimit=-1, transactionCorrelationEnabled=true, snapshotsEnabled=true, snapshotsWithFullCallGraphsEnabled=true, automaticSnapshotsForSlowAndErrorRequestsEnabled=true, sqlDiagnosticsEnabled=true, hardwareMonitoringEnabled=true, jvmMonitoringEnabled=true, clrMonitoringEnabled=true, endUserExperienceMonitoringEnabled=true, backendDetectionEnabled=true, errorMonitoringEnabled=true, customDashboardsEnabled=true, reportingEnabled=true, baselinesEnabled=true, advancedAnalysisEnabled=true, policiesEnabled=true, alertingEnabled=true, informationPointsEnabled=true, topCallsEnabled=true, problemsEnabled=true, informationalEventsEnabled=true, metricBrowserEnabled=true, timestamp=1507847732808, dataCollectorsEnabled=true, customExitPointsEnabled=true, restAPIEnabled=true, maxApplications=-1, maxPolicies=-1, edition=ENTERPRISE, controllerBusinessTransactionLimitPerApplication=200]]
+15:38:35,107  INFO [AD Thread Pool-Global0] ConfigurationChannel - Controller version [4.2.15]
+15:38:35,110  INFO [AD Thread Pool-Global0] TransactionMonitoringService - Received application configuration property [is-async-activity-supported]=true
+15:38:35,125  INFO [AD Thread Pool-Global0] TransactionConfigUpdater - Updating transactions.xml to /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.2/ver4.2.15.0/conf/bookservice-node/transactions.xml
+15:38:35,171  INFO [AD Thread Pool-Global0] ServletRuleApplier - Apply servlet entry point monitoring = true, apply service end point config = false
+15:38:35,174  INFO [AD Thread Pool-Global0] ServletRuleApplier - Adding SPRING MVC dispatcher rules
+15:38:35,174  INFO [AD Thread Pool-Global0] ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+15:38:35,177  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying Mule HTTP Receiver rules
+15:38:35,177  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying URI Capture rules
+15:38:35,178  INFO [AD Thread Pool-Global0] ServletRuleApplier - Capturing HttpServletResponse.setStatus() calls
+15:38:35,178  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rule to capture Play related error codes
+15:38:35,180  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Fork-join rules
+15:38:35,180  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Spray.io rules
+15:38:35,182  INFO [AD Thread Pool-Global0] WebMethodsRuleApplier - Applying Web Methods HTTP Receiver rules
+15:38:35,182  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Jolt Exit Point Rules
+15:38:35,182  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: WebMethods Message Broker rules
+15:38:35,183  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - Applying Spring Integration Rules
+15:38:35,184  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - spring-integration-receive-marker-classes = null
+15:38:35,184  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - Apply Spring Integration Receive Enclosing Marker Rules
+15:38:35,185  INFO [AD Thread Pool-Global0] POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [3]
+15:38:35,185  INFO [AD Thread Pool-Global0] POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=-38728332}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=-304016003}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=698706046}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+15:38:35,186  INFO [AD Thread Pool-Global0] POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [3]
+15:38:35,186  INFO [AD Thread Pool-Global0] POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=-38728332}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=-304016003}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=698706046}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+15:38:35,197  INFO [AD Thread Pool-Global0] TransactionMonitor - Setting Excluded BTs [EMPTY]
+15:38:35,198  INFO [AD Thread Pool-Global0] ErrorMonitor - Setting ignore exceptions to :[]
+15:38:35,198  INFO [AD Thread Pool-Global0] ErrorMonitor - Setting ignore message patterns to :[]
+15:38:35,201  INFO [AD Thread Pool-Global0] ErrorMonitor - Setting max frames in root cause to :5
+15:38:35,201  INFO [AD Thread Pool-Global0] StackTraceGenerator - Stack trace line limit set to: 200 (stack-trace-line-limit property is set to 0, but minimum value is 200.)
+15:38:35,202  INFO [AD Thread Pool-Global0] ErrorMonitor - Setting stack trace line limit to :0
+15:38:35,202  INFO [AD Thread Pool-Global0] LoggerRuleApplier - Applying Custom Logger Rules :: []
+15:38:35,203  INFO [AD Thread Pool-Global0] ErrorMonitor - Setting excluded logger names to : []
+15:38:35,204  INFO [AD Thread Pool-Global0] ErrorMonitor - JDK Exception Logger disabled set to false
+15:38:35,204  INFO [AD Thread Pool-Global0] ErrorMonitor - JDK Message Logger disabled set to false
+15:38:35,205  INFO [AD Thread Pool-Global0] ErrorMonitor - SLF4J Exception Logger disabled set to false
+15:38:35,205  INFO [AD Thread Pool-Global0] ErrorMonitor - SLF4J Message Logger disabled set to false
+15:38:35,205  INFO [AD Thread Pool-Global0] ErrorMonitor - Logback Formatted Message Logger disabled set to false
+15:38:35,205  INFO [AD Thread Pool-Global0] ErrorMonitor - Logback Formatted Message Marker disabled set to false
+15:38:35,206  INFO [AD Thread Pool-Global0] ErrorMonitor - Log4j Exception Logger disabled set to false
+15:38:35,206  INFO [AD Thread Pool-Global0] ErrorMonitor - Log4j Message Logger disabled set to false
+15:38:35,206  INFO [AD Thread Pool-Global0] ErrorMonitor - Capture of error and fatal logger error messages disabled set to false
+15:38:35,206  INFO [AD Thread Pool-Global0] ErrorMonitor - Setting ignore logger msg patters to : []
+15:38:35,211  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'}
+15:38:35,214  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [HTTPExitPointDelegate] enabled = true
+15:38:35,214  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'} with number of configurations 1
+15:38:35,215  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'}
+15:38:35,219  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [MQExitPointDelegate] enabled = true
+15:38:35,219  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'} with number of configurations 1
+15:38:35,219  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'}
+15:38:35,219  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [ThriftExitPointDelegate] enabled = true
+15:38:35,219  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'} with number of configurations 1
+15:38:35,219  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'}
+15:38:35,220  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [JMSExitPointDelegate] enabled = true
+15:38:35,220  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'} with number of configurations 1
+15:38:35,220  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'}
+15:38:35,221  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [WebSocketExitPointDelegate] enabled = true
+15:38:35,221  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'} with number of configurations 1
+15:38:35,221  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'}
+15:38:35,222  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [RMIExitPointDelegate] enabled = true
+15:38:35,222  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'} with number of configurations 1
+15:38:35,223  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'}
+15:38:35,223  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [SQSExitPointDelegate] enabled = true
+15:38:35,223  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'} with number of configurations 1
+15:38:35,223  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'}
+15:38:35,224  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [S3ExitPointDelegate] enabled = true
+15:38:35,224  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'} with number of configurations 1
+15:38:35,224  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'}
+15:38:35,225  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [SNSExitPointDelegate] enabled = true
+15:38:35,225  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'} with number of configurations 1
+15:38:35,225  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'}
+15:38:35,225  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [MongoExitPointDelegate] enabled = true
+15:38:35,225  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'} with number of configurations 1
+15:38:35,225  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'}
+15:38:35,227  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [JDBCExitPointDelegate] enabled = true
+15:38:35,227  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'} with number of configurations 1
+15:38:35,227  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'}
+15:38:35,228  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [JoltExitPointDelegate] enabled = true
+15:38:35,228  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'} with number of configurations 1
+15:38:35,228  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'}
+15:38:35,232  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [RabbitMqExitPointDelegate] enabled = true
+15:38:35,232  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'} with number of configurations 1
+15:38:35,232  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'}
+15:38:35,232  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [AWS Exit Point Delegate] enabled = true
+15:38:35,232  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'} with number of configurations 1
+15:38:35,232  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'}
+15:38:35,235  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [WebServiceExitPointDelegate] enabled = true
+15:38:35,235  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'} with number of configurations 1
+15:38:35,235  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'}
+15:38:35,236  INFO [AD Thread Pool-Global0] AExitPointDelegate - Exit point delegate [CassandraCQLExitPointDelegate] enabled = true
+15:38:35,236  INFO [AD Thread Pool-Global0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'} with number of configurations 1
+15:38:35,236  INFO [AD Thread Pool-Global0] TransactionConfigChannel - Received Service End Point Definitions >> 
+[]
+15:38:35,237  INFO [AD Thread Pool-Global0] ServletRuleApplier - Apply servlet entry point monitoring = true, apply service end point config = false
+15:38:35,238  INFO [AD Thread Pool-Global0] ServletRuleApplier - Adding SPRING MVC dispatcher rules
+15:38:35,239  INFO [AD Thread Pool-Global0] ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+15:38:35,239  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying Mule HTTP Receiver rules
+15:38:35,239  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying URI Capture rules
+15:38:35,239  INFO [AD Thread Pool-Global0] ServletRuleApplier - Capturing HttpServletResponse.setStatus() calls
+15:38:35,239  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rule to capture Play related error codes
+15:38:35,240  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Fork-join rules
+15:38:35,240  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Spray.io rules
+15:38:35,241  INFO [AD Thread Pool-Global0] WebMethodsRuleApplier - Applying Web Methods HTTP Receiver rules
+15:38:35,241  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Jolt Exit Point Rules
+15:38:35,241  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: WebMethods Message Broker rules
+15:38:35,242  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - Applying Spring Integration Rules
+15:38:35,242  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - spring-integration-receive-marker-classes = null
+15:38:35,242  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - Apply Spring Integration Receive Enclosing Marker Rules
+15:38:35,242  INFO [AD Thread Pool-Global0] POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [3]
+15:38:35,242  INFO [AD Thread Pool-Global0] POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=-38728332}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=-304016003}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=698706046}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+15:38:35,247  INFO [AD Thread Pool-Global0] TransactionConfigChannel - Received Service Endpoint Match Config >> 
+[{
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=70 , version=0    id = 70    name = EJB    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:EJB,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='EJB_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=66 , version=0    id = 66    name = JMS    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:JMS,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='DESTINATION_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=64 , version=0    id = 64    name = POJO    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:POJO,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='FULLY_QUALIFIED_CLASS_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=68 , version=0    id = 68    name = SERVLET    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:SERVLET,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='URI', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=65 , version=0    id = 65    name = SPRING_BEAN    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:SPRING_BEAN,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='BEAN_ID_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=67 , version=0    id = 67    name = STRUTS_ACTION    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:STRUTS_ACTION,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='ACTION_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=69 , version=0    id = 69    name = WEB_SERVICE    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:WEB_SERVICE,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='SERVICE_NAME_AND_OPERATION_NAME', properties=[]} }
+}
+]
+15:38:35,247  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - Applying Spring Integration Rules
+15:38:35,248  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - spring-integration-receive-marker-classes = null
+15:38:35,248  INFO [AD Thread Pool-Global0] SpringIntegrationRuleApplier - Apply Spring Integration Receive Enclosing Marker Rules
+15:38:35,248  INFO [AD Thread Pool-Global0] POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [3]
+15:38:35,248  INFO [AD Thread Pool-Global0] POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=-38728332}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=-304016003}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=698706046}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+15:38:35,251  INFO [AD Thread Pool-Global0] ServletRuleApplier - Apply servlet entry point monitoring = true, apply service end point config = true
+15:38:35,252  INFO [AD Thread Pool-Global0] ServletRuleApplier - Adding SPRING MVC dispatcher rules
+15:38:35,252  INFO [AD Thread Pool-Global0] ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+15:38:35,252  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying Mule HTTP Receiver rules
+15:38:35,252  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying URI Capture rules
+15:38:35,253  INFO [AD Thread Pool-Global0] ServletRuleApplier - Capturing HttpServletResponse.setStatus() calls
+15:38:35,253  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rule to capture Play related error codes
+15:38:35,254  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Fork-join rules
+15:38:35,254  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Spray.io rules
+15:38:35,255  INFO [AD Thread Pool-Global0] WebMethodsRuleApplier - Applying Web Methods HTTP Receiver rules
+15:38:35,255  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: Jolt Exit Point Rules
+15:38:35,255  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying rules: WebMethods Message Broker rules
+15:38:35,255  INFO [AD Thread Pool-Global0] BTOverflowCounter - Transactions cleanup detected. Resetting overflow transaction timer.
+15:38:35,255  INFO [AD Thread Pool-Global0] TransactionMonitor - Changing max metric length to: 5000
+15:38:35,258  INFO [AD Thread Pool-Global0] EUMConfig - EUM injected JS code template: ;/* Version 74d57f8d40d55beb179f74cf695efcad v:4.2.15.18, c:DEVBUILD, b:UNKNOWN ...
+15:38:35,258  INFO [AD Thread Pool-Global0] EUMConfig - EUM beacon URL: col.eum-appdynamics.com
+15:38:35,258  INFO [AD Thread Pool-Global0] EUMConfig - EUM async JS file URL: cdn.appdynamics.com
+15:38:35,258  INFO [AD Thread Pool-Global0] EUMConfig - Global account name: customer1_9be29c28-328b-4531-a72e-035995755f36
+15:38:35,258  INFO [AD Thread Pool-Global0] EUMConfig - Disabling automatic parsing and injection
+15:38:35,259  INFO [AD Thread Pool-Global0] EUMConfig - Disabling manual injection rules
+15:38:35,259  INFO [AD Thread Pool-Global0] JDBCRuleApplier - Adding bind rules for sql
+15:38:35,275  INFO [AD Thread Pool-Global0] CallGraphFilteringConfig - Setting Callgraph package excludes [java., javax., com.sun., sun., org., com.bea., com.weblogic., weblogic., com.ibm., com.mysql., com.oracle., oracle., com.microsoft.sqlserver., com.opensymphony., net.sf., jrockit., kodo., com.pointbase., persistence.antlr., com.informix., com.sybase.jdbc2., com.sybase.jdbc3., com.sybase.jdbc4., com.mongodb.connection.]
+15:38:35,276  INFO [AD Thread Pool-Global0] CallGraphFilteringConfig - Setting Callgraph package always show [com.sun.jersey., org.apache.openejb., org.apache.cassandra., org.apache.camel.example., org.apache.camel.component.seda., org.mule.processor., org.jboss.soa.esb.client., org.springframework.integration.]
+15:38:35,276  INFO [AD Thread Pool-Global0] AgentConfigWatchdog - Received properties from controller, going to refresh.
+15:38:35,276  INFO [AD Thread Pool-Global0] AgentConfigWatchdog - ************ Started applying service properties from controller ***************
+15:38:35,276  INFO [AD Thread Pool-Global0] WebObjectsRuleApplier - Setting up new scheme for web objects transaction detection: applicationName:requestHandlerKey,applicationURLPrefix,uri
+15:38:35,276  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating webobjects-uri-construction-scheme value 
+15:38:35,276  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'enable-soap-header-correlation', 'false'
+15:38:35,276  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating enable-soap-header-correlation value false
+15:38:35,276  INFO [AD Thread Pool-Global0] JaxRsConfiguration - Property rest-num-segments, Value 2
+15:38:35,276  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating rest-num-segments value 2
+15:38:35,276  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating log-request-payload value false
+15:38:35,277  INFO [AD Thread Pool-Global0] NewTransactionWatchman - Property api-transaction-timeout-in-seconds, Value 300
+15:38:35,277  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating api-transaction-timeout-in-seconds value 300
+15:38:35,277  INFO [AD Thread Pool-Global0] ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-correlation-for], value[]
+15:38:35,277  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating disable-exit-call-correlation-for value 
+15:38:35,277  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'slow-request-deviation', '200'
+15:38:35,277  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating slow-request-deviation value 200
+15:38:35,277  INFO [AD Thread Pool-Global0] JDBCRuleApplier - Property jdbc-statements, Value 
+15:38:35,277  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating jdbc-statements value 
+15:38:35,277  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'slow-request-threshold', '500'
+15:38:35,277  INFO [AD Thread Pool-Global0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 500 ms, at interval 500 ms.
+15:38:35,277  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating slow-request-threshold value 500
+15:38:35,277  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'downstream-tx-detection-enabled', 'false'
+15:38:35,277  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating downstream-tx-detection-enabled value false
+15:38:35,277  INFO [AD Thread Pool-Global0] JDBCConfiguration - Applying property capture-raw-sql, val false
+15:38:35,277  INFO [AD Thread Pool-Global0] JDBCRuleApplier - Removing bind rules for sql
+15:38:35,478  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating capture-raw-sql value false
+15:38:35,478  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating find-entry-points value false
+15:38:35,478  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'max-business-transactions', '50'
+15:38:35,478  INFO [AD Thread Pool-Global0] BusinessTransactionRegistry - Max transactions set to 50
+15:38:35,478  INFO [AD Thread Pool-Global0] TransactionMonitor - Agent will identify a maximum of [50] business transactions.
+15:38:35,478  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating max-business-transactions value 50
+15:38:35,478  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'slow-request-monitor-interval', '100'
+15:38:35,478  INFO [AD Thread Pool-Global0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 100 ms, at interval 100 ms.
+15:38:35,478  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating slow-request-monitor-interval value 100
+15:38:35,478  INFO [AD Thread Pool-Global0] JDBCRuleApplier - Property jdbc-prepared-statements, Value 
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating jdbc-prepared-statements value 
+15:38:35,479  INFO [AD Thread Pool-Global0] JaxRsConfiguration - Property rest-uri-segment-scheme, Value first-n-segments
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating rest-uri-segment-scheme value first-n-segments
+15:38:35,479  INFO [AD Thread Pool-Global0] NewTransactionWatchman - Property api-thread-activity-timeout-in-seconds, Value 300
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating api-thread-activity-timeout-in-seconds value 300
+15:38:35,479  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'min-load-per-minute-diagnostic-session-trigger', '10'
+15:38:35,479  INFO [AD Thread Pool-Global0] TransactionMonitor - Minimum load per min on a BT to trigger diagnostic session on agent [10] requests.
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating min-load-per-minute-diagnostic-session-trigger value 10
+15:38:35,479  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'enable-transaction-correlation', 'true'
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating enable-transaction-correlation value true
+15:38:35,479  INFO [AD Thread Pool-Global0] JDBCRuleApplier - Property jdbc-connections, Value 
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating jdbc-connections value 
+15:38:35,479  INFO [AD Thread Pool-Global0] ExitPointRuleApplier - ExitPointRuleApplier property disable-custom-exit-points-for value []
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating disable-custom-exit-points-for value 
+15:38:35,479  INFO [AD Thread Pool-Global0] JDBCRuleApplier - Property jdbc-callable-statements, Value 
+15:38:35,479  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating jdbc-callable-statements value 
+15:38:35,479  INFO [AD Thread Pool-Global0] JaxRsConfiguration - Property rest-transaction-naming, Value {class-annotation}/{method-annotation}.{http-method}
+15:38:35,480  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating rest-transaction-naming value {class-annotation}/{method-annotation}.{http-method}
+15:38:35,480  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating async-transaction-demarcator value 
+15:38:35,480  INFO [AD Thread Pool-Global0] LatencyMonitoringConfiguration - End to End latency montioring threshold set to [0] ms
+15:38:35,480  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating end-to-end-message-latency-threshold-millis value 0
+15:38:35,480  INFO [AD Thread Pool-Global0] ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-metrics-for], value[]
+15:38:35,480  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating disable-exit-call-metrics-for value 
+15:38:35,480  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying property capture-error-urls, true
+15:38:35,480  INFO [AD Thread Pool-Global0] ServletRuleApplier - Applying URI Capture rules
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating capture-error-urls value true
+15:38:35,481  INFO [AD Thread Pool-Global0] TransactionMonitor - Applying 'enable-default-http-error-code-reporter', 'true'
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating enable-default-http-error-code-reporter value true
+15:38:35,481  INFO [AD Thread Pool-Global0] TransactionSnapshotService - Reset coalesced-cg-generation with new value 
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating coalesced-cg-generation value 
+15:38:35,481  INFO [AD Thread Pool-Global0] CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -
+15:38:35,481  INFO [AD Thread Pool-Global0] CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating show-packages value 
+15:38:35,481  INFO [AD Thread Pool-Global0] TransactionSnapshotService - Reset max-jdbc-calls-per-callgraph with new value 100
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-callgraph value 100
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating on-demand-snapshots value false
+15:38:35,481  INFO [AD Thread Pool-Global0] CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -
+15:38:35,481  INFO [AD Thread Pool-Global0] CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating dont-show-packages value 
+15:38:35,481  INFO [AD Thread Pool-Global0] TransactionSnapshotService - Reset adaptive-callgraph-granularity with new value false
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating adaptive-callgraph-granularity value false
+15:38:35,481  INFO [AD Thread Pool-Global0] ApplicationStartupPolicy - Setting 'enable-startup-snapshot-policy' with value 'false'
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating enable-startup-snapshot-policy value false
+15:38:35,481  INFO [AD Thread Pool-Global0] CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -0
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating callgraph-granularity-in-ms value 0
+15:38:35,481  INFO [AD Thread Pool-Global0] TransactionSnapshotService - Reset max-jdbc-calls-per-snapshot with new value 500
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-snapshot value 500
+15:38:35,481  INFO [AD Thread Pool-Global0] TransactionSnapshotService - Reset min-duration-for-jdbc-call-in-ms with new value 10
+15:38:35,481  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating min-duration-for-jdbc-call-in-ms value 10
+15:38:35,482  INFO [AD Thread Pool-Global0] ObjectMonitoringService - ObjectMonitoringService property jmap-histo-option changed to 
+15:38:35,482  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating jmap-histo-option value 
+15:38:35,482  INFO [AD Thread Pool-Global0] ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to 
+15:38:35,482  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating disable-collection-capture value 
+15:38:35,482  INFO [AD Thread Pool-Global0] ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 30
+15:38:35,482  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating minimum-age-for-evaluation-in-minutes value 30
+15:38:35,482  INFO [AD Thread Pool-Global0] LeakManager - Property changed leak-diagnostic-interval-in-minutes, Val [30]
+15:38:35,482  INFO [AD Thread Pool-Global0] LeakManager - Changing leak diagnostic capture interval to 30
+15:38:35,482  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating leak-diagnostic-interval-in-minutes value 30
+15:38:35,482  INFO [AD Thread Pool-Global0] BCIEngineService - BCIEngine service property enable-xml-bci-rules changed, new value true
+15:38:35,482  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating enable-xml-bci-rules value true
+15:38:35,482  INFO [AD Thread Pool-Global0] BCIEngineService - BCIEngine service property enable-json-bci-rules changed, new value true
+15:38:35,482  INFO [AD Thread Pool-Global0] AnnotationPropertyListenerManager - Propagating enable-json-bci-rules value true
+15:38:35,482  INFO [AD Thread Pool-Global0] AgentConfigWatchdog - ------------ Finished applying service properties from controller ---------------
+
+15:38:35,485  INFO [AD Thread Pool-Global0] ConfigurationChannel - Initialized app agent with latest configuration from controller
+Received request : client-5553
+average : 1
+15:38:37,565  INFO [qtp1937348256-50] BusinessTransactions - BT [1] Name [/backend] Type [SERVLET] Custom [false]
+15:38:37,566  INFO [qtp1937348256-50] BusinessTransactions - Discovery Stack 
+Thread Name:qtp1937348256-50
+ID:50
+Time:Thu Oct 12 15:38:37 PDT 2017
+State:RUNNABLE
+Priority:5
+
+org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:432)
+org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:175)
+org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1028)
+org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:136)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+org.eclipse.jetty.server.Server.handle(Server.java:445)
+org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:267)
+org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:224)
+org.eclipse.jetty.io.AbstractConnection$ReadCallback.run(AbstractConnection.java:358)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:601)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:532)
+java.lang.Thread.run(Thread.java:745)
+
+
+Received request : client-7558
+average : 1
+15:38:37,590  INFO [qtp1937348256-50] SqlCacheHolder - Starting with global and thread-local SQL data caching strategy
+15:38:38,498  INFO [AD Thread-Metric Reporter1] MetricSender - Sending REST request - URL [/controller/instance/5/metricregistration]
+<request>
+<node-id>14</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|End to End Messages per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Usage %"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average End to End Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Total Classes Loaded"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Burnt (ms/min)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Current Loaded Class Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow End to End Messages"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Threads|Current No. of Threads"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Custom Current Usage Percentage"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>9be29c28-328b-4531-a72e-035995755f36</account-key>
+</request>
+
+15:38:38,817  INFO [AD Thread-Metric Reporter1] MetricSender - REST Response Received - URL [/controller/instance/5/metricregistration]
+<request>
+<metric	id="1317"	name="JVM|Classes|Current Loaded Class Count"/>
+<metric	id="1561"	name="BTM|Application Summary|Calls per Minute"/>
+<metric	id="1578"	name="JVM|Memory:Heap|Custom Current Usage Percentage"/>
+<metric	id="1329"	name="JVM|Process CPU Usage %"/>
+<metric	id="1566"	name="BTM|Application Summary|Infrastructure Errors per Minute"/>
+<metric	id="1339"	name="JVM|Memory:Non-Heap|Current Usage (MB)"/>
+<metric	id="1337"	name="JVM|Memory:Heap|Current Usage (MB)"/>
+<metric	id="1574"	name="BTM|Application Summary|Number of Very Slow Calls"/>
+<metric	id="1345"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"/>
+<metric	id="1562"	name="BTM|Application Summary|End to End Messages per Minute"/>
+<metric	id="1568"	name="BTM|Application Summary|Normal Average Response Time (ms)"/>
+<metric	id="1352"	name="JVM|Memory:Heap|Committed (MB)"/>
+<metric	id="1572"	name="BTM|Application Summary|Number of Slow End to End Messages"/>
+<metric	id="1321"	name="JVM|Memory:Non-Heap|Committed (MB)"/>
+<metric	id="1319"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"/>
+<metric	id="1323"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"/>
+<metric	id="1325"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"/>
+<metric	id="1327"	name="JVM|Classes|Total Classes Loaded"/>
+<metric	id="1570"	name="BTM|Application Summary|Number of Slow Calls"/>
+<metric	id="1559"	name="BTM|Application Summary|Average Response Time (ms)"/>
+<metric	id="1556"	name="BTM|Application Summary|Average End to End Latency (ms)"/>
+<metric	id="1333"	name="JVM|Garbage Collection|Number of Major Collections Per Min"/>
+<metric	id="1335"	name="JVM|Memory:Heap|Max Available (MB)"/>
+<metric	id="1341"	name="JVM|Process CPU Burnt (ms/min)"/>
+<metric	id="1343"	name="JVM|Threads|Current No. of Threads"/>
+<metric	id="1576"	name="BTM|Application Summary|Stall Count"/>
+<metric	id="1347"	name="JVM|Memory:Heap|Used %"/>
+<metric	id="1564"	name="BTM|Application Summary|Errors per Minute"/>
+</request>
+
+15:38:39,049  INFO [AD Thread Pool-Global0] BusinessTransactionRegistry - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/backend, componentId=14 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+15:38:39,050  INFO [AD Thread Pool-Global0] BusinessTransactionRegistry - Sending transactions to register [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/backend, componentId=14 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+15:38:39,050  INFO [AD Thread Pool-Global0] BusinessTransactionRegistry - REST - Sending Binary request - URL [/controller/instance/5/btregistration] 
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/backend, componentId=14 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+<business-transactions/>
+<node-id>
+14
+<node-id/>
+<account-key>
+9be29c28-328b-4531-a72e-035995755f36
+<account-key/>
+
+15:38:39,055  INFO [AD Thread Pool-Global0] BusinessTransactionRegistry - REST
+Sending Binary payload Size : 2561 bytes
+15:38:39,142  INFO [AD Thread Pool-Global0] BusinessTransactionRegistry - REST - Reading Binary response - URL [null] - Size [3380]
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=1, name=/backend, entryPointType=SERVLET, internalName=/backend, componentId=14 ,applicationId=10, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=14, enabledForEUM=false, eumAutoEnablePossible=null}>
+<business-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<resolved-backend-calls>
+Size : 0
+<resolved-backend-calls/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<registered-backends>
+Size : 0
+<registered-backends/>
+<Status Message>
+Successfully registered business transactions
+<Status Message/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+<application-diagnostic-data>
+Size : 0
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+
+15:38:39,143  INFO [AD Thread Pool-Global0] BusinessTransactionRegistry - Registered BT Name[/backend], Id[1]
+15:38:39,178  INFO [AD Thread Pool-Global1] ServiceEndPointADDRegistrar - Sending ADDs to register [ApplicationDiagnosticData{key='/backend_SERVLET', name=/backend, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/backend'}]
+15:38:39,179  INFO [AD Thread Pool-Global1] ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/5/btregistration] 
+********BT Registration Data********
+<node-id>
+14
+<node-id/>
+<account-key>
+9be29c28-328b-4531-a72e-035995755f36
+<account-key/>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/backend_SERVLET', name=/backend, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/backend'}>
+<application-diagnostic-data/>
+
+15:38:39,183  INFO [AD Thread Pool-Global1] ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1509 bytes
+15:38:39,276  INFO [AD Thread Pool-Global1] ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [874]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+<business-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<resolved-backend-calls>
+Size : 0
+<resolved-backend-calls/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<registered-backends>
+Size : 0
+<registered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/backend_SERVLET=1}>
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+
+15:38:39,277  INFO [AD Thread Pool-Global1] ServiceEndPointADDRegistrar - Registered ADDs [{/backend_SERVLET=1}]
+Received request : client-9561
+average : 1
+Received request : client-1562
+average : 1
+Received request : client-3565
+average : 0
+Received request : client-5568
+average : 0
+Received request : client-7573
+average : 0
+Received request : client-9576
+average : 0
+Received request : client-1581
+average : 0
+Received request : client-3584
+average : 0
+Received request : client-5587
+average : 0
+Received request : client-7592
+average : 0
+Received request : client-9597
+average : 0
+Received request : client-1601
+average : 0
+Received request : client-3605
+average : 0
+Received request : client-5610
+average : 0
+Received request : client-7612
+average : 0
+Received request : client-9617
+average : 0
+Received request : client-1622
+average : 0
+Received request : client-3626
+average : 0
+Received request : client-5630
+average : 0
+Received request : client-7634
+average : 0
+15:39:18,493  INFO [AD Thread-Metric Reporter0] MetricSender - Sending REST request - URL [/controller/instance/5/metricregistration]
+<request>
+<node-id>14</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:1|Component:14|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:1|Component:14|Average Wait Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:14|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:1|Component:14|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:1|Component:14|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:14|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:1|Component:14|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:14|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:14|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:1|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:14|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:1|Component:14|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:1|Component:14|Average CPU Used (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:14|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:1|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|SEP:1|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:1|Component:14|Average Block Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:1|Component:14|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:1|Component:14|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:14|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>9be29c28-328b-4531-a72e-035995755f36</account-key>
+</request>
+
+15:39:18,539  INFO [AD Thread-Metric Reporter0] MetricSender - REST Response Received - URL [/controller/instance/5/metricregistration]
+<request>
+<metric	id="1598"	name="BTM|Application Summary|Component:14|Stall Count"/>
+<metric	id="1593"	name="BTM|Application Summary|Component:14|Calls per Minute"/>
+<metric	id="1581"	name="BTM|BTs|BT:1|Component:14|Calls per Minute"/>
+<metric	id="1597"	name="BTM|Application Summary|Component:14|Number of Very Slow Calls"/>
+<metric	id="1584"	name="BTM|BTs|BT:1|Component:14|Number of Very Slow Calls"/>
+<metric	id="1583"	name="BTM|BTs|BT:1|Component:14|Number of Slow Calls"/>
+<metric	id="1594"	name="BTM|Application Summary|Component:14|Errors per Minute"/>
+<metric	id="1582"	name="BTM|BTs|BT:1|Component:14|Errors per Minute"/>
+<metric	id="1590"	name="BTM|Application Diagnostic Data|SEP:1|Calls per Minute"/>
+<metric	id="1589"	name="BTM|Application Diagnostic Data|SEP:1|Average Response Time (ms)"/>
+<metric	id="1595"	name="BTM|Application Summary|Component:14|Infrastructure Errors per Minute"/>
+<metric	id="1580"	name="BTM|BTs|BT:1|Component:14|Average Response Time (ms)"/>
+<metric	id="1592"	name="BTM|Application Summary|Component:14|Average Response Time (ms)"/>
+<metric	id="1587"	name="BTM|BTs|BT:1|Component:14|Average Block Time (ms)"/>
+<metric	id="1586"	name="BTM|BTs|BT:1|Component:14|Average CPU Used (ms)"/>
+<metric	id="1588"	name="BTM|BTs|BT:1|Component:14|Average Wait Time (ms)"/>
+<metric	id="1585"	name="BTM|BTs|BT:1|Component:14|Stall Count"/>
+<metric	id="1596"	name="BTM|Application Summary|Component:14|Number of Slow Calls"/>
+<metric	id="1591"	name="BTM|Application Diagnostic Data|SEP:1|Errors per Minute"/>
+<metric	id="1599"	name="BTM|BTs|BT:1|Component:14|Normal Average Response Time (ms)"/>
+</request>
+
+Received request : client-9638
+average : 0
+Received request : client-1642
+average : 0
+Received request : client-3646
+average : 0
+Received request : client-5650
+average : 0
+Received request : client-7655
+average : 0
+15:39:28,590 ERROR [AD Thread-Metric Reporter1] ServerMBeanManager - Failed to discover any domains. Consider increasing MBeanFinderDelay
+15:39:28,617  INFO [AD Thread Pool-Global1] TransformationManager - Class java/util/logging/Logger is scheduled for re-transformation
+15:39:28,662  INFO [AD Thread Pool-Global1] TransformationManager - Class transformations will not take place in a background thread
+15:39:29,400  INFO [AD Thread Pool-Global0] MBeanRegistrationManager - MBean com.singularity.ee.agent.appagent.services.bciengine.BCIEngineInfoProvider@631ce3d with ObjectName AppDynamics:type=BCIEngineInfoProvider has been registered
+15:39:29,401  INFO [AD Thread Pool-Global0] MBeanRegistrationManager - MBean com.singularity.ee.agent.appagent.services.snapshot.SnapshotInfoProvider@5d030772 with ObjectName AppDynamics:type=SnapshotInfoProvider has been registered
+15:39:29,402  INFO [AD Thread Pool-Global0] MBeanRegistrationManager - MBean com.singularity.ee.agent.appagent.services.transactionmonitor.TransactionMonitorInfoProvider@1f8d6e2d with ObjectName AppDynamics:type=TransactionMonitorInfoProvider has been registered
+Received request : client-9658
+average : 0
+Received request : client-1662
+average : 0
+Received request : client-3666
+average : 0
+Received request : client-5670
+average : 0
+15:39:35,745  INFO [AD Thread Pool-Global1] HotspotConfig - Hotspot max call depth is 2147483647
+15:39:35,745  INFO [AD Thread Pool-Global1] HotspotConfig - Hotspots not forced if manual diagnostic session for BT
+15:39:35,745  INFO [AD Thread Pool-Global1] HotspotConfig - Hotspots will collect wallclock time
+15:39:35,747  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.activemq], mbeanPattern [org.apache.activemq:Type=Broker,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Broker], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [BrokerName], name [ActiveMQ_Brokers], domain [org.apache.activemq] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [TotalEnqueueCount], metricName [Total Enqueue Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TotalDequeueCount], metricName [Total Dequeue Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TotalConsumerCount], metricName [Total Consumer Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TotalMessageCount], metricName [Total Message Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MemoryPercentUsage], metricName [Memory Percent Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StorePercentUsage], metricName [Store Percent Usage], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.activemq], mbeanPattern [org.apache.activemq:Type=Queue,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Queues], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [Destination], name [ActiveMQ_Queues], domain [org.apache.activemq] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [QueueSize], metricName [Queue Size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [EnqueueCount], metricName [Enqueue Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [DequeueCount], metricName [Dequeue Size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MemoryPercentUsage], metricName [Memory Percent Usage], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ConsumerCount], metricName [Consumer Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ProducerCount], metricName [Producer Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [AverageEnqueueTime], metricName [Average Enqueue Time], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.activemq], mbeanPattern [org.apache.activemq:Type=Topic,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Topics], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [Destination], name [ActiveMQ_Topics], domain [org.apache.activemq] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [QueueSize], metricName [Queue Size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [EnqueueCount], metricName [Enqueue Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [DequeueCount], metricName [Dequeue Size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MemoryPercentUsage], metricName [Memory Percent Usage], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ConsumerCount], metricName [Consumer Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ProducerCount], metricName [Producer Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [AverageEnqueueTime], metricName [Average Enqueue Time], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.cassandra.db], mbeanPattern [org.apache.cassandra.db:cache=HintsColumnFamilyRowCache,keyspace=system,type=Caches], queryLogicalOperator [null], queryExpressions []]], metricCategory [HintsColumnFamilyRowCache], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Cassandra_Caches], domain [org.apache.cassandra.db] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [Size], metricName [Size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [Capacity], metricName [Capacity], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [Requests], metricName [Requests], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [Hits], metricName [Hits], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RecentHitRate], metricName [RecentHitRate], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.cassandra.internal], mbeanPattern [org.apache.cassandra.internal:type=GossipStage], queryLogicalOperator [null], queryExpressions []]], metricCategory [GossipStage], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Cassandra_GossipStage], domain [org.apache.cassandra.internal] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [ActiveCount], metricName [ActiveCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CompletedTasks], metricName [CompletedTasks], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PendingTasks], metricName [PendingTasks], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.cassandra.net], mbeanPattern [org.apache.cassandra.net:type=FailureDetector], queryLogicalOperator [null], queryExpressions []]], metricCategory [FailureDetector], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Cassandra_FailureDetector], domain [org.apache.cassandra.net] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [PhiConvictThreshold], metricName [PhiConvictThreshold], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [AllEndpointStates], metricName [AllEndpointStates], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.cassandra.request], mbeanPattern [org.apache.cassandra.request:type=ReadStage], queryLogicalOperator [null], queryExpressions []]], metricCategory [ReadStage], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Cassandra_ReadStage], domain [org.apache.cassandra.request] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [CorePoolSize], metricName [CorePoolSize], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ActiveCount], metricName [ActiveCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CompletedTasks], metricName [CompletedTasks], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PendingTasks], metricName [PendingTasks], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.cassandra.db], mbeanPattern [org.apache.cassandra.db:type=CompactionManager], queryLogicalOperator [null], queryExpressions []]], metricCategory [CompactionManager], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Cassandra_CompactionManager], domain [org.apache.cassandra.db] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [PendingTasks], metricName [PendingTasks], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CompletedTasks], metricName [CompletedTasks], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,748  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.apache.cassandra.db], mbeanPattern [org.apache.cassandra.db:type=StorageProxy], queryLogicalOperator [null], queryExpressions []]], metricCategory [StorageProxy], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Cassandra_StorageProxy], domain [org.apache.cassandra.db] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [RecentReadLatencyMicros], metricName [RecentReadLatencyMicros], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RecentWriteLatencyMicros], metricName [RecentWriteLatencyMicros], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RecentRangeLatencyMicros], metricName [RecentRangeLatencyMicros], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,749  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Coherence], mbeanPattern [Coherence:type=Cache,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Coherence|Cache Maps], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [service,name,nodeId], name [Coherence_Caches], domain [Coherence] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [CacheHits], metricName [CacheHits], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CacheHitsMillis], metricName [CacheHitsMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [AverageHitMillis], metricName [AverageHitMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CacheMisses], metricName [CacheMisses], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CacheMissesMillis], metricName [CacheMissesMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [AverageMissMillis], metricName [AverageMissMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CachePrunes], metricName [CachePrunes], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CachePrunesMillis], metricName [CachePrunesMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TotalGets], metricName [TotalGets], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TotalGetsMillis], metricName [TotalGetsMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [AverageGetMillis], metricName [AverageGetMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TotalPuts], metricName [TotalPuts], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TotalPutsMillis], metricName [TotalPutsMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [AveragePutMillis], metricName [AveragePutMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreReads], metricName [StoreReads], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreReadMillis], metricName [StoreReadMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreAverageReadMillis], metricName [StoreAverageReadMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreWrites], metricName [StoreWrites], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreWriteMillis], metricName [StoreWriteMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreAverageWriteMillis], metricName [StoreAverageWriteMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreFailures], metricName [StoreFailures], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StoreAverageBatchSize], metricName [StoreAverageBatchSize], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [Size], metricName [Size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,749  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Coherence], mbeanPattern [Coherence:type=Cluster], queryLogicalOperator [null], queryExpressions []]], metricCategory [Coherence|Cluster], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Coherence_Cluster], domain [Coherence] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [ClusterSize], metricName [Cluster Size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MembersDepartureCount], metricName [Members Departure Count], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,749  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Coherence], mbeanPattern [Coherence:type=Management], queryLogicalOperator [null], queryExpressions []]], metricCategory [Coherence|Management], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Coherence_Management], domain [Coherence] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [RefreshCount], metricName [RefreshCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RefreshTimeoutCount], metricName [RefreshTimeoutCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,749  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Coherence], mbeanPattern [Coherence:type=Reporter,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Coherence|Reporter], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [nodeId], name [Coherence_Reporter], domain [Coherence] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [RunMaxMillis], metricName [RunMaxMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RunLastMillis], metricName [RunLastMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RunAverageMillis], metricName [RunAverageMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,749  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Coherence], mbeanPattern [Coherence:type=Node,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Coherence|Grid Nodes], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [nodeId], name [Coherence_Nodes], domain [Coherence] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [PacketsSent], metricName [PacketsSent], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PacketsReceived], metricName [PacketsReceived], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PacketsBundled], metricName [PacketsBundled], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PacketsResent], metricName [PacketsResent], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PacketsResentEarly], metricName [PacketsResentEarly], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PacketsResentExcess], metricName [PacketsResentExcess], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PacketsRepeated], metricName [PacketsRepeated], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,749  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Coherence], mbeanPattern [Coherence:type=Service,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Coherence|Services], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [name,nodeId], name [Coherence_Services], domain [Coherence] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [RequestTimeoutCount], metricName [RequestTimeoutCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RequestTimeoutMillis], metricName [RequestTimeoutMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RequestPendingCount], metricName [RequestPendingCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RequestPendingDuration], metricName [RequestPendingDuration], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RequestMaxDuration], metricName [RequestMaxDuration], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RequestAverageDuration], metricName [RequestAverageDuration], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RequestTotalCount], metricName [RequestTotalCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskCount], metricName [TaskCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskAverageDuration], metricName [TaskAverageDuration], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskBacklog], metricName [TaskBacklog], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskMaxBacklog], metricName [TaskMaxBacklog], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskHungCount], metricName [TaskHungCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskHungDuration], metricName [TaskHungDuration], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskHungThresholdMillis], metricName [TaskHungThresholdMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskTimeoutCount], metricName [TaskTimeoutCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [TaskTimeoutMillis], metricName [TaskTimeoutMillis], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [BackupCount], metricName [BackupCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [BackupCountAfterWritebehind], metricName [BackupCountAfterWritebehind], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StorageEnabledCount], metricName [StorageEnabledCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ThreadCount], metricName [ThreadCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ThreadIdleCount], metricName [ThreadIdleCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ThreadAbandonedCount], metricName [ThreadAbandonedCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ThreadAverageActiveCount], metricName [ThreadAverageActiveCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Coherence], mbeanPattern [Coherence:type=StorageManager,nodeId=1,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Coherence|Storage Manager], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [service,cache], name [Coherence_StorageManager], domain [Coherence] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [EvictionCount], metricName [EvictionCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [LocksPending], metricName [LocksPending], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [InsertCount], metricName [InsertCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [RemoveCount], metricName [RemoveCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [LocksGranted], metricName [LocksGranted], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [com.sun.appserv], mbeanPattern [com.sun.appserv:type=GlobalRequestProcessor,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Web Container Runtime], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Glassfish_GlobalRequestProcessor], domain [com.sun.appserv] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [requestCount], metricName [Request Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [errorCount], metricName [Error Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [bytesSent], metricName [Total Bytes Sent], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [bytesReceived], metricName [Total Bytes Received], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [amx], mbeanPattern [amx:type=web-request-mon,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Web Container Runtime], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Glassfish_AMX_WebRequest_Mon], domain [amx] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [requestcount], metricName [Request Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [errorcount], metricName [Error Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [amx], mbeanPattern [amx:type=jdbc-connection-pool-mon,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [JDBC Connection Pools], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Glassfish_AMX_JDBCConnectionPool_Mon], domain [amx] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [numconnused], metricName [Connections In Use], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [numpotentialconnleak], metricName [Potential Leaks], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [averageconnwaittime], metricName [Average Connection Wait Time], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [waitqueuelength], metricName [Current Wait Queue Length], metricTimeRollupType [AVERAGE], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [org.hornetq], mbeanPattern [org.hornetq:module=JMS,type=Queue,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Queues], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [HornetQ_Queues], domain [org.hornetq] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [ConsumerCount], metricName [ConsumerCount], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MessageCount], metricName [MessageCount], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MessagesAdded], metricName [MessagesAdded], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [jboss.web], mbeanPattern [jboss.web:type=ThreadPool,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Web Container Runtime], beanName [WebThreadPool], metricPath [null], instanceName [null], instanceIdentifier [null], name [JBoss_WebThreadPool], domain [jboss.web] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [currentThreadsBusy], metricName [Current Busy Threads], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [currentThreadCount], metricName [Current Threads], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [maxThreads], metricName [Maximum Threads], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [jboss.web], mbeanPattern [jboss.web:type=GlobalRequestProcessor,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Web Container Runtime], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [JBoss_GlobalRequestProcessor], domain [jboss.web] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [requestCount], metricName [Request Count], metricTimeRollupType [SUM], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION_FOREVERINCREASING], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [errorCount], metricName [Error Count], metricTimeRollupType [SUM], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,750  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [jboss.jca], mbeanPattern [jboss.jca:service=ManagedConnectionPool,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [JDBC Connection Pools], beanName [JDBCConnectionPool], metricPath [null], instanceName [null], instanceIdentifier [null], name [JBoss_JDBCConnectionPools], domain [jboss.jca] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [MaxConnectionsInUseCount], metricName [Maximum Active], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [InUseConnectionCount], metricName [Active Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MaxSize], metricName [Maximum Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,751  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [jboss.web], mbeanPattern [jboss.web:type=Manager,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Sessions], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [path], name [JBoss_Sessions], domain [jboss.web] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [sessionMaxAliveTime], metricName [sessionMaxAliveTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [activeSessions], metricName [activeSessions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [sessionCounter], metricName [sessionCounter], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [sessionAverageAliveTime], metricName [sessionAverageAliveTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [processingTime], metricName [processingTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [maxActive], metricName [maxActive], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [expiredSessions], metricName [expiredSessions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [rejectedSessions], metricName [rejectedSessions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,751  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [jboss.j2ee], mbeanPattern [jboss.j2ee:service=EJB,plugin=pool,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [EJB Pools], beanName [EJBPool], metricPath [null], instanceName [null], instanceIdentifier [jndiName], name [JBoss_EJBPools], domain [jboss.j2ee] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [CurrentSize], metricName [Active Beans], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MaxSize], metricName [Maximum Beans], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,751  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [solr], mbeanPattern [solr:id=org.apache.solr.search.LRUCache,type=queryResultCache], queryLogicalOperator [null], queryExpressions []]], metricCategory [QueryResultCache], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Solr_QueryResultCache], domain [solr] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [category], metricName [category], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [source], metricName [source], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [description], metricName [description], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [name], metricName [name], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [sourceId], metricName [sourceId], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [version], metricName [version], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [lookups], metricName [lookups], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [hits], metricName [hits], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [hitratio], metricName [hitratio], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [inserts], metricName [inserts], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [evictions], metricName [evictions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [size], metricName [size], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [warmupTime], metricName [warmupTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [cumulative_lookups], metricName [cumulative_lookups], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [cumulative_hits], metricName [cumulative_hits], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [cumulative_hitratio], metricName [cumulative_hitratio], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [cumulative_inserts], metricName [cumulative_inserts], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [cumulative_evictions], metricName [cumulative_evictions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,751  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Catalina], mbeanPattern [Catalina:type=GlobalRequestProcessor,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Web Container Runtime], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [Tomcat_GlobalRequestProcessor], domain [Catalina] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [requestCount], metricName [Request Count], metricTimeRollupType [SUM], metricClusterRollupType [COLLECTIVE], metricAggregatorType [OBSERVATION_FOREVERINCREASING], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [errorCount], metricName [Error Count], metricTimeRollupType [SUM], metricClusterRollupType [COLLECTIVE], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,754  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Catalina], mbeanPattern [Catalina:type=ThreadPool,*], queryLogicalOperator [AND], queryExpressions [QueryExpression [QueryExpression [ name [name], value [http], queryExpressionType [initial-substring] ]]]]], metricCategory [Web Container Runtime], beanName [WebThreadPool], metricPath [null], instanceName [null], instanceIdentifier [null], name [Tomcat_HttpThreadPools], domain [Catalina] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [maxThreads], metricName [Maximum Threads], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [currentThreadsBusy], metricName [Busy Threads], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [currentThreadCount], metricName [Current Threads In Pool], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,754  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Catalina], mbeanPattern [Catalina:type=DataSource,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [JDBC Connection Pools], beanName [JDBCConnectionPool], metricPath [null], instanceName [null], instanceIdentifier [null], name [Tomcat_JDBCConnectionPools], domain [Catalina] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [initialSize], metricName [Initial Pool Size], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [numActive], metricName [Active Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [maxActive], metricName [Maximum Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [maxTotal], metricName [Maximum Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,754  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [Catalina], mbeanPattern [Catalina:type=Manager,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Sessions], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [path], name [Tomcat_Sessions], domain [Catalina] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [sessionMaxAliveTime], metricName [sessionMaxAliveTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [activeSessions], metricName [activeSessions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [sessionCounter], metricName [sessionCounter], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [sessionAverageAliveTime], metricName [sessionAverageAliveTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [processingTime], metricName [processingTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [maxActive], metricName [maxActive], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [expiredSessions], metricName [expiredSessions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [rejectedSessions], metricName [rejectedSessions], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,754  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [com.bea], mbeanPattern [com.bea:*,Type=ServerRuntime], queryLogicalOperator [null], queryExpressions []]], metricCategory [Server Domain], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [Name], name [Weblogic_ServerRuntime], domain [com.bea] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [SocketsOpenedTotalCount], metricName [Total Open Sockets], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [OpenSocketsCurrentCount], metricName [Current Open Sockets], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,754  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [com.bea], mbeanPattern [com.bea:*,Type=WorkManagerRuntime], queryLogicalOperator [AND], queryExpressions [QueryExpression [QueryExpression [ name [Name], value [weblogic.kernel.Default], queryExpressionType [initial-substring] ]]]]], metricCategory [Web Container Runtime], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [none], name [Weblogic_WorkManagerRuntime], domain [com.bea] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [PendingRequests], metricName [Current Pending Requests], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StuckThreadCount], metricName [Current Requests Stuck], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,754  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [com.bea], mbeanPattern [com.bea:*,Type=ThreadPoolRuntime], queryLogicalOperator [null], queryExpressions []]], metricCategory [Web Container Runtime], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [none], name [Weblogic_ThreadPoolRuntime], domain [com.bea] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [HoggingThreadCount], metricName [Threads Hogging CPU], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [Throughput], metricName [Current Throughput], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ExecuteThreadIdleCount], metricName [Idle Thread Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [StandbyThreadCount], metricName [Standby Thread Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,755  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [com.bea], mbeanPattern [com.bea:*,Type=JDBCConnectionPoolRuntime], queryLogicalOperator [null], queryExpressions []]], metricCategory [JDBC Connection Pools], beanName [JDBCConnectionPool], metricPath [null], instanceName [null], instanceIdentifier [Name], name [Weblogic_JDBCConnectionPools], domain [com.bea] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [ActiveConnectionsCurrentCount], metricName [Current Active Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CurrCapacity], metricName [Current Pool Size], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [MaxCapacity], metricName [Maximum Pool Size], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [NumAvailable], metricName [Available Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [WaitingForConnectionCurrentCount], metricName [Threads Waiting For Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [LeakedConnectionCount], metricName [Total Leaked Connections], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,755  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [com.bea], mbeanPattern [com.bea:*,Type=JMSDestinationRuntime], queryLogicalOperator [null], queryExpressions []]], metricCategory [JMS Destinations], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [Name], name [Weblogic_JMSDEstinations], domain [com.bea] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [MessagesCurrentCount], metricName [Current Message Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [ConsumersCurrentCount], metricName [Current Consumer Count], metricTimeRollupType [AVERAGE], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [AVERAGE], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,755  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [WebSpherePMI], mbeanPattern [WebSpherePMI:path0=connectionPoolModule,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Connection Pools], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [WebSpherePMI_ConnectionPools], domain [WebSpherePMI] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [CreateCount], metricName [CreateCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [CloseCount], metricName [CloseCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PoolSize], metricName [PoolSize], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [FreePoolSize], metricName [FreePoolSize], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [WaitingThreadCount], metricName [WaitingThreadCount], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [PercentUsed], metricName [PercentUsed], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [UseTime], metricName [UseTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ]JMX Attribute Definition [mbeanAttributeName [WaitTime], metricName [WaitTime], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+15:39:35,755  INFO [AD Thread Pool-Global1] JMXMetricRepository - Added new JMX Rule [JMXMetricRule [ MBeanQuery [MBeanQuery [ domain [WebSpherePMI], mbeanPattern [WebSpherePMI:path0=threadPoolModule,*], queryLogicalOperator [null], queryExpressions []]], metricCategory [Thread Pools], beanName [null], metricPath [null], instanceName [null], instanceIdentifier [null], name [WebSpherePMI_ThreadPools], domain [WebSpherePMI] Attribute Definitions [ JMX Attribute Definition [mbeanAttributeName [PoolSize], metricName [PoolSize], metricTimeRollupType [CURRENT], metricClusterRollupType [INDIVIDUAL], metricAggregatorType [OBSERVATION], metricHoleType [null], getterChain [null] ] ] ]]
+Received request : client-7674
+average : 0
+Received request : client-9678
+average : 0
+Received request : client-1681
+average : 0
+Received request : client-3686
+average : 0
+Received request : client-5689
+average : 0
+Received request : client-7693
+average : 0
+Received request : client-9698
+average : 0
+Received request : client-1702
+average : 0
+Received request : client-3707
+average : 0
+Received request : client-5712
+average : 0
+Received request : client-7716
+average : 0
+Received request : client-9721
+average : 0
+Received request : client-1726
+average : 0
+Received request : client-3729
+average : 0
+Received request : client-5734
+average : 0
+Received request : client-7739
+average : 0
+Received request : client-9742
+average : 0
+Received request : client-1746
+average : 0
+Received request : client-3751
+average : 0
+Received request : client-5754
+average : 0
+Received request : client-7758
+average : 0
+15:40:18,494  INFO [AD Thread-Metric Reporter0] MetricSender - Sending REST request - URL [/controller/instance/5/metricregistration]
+<request>
+<node-id>14</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:1|Component:14|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>9be29c28-328b-4531-a72e-035995755f36</account-key>
+</request>
+
+15:40:18,549  INFO [AD Thread-Metric Reporter0] MetricSender - REST Response Received - URL [/controller/instance/5/metricregistration]
+<request>
+<metric	id="1613"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"/>
+<metric	id="1615"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"/>
+<metric	id="1635"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"/>
+<metric	id="1620"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"/>
+<metric	id="1612"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"/>
+<metric	id="1622"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"/>
+<metric	id="1610"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"/>
+<metric	id="1617"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Max Available (MB)"/>
+<metric	id="1601"	name="BTM|BTs|BT:1|Component:14|95th Percentile Response Time (ms)"/>
+<metric	id="1628"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"/>
+<metric	id="1633"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"/>
+<metric	id="1608"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"/>
+<metric	id="1624"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"/>
+<metric	id="1602"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"/>
+<metric	id="1630"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"/>
+<metric	id="1606"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"/>
+<metric	id="1631"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"/>
+<metric	id="1626"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"/>
+<metric	id="1604"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"/>
+</request>
+
+Received request : client-9761
+average : 0
+Received request : client-1766
+average : 0
+Received request : client-3770
+average : 0
+Received request : client-5775
+average : 0
+Received request : client-7780
+average : 0
+Received request : client-9783
+average : 0
+Received request : client-1787
+average : 0
+Received request : client-3791
+average : 0
+Received request : client-5795
+average : 0
+Received request : client-7800
+average : 0
+Received request : client-9805
+average : 0
+Received request : client-1810
+average : 0
+Received request : client-3814
+average : 0
+Received request : client-5818
+average : 0
+Received request : client-7822
+average : 0
+Received request : client-9827
+average : 0
+Received request : client-1832
+average : 0
+Received request : client-3837
+average : 0
+Received request : client-5842
+average : 0
+Received request : client-7845
+average : 0
+Received request : client-9850
+average : 0
+Received request : client-1852
+average : 0
+Received request : client-3854
+average : 0
+Received request : client-5859
+average : 0
+Received request : client-7862
+average : 0
+Received request : client-9864
+average : 0
+Received request : client-1868
+average : 0
+Received request : client-3871
+average : 0
+Received request : client-5871
+average : 0
+Received request : client-7871
+average : 0
+Received request : client-9873
+average : 0
+Received request : client-1877
+average : 0
+Received request : client-3882
+average : 0
+Received request : client-5886
+average : 0
+Received request : client-7890
+average : 0
+Received request : client-9895
+average : 0
+Received request : client-1899
+average : 0
+Received request : client-3901
+average : 0
+Received request : client-5904
+average : 0
+Received request : client-7909
+average : 0
+Received request : client-9913
+average : 0
+Received request : client-1917
+average : 0
+Received request : client-3921
+average : 0
+Received request : client-5925
+average : 0
+Received request : client-7929
+average : 0
+Received request : client-9933
+average : 0
+Received request : client-1938
+average : 0
+Received request : client-3942
+average : 0
+Received request : client-5947
+average : 0
+Received request : client-7951
+average : 0
+Received request : client-9955
+average : 0
+Received request : client-1959
+average : 0
+Received request : client-3963
+average : 0
+Received request : client-5967
+average : 0
+Received request : client-7969
+average : 0
+Received request : client-9972
+average : 0
+Received request : client-1977
+average : 0
+Received request : client-3983
+average : 0
+Received request : client-5987
+average : 0
+Received request : client-7991
+average : 0
+Received request : client-9996
+average : 0
+Received request : client-1999
+average : 0
+Received request : client-4003
+average : 0
+Received request : client-6008
+average : 0
+Received request : client-8012
+average : 0
+Received request : client-17
+average : 0
+Received request : client-2021
+average : 0
+Received request : client-4025
+average : 0
+Received request : client-6029
+average : 0
+Received request : client-8033
+average : 0
+Received request : client-39
+average : 0
+Received request : client-2042
+average : 0
+Received request : client-4046
+average : 0
+Received request : client-6050
+average : 0
+Received request : client-8055
+average : 0
+Received request : client-60
+average : 0
+Received request : client-2065
+average : 0
+Received request : client-4068
+average : 0
+Received request : client-6072
+average : 0
+Received request : client-8076
+average : 0
+Received request : client-79
+average : 0
+Received request : client-2083
+average : 0
+Received request : client-4087
+average : 0
+Received request : client-6091
+average : 0
+Received request : client-8094
+average : 0
+Received request : client-95
+average : 0
+Received request : client-2100
+average : 0
+Received request : client-4104
+average : 0
+Received request : client-6108
+average : 0
+Received request : client-8113
+average : 0
+Received request : client-118
+average : 0
+Received request : client-2122
+average : 0
+Received request : client-4124
+average : 0
+Received request : client-6128
+average : 0
+Received request : client-8131
+average : 0
+Received request : client-134
+average : 0
+Received request : client-2140
+average : 0
+Received request : client-4144
+average : 0
+Received request : client-6148
+average : 0
+Received request : client-8153
+average : 0
+Received request : client-155
+average : 0
+Received request : client-2159
+average : 0
+Received request : client-4163
+average : 0
+Received request : client-6168
+average : 0
+Received request : client-8171
+average : 0
+Received request : client-174
+average : 0
+Received request : client-2179
+average : 0
+Received request : client-4183
+average : 0
+Received request : client-6188
+average : 0
+Received request : client-8191
+average : 0
+Received request : client-196
+average : 0
+Received request : client-2201
+average : 0
+Received request : client-4204
+average : 0
+Received request : client-6207
+average : 0
+Received request : client-8211
+average : 0
+Received request : client-216
+average : 0
+Received request : client-2221
+average : 0
+Received request : client-4225
+average : 0
+Received request : client-6230
+average : 0
+Received request : client-8234
+average : 0
+Received request : client-238
+average : 0
+Received request : client-2242
+average : 0
+Received request : client-4246
+average : 0
+Received request : client-6250
+average : 0
+Received request : client-8255
+average : 0
+Received request : client-257
+average : 0
+Received request : client-2262
+average : 0
+Received request : client-4267
+average : 0
+Received request : client-6269
+average : 0
+Received request : client-8274
+average : 0
+Received request : client-278
+average : 0
+Received request : client-2283
+average : 0
+Received request : client-4287
+average : 0
+Received request : client-6290
+average : 0
+Received request : client-8294
+average : 0
+Received request : client-299
+average : 0
+Received request : client-2304
+average : 0
+Received request : client-4308
+average : 0
+Received request : client-6312
+average : 0
+Received request : client-8316
+average : 0
+Received request : client-318
+average : 0
+Received request : client-2323
+average : 0
+Received request : client-4327
+average : 0
+Received request : client-6332
+average : 0
+Received request : client-8335
+average : 0
+Received request : client-336
+average : 0
+Received request : client-2341
+average : 0
+Received request : client-4346
+average : 0
+Received request : client-6351
+average : 0
+Received request : client-8355
+average : 0
+Received request : client-358
+average : 0
+Received request : client-2363
+average : 0
+Received request : client-4367
+average : 0
+Received request : client-6371
+average : 0
+Received request : client-8374
+average : 0
+Received request : client-378
+average : 0
+Received request : client-2384
+average : 0
+Received request : client-4387
+average : 0
+Received request : client-6394
+average : 0
+Received request : client-8395
+average : 0
+Received request : client-399
+average : 0
+Received request : client-2403
+average : 0
+Received request : client-4408
+average : 0
+Received request : client-6411
+average : 0
+Received request : client-8414
+average : 0
+Received request : client-422
+average : 0
+Received request : client-2425
+average : 0
+Received request : client-4428
+average : 0
+Received request : client-6431
+average : 0
+Received request : client-8437
+average : 0
+Received request : client-442
+average : 0
+Received request : client-2445
+average : 0
+Received request : client-4448
+average : 0
+Received request : client-6452
+average : 0
+Received request : client-8456
+average : 0
+Received request : client-460
+average : 0
+Received request : client-2464
+average : 0
+Received request : client-4470
+average : 0
+Received request : client-6475
+average : 0
+Received request : client-8478
+average : 0
+Received request : client-480
+average : 0
+Received request : client-2484
+average : 0
+Received request : client-4487
+average : 0
+Received request : client-6492
+average : 0
+Received request : client-8497
+average : 0
+Received request : client-502
+average : 0
+Received request : client-2506
+average : 0
+Received request : client-4510
+average : 0
+Received request : client-6512
+average : 0
+Received request : client-8517
+average : 0
+Received request : client-521
+average : 0
+Received request : client-2525
+average : 0
+Received request : client-4530
+average : 0
+Received request : client-6532
+average : 0
+Received request : client-8536
+average : 0
+Received request : client-541
+average : 0
+Received request : client-2546
+average : 0
+Received request : client-4551
+average : 0
+Received request : client-6554
+average : 0
+Received request : client-8559
+average : 0
+Received request : client-563
+average : 0
+Received request : client-2567
+average : 0
+Received request : client-4572
+average : 0
+Received request : client-6576
+average : 0
+Received request : client-8581
+average : 0
+Received request : client-583
+average : 0
+Received request : client-2592
+average : 0
+Received request : client-4593
+average : 0
+Received request : client-6597
+average : 0
+Received request : client-8602
+average : 0
+Received request : client-606
+average : 0
+Received request : client-2609
+average : 0
+Received request : client-4615
+average : 0
+Received request : client-6619
+average : 0
+Received request : client-8622
+average : 0
+Received request : client-627
+average : 0
+Received request : client-2632
+average : 0
+Received request : client-4637
+average : 0
+Received request : client-6637
+average : 0
+Received request : client-8638
+average : 0
+Received request : client-643
+average : 0
+Received request : client-2647
+average : 0
+Received request : client-4650
+average : 0
+Received request : client-6656
+average : 0
+Received request : client-8660
+average : 0
+Received request : client-666
+average : 0
+Received request : client-2668
+average : 0
+Received request : client-4672
+average : 0
+Received request : client-6676
+average : 0
+Received request : client-8680
+average : 0
+Received request : client-685
+average : 0
+Received request : client-2689
+average : 0
+Received request : client-4694
+average : 0
+Received request : client-6696
+average : 0
+Received request : client-8701
+average : 0
+Received request : client-704
+average : 0
+Received request : client-2707
+average : 0
+Received request : client-4712
+average : 0
+Received request : client-6716
+average : 0
+Received request : client-8720
+average : 0
+Received request : client-723
+average : 0
+Received request : client-2727
+average : 0
+Received request : client-4732
+average : 0
+Received request : client-6735
+average : 0
+Received request : client-8739
+average : 0
+Received request : client-741
+average : 0
+Received request : client-2745
+average : 0
+Received request : client-4748
+average : 0
+Received request : client-6752
+average : 0
+Received request : client-8754
+average : 0
+Received request : client-758
+average : 0
+Received request : client-2761
+average : 0
+Received request : client-4766
+average : 0
+Received request : client-6771
+average : 0
+Received request : client-8773
+average : 0
+Received request : client-778
+average : 0
+Received request : client-2779
+average : 0
+Received request : client-4783
+average : 0
+Received request : client-6787
+average : 0
+Received request : client-8791
+average : 0
+Received request : client-795
+average : 0

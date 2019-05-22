@@ -1,0 +1,561 @@
+Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [hello-one]
+Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [web]
+Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [web-node]
+Full Agent Registration Info Resolver using selfService [false]
+Full Agent Registration Info Resolver using selfService [false]
+Full Agent Registration Info Resolver using application name [hello-one]
+Full Agent Registration Info Resolver using tier name [web]
+Full Agent Registration Info Resolver using node name [web-node]
+Install Directory resolved to[/Users/junoyang/source/helloWorld/lib/javaagent/4.5]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver is running
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [hello-one]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [web]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [web-node]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using application name [hello-one]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using tier name [web]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using node name [web-node]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver finished running
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Agent runtime directory set to [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: AgentInstallManager - Agent node directory set to [web-node]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: JavaAgent - Using Java Agent Version [Server Agent v4.3.7.6 GA #15547 r87e8c22dadb5e6d16678e6220af8b0670bf2a0ab 28226-4.3.7.next-analytics]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: JavaAgent - Running IBM Java Agent [No]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: JavaAgent - Java Agent Directory [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6]
+[Thread-0] Thu May 02 14:33:01 PDT 2019[INFO]: JavaAgent - Java Agent AppAgent directory [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6]
+Agent Logging Directory [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6/logs/web-node]
+14:33:01,919  INFO [Thread-0] BusinessTransactions - Starting BT Logs at Thu May 02 14:33:01 PDT 2019
+14:33:01,920  INFO [Thread-0] BusinessTransactions - ###########################################################
+14:33:01,920  INFO [Thread-0] BusinessTransactions - Using Java Agent Version [Server Agent v4.3.7.6 GA #15547 r87e8c22dadb5e6d16678e6220af8b0670bf2a0ab 28226-4.3.7.next-analytics]
+14:33:01,920  INFO [Thread-0] BusinessTransactions - Running IBM Java Agent [No]
+14:33:01,920  INFO [Thread-0] JavaAgent - ####################################################################################
+14:33:01,920  INFO [Thread-0] JavaAgent - Java Agent Directory [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6]
+14:33:01,920  INFO [Thread-0] JavaAgent - Java Agent AppAgent directory [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6]
+14:33:01,920  INFO [Thread-0] JavaAgent - Using Java Agent Version [Server Agent v4.3.7.6 GA #15547 r87e8c22dadb5e6d16678e6220af8b0670bf2a0ab 28226-4.3.7.next-analytics]
+14:33:01,920  INFO [Thread-0] JavaAgent - All agent classes have been pre-loaded
+14:33:01,929  INFO [Thread-0] AgentKernel - Starting Java Agent at Thu May 02 14:33:01 PDT 2019 ...
+14:33:01,930  INFO [Thread-0] AgentKernel - Time zone: Pacific Standard Time
+14:33:01,972  INFO [Thread-0] XMLConfigManager - Orchestration is disabled - disabling virtualization resolvers by default.
+14:33:01,979  INFO [Thread-0] XMLConfigManager - Default Controller Info Resolver found system property [appdynamics.controller.hostName] for controller host name [localhost]
+14:33:01,980  INFO [Thread-0] XMLConfigManager - Default Controller Info Resolver found system property [appdynamics.controller.port] for controller port [8080]
+14:33:01,980  INFO [Thread-0] XMLConfigManager - Default Controller Info Resolver found system property [appdynamics.controller.ssl.enabled] for controller ssl enabled [false]
+14:33:01,999  INFO [Thread-0] XMLConfigManager - Default Host Identifier Resolver using host name for unique host identifier [JUNOYANG-M-C2A6]
+14:33:02,001  INFO [Thread-0] XMLConfigManager - Default IP Address Resolver found IP addresses [[fe80:0:0:0:1d73:e520:16cc:c743%utun0, fe80:0:0:0:cd7:cdff:feb1:604c%awdl0, fe80:0:0:0:aede:48ff:fe00:1122%en5, 10.10.40.233, fe80:0:0:0:ac:2123:4bf5:aa04%en0, 10.158.156.232, fe80:0:0:0:0:0:0:1%lo0]]
+14:33:02,001  INFO [Thread-0] XMLConfigManager - Default Agent Account Info Resolver found system property [appdynamics.agent.accountAccessKey] for account access key [c296d699-be02-4cc7-b686-499fd1a71854]
+14:33:02,002  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [hello-one]
+14:33:02,002  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [web]
+14:33:02,002  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [web-node]
+14:33:02,007  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using selfService [false]
+14:33:02,013  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using selfService [false]
+14:33:02,013  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using application name [hello-one]
+14:33:02,013  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using tier name [web]
+14:33:02,013  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using node name [web-node]
+14:33:02,019  INFO [Thread-0] XMLConfigManager - XML Controller Info Resolver found controller host [localhost]
+14:33:02,019  WARN [Thread-0] XMLConfigManager - XML Controller Info Resolver found invalid controller port information [$controller.port] in controller-info.xml; Please specify a valid value if it is not already set in system properties.
+14:33:02,025  INFO [Thread-0] XMLConfigManager - XML Controller Info Resolver found controller host [localhost]
+14:33:02,026  WARN [Thread-0] XMLConfigManager - XML Controller Info Resolver found invalid controller port information [$controller.port] in controller-info.xml; Please specify a valid value if it is not already set in system properties.
+14:33:02,032  INFO [Thread-0] XMLConfigManager - XML Agent Account Info Resolver did not find account name since [$account.name] is considered a token only. Using default account name [customer1]
+14:33:02,032  INFO [Thread-0] XMLConfigManager - XML Agent Account Info Resolver using account access key [SJ5b2m7d1$354]
+14:33:02,034  INFO [Thread-0] XMLConfigManager - Configuration Channel is using ControllerInfo:: host:[localhost] port:[8080] sslEnabled:[false] keystoreFile:[DEFAULT:cacerts.jks] use-encrypted-credentials:[false] secureCredentialStoreFileName:[] secureCredentialStorePassword:[] use-ssl-client-auth:[false] asymmetricKeysStoreFilename:[] asymmetricKeysStorePassword:[] asymmetricKeyPassword:[] asymmetricKeyAlias:[] validation:[UNSPECIFIED]
+14:33:02,177  INFO [Thread-0] AgentConfigWatchdog - Agent overwrite set to false
+14:33:02,182  INFO [Thread-0] AgentConfigWatchdog - Parsed 3 filters from <sensitive-data-filters> section
+14:33:02,182  INFO [Thread-0] AgentConfigWatchdog - Parsed 0 filters from <sensitive-url-filters> section
+14:33:02,215  INFO [Thread-0] XMLConfigManager - Node will not be marked as historical at shutdown
+14:33:02,217  INFO [Thread-0] AgentKernel - JVM Runtime: 
+	java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_191-b12
+	java.io.tmpdir=/var/folders/2b/fc2jwkv56hb7w3h175w4hpd80000gn/T/
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+14:33:02,217  INFO [Thread-0] AgentKernel - OS Runtime: 
+	os.name=Mac OS X
+	os.arch=x86_64
+	os.version=10.14.4
+	user.name=junoyang
+	user.home=/Users/junoyang
+	user.dir=/Users/junoyang/source/helloWorld
+14:33:02,219  INFO [Thread-0] KernelProperties - Filtering data with key = [appdynamics.agent.accountAccessKey]
+14:33:02,221  INFO [Thread-0] AgentKernel - JVM Args : -Dappdynamics.controller.hostName=localhost | -Dappdynamics.controller.port=8080 | -Dappdynamics.controller.ssl.enabled=false | -Dappdynamics.agent.applicationName=hello-one | -Dappdynamics.agent.accountAccessKey=***** | -javaagent:/Users/junoyang/source/helloWorld/lib/javaagent/4.5/javaagent.jar | -Dappdynamics.agent.tierName=web | -Dappdynamics.agent.nodeName=web-node | 
+14:33:02,222  INFO [Thread-0] AgentKernel - JVM Runtime Name: 20773@JUNOYANG-M-C2A6
+14:33:02,222  INFO [Thread-0] AgentKernel - JVM PID: 20773
+14:33:02,222  INFO [Thread-0] AgentKernel - Running non-obfuscated agent
+Running non-obfuscated agent
+14:33:02,224  INFO [Thread-0] AgentKernel - No debugger attached
+14:33:02,247  INFO [Thread-0] MetricHandler - Metric Service is : [enabled].
+14:33:02,304  INFO [Thread-0] SecurityConfig - Processing security properties [disabled-features] = [NONE]
+14:33:02,304  INFO [Thread-0] SecurityConfig - SecurityConfig {logRequestPayloadDisabled=false, rawSQLCaptureDisabled=false, customExitSnapDataDisabled=false, methodInvocationDataGathererDisabled=false, httpDataGathererDisabled=false, infoPointsDisabled=false }
+14:33:02,304  INFO [Thread-0] KernelProperties - For Kernel property 'disabled-features' added listener 'com.singularity.ee.agent.appagent.kernel.config.SecurityConfig', notified with value 'NONE'
+14:33:02,336  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [jmx-operation-timeout-in-milliseconds] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.transientoperations.JMXTransientOperationsHandler.setJMXOperationTimeoutProperty(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.transientoperations.JMXTransientOperationsHandler 1
+14:33:02,362  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-kafka-consumer] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.kafka.KafkaConfiguration.setConsumerEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.kafka.KafkaConfiguration 1
+14:33:02,363  INFO [Thread-0] LifeCycleManager - Starting service [Agent17Service]
+14:33:02,364  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively Agent17Service :classcom.singularity.ee.agent.appagent.services.java17.Java17AgentService
+14:33:02,364  INFO [Thread-0] LifeCycleManager - Started service [Agent17Service]
+14:33:02,364  INFO [Thread-0] LifeCycleManager - Starting service [JMXService]
+14:33:02,379  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [jmx-cache-refresh-time] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.appserver.common.JMXAttributeDefinitionCacheConfig.setCacheTimeoutInMinutes(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.appserver.common.JMXAttributeDefinitionCacheConfig 1
+14:33:02,404  INFO [Thread-0] JMXService - ###### Using config from controller for JMX operations #########
+14:33:02,407  INFO [Thread-0] ServerMBeanManager - Initialized MBean Finder with delay=120 secs
+14:33:02,423  INFO [Thread-0] MemoryMetricGenerator - Identified minor collection bean :PS Scavenge
+14:33:02,423  INFO [Thread-0] MemoryMetricGenerator - Identified major collection bean :PS MarkSweep
+14:33:02,424  INFO [Thread-0] MemoryMetricGenerator - Initialized Minor Collection GC metrics
+14:33:02,425  INFO [Thread-0] MemoryMetricGenerator - Initialized Major Collection GC metrics
+14:33:02,425  INFO [Thread-0] MemoryMetricGenerator - Initialized Ovearll GC metrics
+14:33:02,427  INFO [Thread-0] MemoryMetricGenerator - Initialized Memory Pool MX Beans [Code Cache, Metaspace, Compressed Class Space, PS Eden Space, PS Survivor Space, PS Old Gen]
+14:33:02,430  INFO [Thread-0] JVMMetricReporter - Number of processors 12
+14:33:02,432  INFO [Thread-0] JMXService - JVM JMX Metric collection initialized with update interval [60] seconds
+14:33:02,433  INFO [Thread-0] HeapShortageMonitor - HeapStorageMonitor is now active
+14:33:02,479  INFO [Thread-0] LifeCycleManager - Started service [JMXService]
+14:33:02,479  INFO [Thread-0] LifeCycleManager - Starting service [Agent16Service]
+14:33:02,480  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively Agent16Service :classcom.singularity.ee.agent.appagent.services.java16.Java16AgentService
+14:33:02,483  INFO [Thread-0] LifeCycleManager - Started service [Agent16Service]
+14:33:02,483  INFO [Thread-0] LifeCycleManager - Starting service [LogParserService]
+14:33:02,484  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively LogParserService :classcom.singularity.ee.agent.appagent.services.LogEventService
+14:33:02,488  INFO [Thread-0] LifeCycleManager - Started service [LogParserService]
+14:33:02,488  INFO [Thread-0] LifeCycleManager - Starting service [DerivedMetricService]
+14:33:02,489  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively DerivedMetricService :classcom.singularity.ee.agent.appagent.services.derivedmetric.DerivedMetricService
+14:33:02,489  INFO [Thread-0] LifeCycleManager - Started service [DerivedMetricService]
+14:33:02,489  INFO [Thread-0] LifeCycleManager - Starting service [MultiAgentManager]
+14:33:02,493  INFO [Thread-0] LifeCycleManager - Started service [MultiAgentManager]
+14:33:02,493  INFO [Thread-0] LifeCycleManager - Starting service [BCIEngine]
+14:33:02,499  INFO [Thread-0] ClassMemoryLimitTracker - Class Memory limit check before retransform  is enabled
+14:33:02,500  INFO [Thread-0] Java16AgentService - Class retransformation supported in current JVM version
+14:33:02,526  INFO [Thread-0] InstrumentationHandler - Registered class file transformer for re-transformation
+14:33:02,531  INFO [Thread-0] BCIEngineService - BCI Early Rule Appliers are bypassed because retransformation is supported
+14:33:02,531  INFO [Thread-0] LifeCycleManager - Started service [BCIEngine]
+14:33:02,532  INFO [Thread-0] LifeCycleManager - Starting service [SnapshotService]
+14:33:02,539  INFO [Thread-0] TransactionSnapshotService - Agent object monitoring is disabled
+14:33:02,539  INFO [Thread-0] TransactionSnapshotService - Coalesced Call-Stack Sampling is: enabled
+14:33:02,540  INFO [Thread-0] TransactionSnapshotService - CallStackSampler TryLock bounds in Micro Sec: 500
+14:33:02,542  INFO [Thread-0] TransactionSnapshotService - Enable-Contention-Tracking property set to: true
+14:33:02,555  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [generated-class-patterns] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker.resetConfig(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker 1
+14:33:02,555  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-generated-class-patterns] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker.enableDefault(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker 1
+14:33:02,561  INFO [Thread-0] TopBackendsProcessor - Started TopBackendsProcessor to process every [100] ms
+14:33:02,561  INFO [Thread-0] TopBackendsProcessor - Started TopBackendsReporter to report every [5] mins
+14:33:02,569  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -null
+14:33:02,569  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -null
+14:33:02,569  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+14:33:02,569  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -null
+14:33:02,569  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+14:33:02,569  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  hotspot-granularity-in-ms  Value -null
+14:33:02,573  INFO [Thread-0] RequestSegmentDataReporter - Request Segment Data reporter setup to report at interval [10000]
+14:33:02,577  INFO [Thread-0] ApplicationStartupPolicy - Startup policy true
+14:33:02,602  INFO [Thread-0] LifeCycleManager - Started service [SnapshotService]
+14:33:02,602  INFO [Thread-0] LifeCycleManager - Starting service [TransactionMonitoringService]
+14:33:02,615  INFO [Thread-0] SqlCacheHolder - Starting with global and thread-local SQL data caching strategy
+14:33:02,797  INFO [Thread-0] SlowAndStallRequestMonitor - Stall Request checker setup
+14:33:02,797  INFO [Thread-0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 300 ms, at interval 300 ms.
+14:33:02,799  INFO [Thread-0] Java16DeadlockDetector - Deadlock Detector is scheduled to run every [300] seconds.
+14:33:02,836  INFO [Thread-0] LoggerMessageProcessor - LoggerMessageProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@89b35b4
+14:33:02,839  INFO [Thread-0] AgentErrorProcessor - AgentErrorProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@67e25ad8
+14:33:02,847  INFO [Thread-0] ErrorRegistry - Error Registry initialized
+14:33:02,857  INFO [Thread-0] AsyncCorrelationADDRepository - Started ADD registration thread to run every [10] seconds
+14:33:02,857  INFO [Thread-0] AsyncCorrelationADDRepository - Max ADD registrations allowed [500]
+14:33:02,858  INFO [Thread-0] AsyncCorrelationADDRepository - Reporting ADD registration failures every [5] minutes
+14:33:02,867  INFO [Thread-0] JVMThreadCPUTimeCalculator - BT CPU Monitoring will stay enabled. Time taken to calculate Thread CPU Time for [1000] iterations is [5 ms] which is within the allowed budget of [10 ms]
+14:33:02,870  INFO [Thread-0] ServiceEndPointADDRegistrar - Starting ADD Registrar with registration period [10] secs
+14:33:02,871  INFO [Thread-0] AsyncExitADDRegistrar - Starting ADD Registrar with registration period [10] secs
+14:33:02,897  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [group-unmonitoried-backends] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor.setGroupUnmonitoredBackends(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor 1
+14:33:02,898  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-backend-response-decoration] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor.setEnableBackendResponseDecoration(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor 1
+14:33:02,898  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> setting [use-new-async-correlation] to true
+14:33:02,898  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [use-flat-thread-chain-model] to true
+14:33:02,899  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [bSyncMetricAggregator] to true
+14:33:02,899  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [asyncAllMetrics] to null
+14:33:02,899  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [useNewEJB3NamingRule] to false
+14:33:02,899  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [disableSocketCollection] to false
+14:33:02,899  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [devModeSuspendCPM] to 500
+14:33:02,899  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [jdbcLRUCacheSize] to 50
+14:33:02,899  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [support-cross-app-correlation] to true
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.CHECK_BT_EXCLUDES_EARLY+"] to false
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxEJBTransformedClasses] to 500
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxEJBTransformedClassesByPackage] to 200
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxTransformationsPerInterceptor] to 500
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.disableInfoProviderMBean+"] to false
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.infoProviderDetailMode+"] to false
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.maxETELatencyTimestampRetentionInSeconds+"] to 300
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.eteLatencyTimestampScanRetentionIntervalInSeconds+"] to 60
+14:33:02,900  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [enableLogGuidInjection] to false
+14:33:02,914  INFO [Thread-0] TransactionMonitoringService - Initialized [NEW] TransactionDelegate
+14:33:02,935  INFO [Thread-0] JaxRsConfiguration - Property capture-raw-sql, Value true
+14:33:02,935  INFO [Thread-0] JaxRsConfiguration - Property config-file-path, Value transactions.xml
+14:33:02,935  INFO [Thread-0] JaxRsConfiguration - Property service-endpoint-config-file-path, Value service-endpoints.xml
+14:33:02,941  INFO [Thread-0] JDBCRuleApplier - Enabled JDBC Driver support for 13 drivers
+14:33:02,941  INFO [Thread-0] JDBCRuleApplier - DBCam integration enabled=false
+14:33:02,944  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [oracle-clientid-index] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration.setOracleClientIndex(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration 1
+14:33:02,945  INFO [Thread-0] JDBCConfiguration - Applying property capture-raw-sql, val true
+14:33:02,945  INFO [Thread-0] JDBCConfiguration - Applying property config-file-path, val transactions.xml
+14:33:02,945  INFO [Thread-0] JDBCConfiguration - Applying property service-endpoint-config-file-path, val service-endpoints.xml
+14:33:02,945  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-new-jdbc-ruleapplier] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCExitPointDelegate.enableNewJDBCRuleApplier(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCExitPointDelegate 1
+14:33:02,946  INFO [Thread-0] SocketRuleApplier - BCI disabled for Socket stats collection
+14:33:02,947  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [socket-enabled] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.network.SocketConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.network.SocketConfiguration 1
+14:33:02,976  INFO [Thread-0] LifeCycleManager - Started service [TransactionMonitoringService]
+14:33:02,977  INFO [Thread-0] LifeCycleManager - Starting service [ObjectMonitoringService]
+14:33:03,061  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-collection-monitoring changed to false
+14:33:03,061  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 5
+14:33:03,061  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property jmap-histo-option changed to -all
+14:33:03,061  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-object-size-monitoring changed to false
+14:33:03,072  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-size-for-evaluation-in-mb changed to 5
+14:33:03,072  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to false
+14:33:03,072  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-instance-monitoring changed to false
+14:33:03,072  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property collection-capture-period-in-minutes changed to 30
+14:33:03,073  INFO [Thread-0] LifeCycleManager - Started service [ObjectMonitoringService]
+14:33:03,073  INFO [Thread-0] LifeCycleManager - Starting service [AgentDiagnosticsService]
+14:33:03,074  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively AgentDiagnosticsService :classcom.singularity.ee.agent.appagent.services.agentdiagnostics.AgentDiagnosticsService
+14:33:03,080  INFO [Thread-0] AgentDiagnosticConfig - Setting Memory Monitor Enabled false
+14:33:03,081  INFO [Thread-0] AgentDiagnosticConfig - Memory Monitor max stack depth set to 500
+14:33:03,081  INFO [Thread-0] AgentDiagnosticConfig - Memory Monitor total objects set to 500
+14:33:03,081  INFO [Thread-0] MemoryMonitor - Updated monitor class names []. Removed all tracked method objects.
+14:33:03,082  INFO [Thread-0] AgentDiagnosticConfig - Setting Thread Dump Enabled false
+14:33:03,082  INFO [Thread-0] AgentDiagnosticsService - Seeting up Thread dump logger to Log4j based logger context com.singularity.diagnostics.ThreadDumpLogger
+14:33:03,083  INFO [Thread-0] ThreadDumpLogger - #############################################################
+14:33:03,083  INFO [Thread-0] ThreadDumpLogger - Agent Diagnostics Logs at Thu May 02 14:33:03 PDT 2019
+14:33:03,083  INFO [Thread-0] ThreadDumpLogger - #############################################################
+14:33:03,083  INFO [Thread-0] AgentDiagnosticConfig - Setting Shutdown hook Enabled false
+14:33:03,083  INFO [Thread-0] AgentDiagnosticsService - JVM Shutdown hook is disabled
+14:33:03,089  INFO [Thread-0] AgentDiagnosticsService - Starting up Agent Diagnostic Logger, setting up Thread dump frequency to [300] seconds
+14:33:03,089  INFO [Thread-0] MemoryMonitor - BCI Rules to apply for Methods[]
+14:33:03,090  INFO [Thread-0] MethodRuleApplier - Finished applying new rule set for {}
+14:33:03,090  INFO [Thread-0] MemoryMonitor - Clearing all current objects from methods being tracked {}
+14:33:03,090  INFO [Thread-0] MemoryMonitor - BCI Rules to apply for Classes[null]
+14:33:03,090  INFO [Thread-0] ClassRuleApplier - Finished applying new rule set for []
+14:33:03,091  INFO [Thread-0] MemoryMonitor - Updated object names to log []
+14:33:03,091  INFO [Thread-0] MemoryMonitor - Memory Monitor started with enabled[false], interval[10]
+14:33:03,091  INFO [Thread-0] MethodRuleApplier - Finished applying new rule set for {}
+14:33:03,091  INFO [Thread-0] LifeCycleManager - Started service [AgentDiagnosticsService]
+14:33:03,091  INFO [Thread-0] LifeCycleManager - Starting service [InstrumentationSdkPluginManager]
+14:33:03,117  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [instrumentation-sdk-cpm-limit] to method [public void com.singularity.ee.agent.appagent.kernel.InstrumentationSdkPluginRuleApplier.setInstrumentationSdkCpmLimit(int)] in class class com.singularity.ee.agent.appagent.kernel.InstrumentationSdkPluginRuleApplier 1
+14:33:03,117  INFO [Thread-0] InstrumentationSdkPluginManager - Scheduling InstrumentationSdkPluginManager at interval of 30 seconds
+14:33:03,119  INFO [Thread-0] InstrumentationSdkPluginManager - Polling SDK directories during startup
+14:33:03,120  INFO [Thread-0] InstrumentationSdkPluginManager - Using instrumentation sdk directory [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6/sdk-plugins]
+14:33:03,120  INFO [Thread-0] LifeCycleManager - Started service [InstrumentationSdkPluginManager]
+14:33:03,120  INFO [Thread-0] LifeCycleManager - Starting service [DynamicServiceManager]
+14:33:03,124  INFO [Thread-0] LifeCycleManager - Started service [DynamicServiceManager]
+14:33:03,129  INFO [Thread-0] KernelProperties - Filtering data with key = [appdynamics.agent.accountAccessKey]
+14:33:03,131  INFO [Thread-0] KernelProperties - Filtering data with key = [appdynamics.agent.accountAccessKey]
+14:33:03,138  INFO [Thread-0] ConfigurationChannel - Detected node meta info: [Name:ProcessID, Value:20773, Name:appdynamics.ip.addresses, Value:fe80:0:0:0:1d73:e520:16cc:c743%utun0,fe80:0:0:0:cd7:cdff:feb1:604c%awdl0,fe80:0:0:0:aede:48ff:fe00:1122%en5,10.10.40.233,fe80:0:0:0:ac:2123:4bf5:aa04%en0,10.158.156.232,fe80:0:0:0:0:0:0:1%lo0, Name:supportsDevMode, Value:true]
+14:33:03,139  INFO [Thread-0] ConfigurationChannel - Sending Registration request with: Application Name [hello-one], Tier Name [web], Node Name [web-node], Host Name [JUNOYANG-M-C2A6] Node Unique Local ID [web-node], Version [Server Agent v4.3.7.6 GA #15547 r87e8c22dadb5e6d16678e6220af8b0670bf2a0ab 28226-4.3.7.next-analytics]
+14:33:04,394  INFO [Thread-0] ConfigurationChannel - Auto agent registration attempted: Application Name [hello-one] Component Name [web] Node Name [web-node]
+14:33:04,395  INFO [Thread-0] ConfigurationChannel - Auto agent registration SUCCEEDED!
+14:33:04,395  INFO [Thread-0] ConfigurationChannel - Registration information received Node ID[120] Component ID[21] Application ID [13]
+Registered app server agent with Node ID[120] Component ID[21] Application ID [13]
+14:33:04,395  INFO [Thread-0] ConfigurationChannel -      controllerGUID[1556828934] accountGUID[afce24cd-8923-4f2a-bd1e-bd9d527ba4ac]
+14:33:04,457  INFO [Thread-0] ConfigurationChannel - Account edition from controller = ENTERPRISE
+14:33:04,458  INFO [Thread-0] ConfigurationChannel - New account profile [AccountProfile [dataRetentionInMinutes=-1, agentTypesSupported=[APP_AGENT, DOT_NET_APP_AGENT, DOT_NET_MACHINE_AGENT, MACHINE_AGENT, NODEJS_APP_AGENT, NODEJS_MACHINE_AGENT], automationEnabled=true, azureAutoScalingEnabled=false, systemsPanelEnabled=true, memoryMonitoringEnabled=true, startDateOfTrial=null, endDateOfTrial=null, businessTransactionLimit=50, nodeLimit=-1, transactionCorrelationEnabled=true, snapshotsEnabled=true, snapshotsWithFullCallGraphsEnabled=true, automaticSnapshotsForSlowAndErrorRequestsEnabled=true, sqlDiagnosticsEnabled=true, hardwareMonitoringEnabled=true, jvmMonitoringEnabled=true, clrMonitoringEnabled=true, endUserExperienceMonitoringEnabled=true, backendDetectionEnabled=true, errorMonitoringEnabled=true, customDashboardsEnabled=true, reportingEnabled=true, baselinesEnabled=true, advancedAnalysisEnabled=true, policiesEnabled=true, alertingEnabled=true, informationPointsEnabled=true, topCallsEnabled=true, problemsEnabled=true, informationalEventsEnabled=true, metricBrowserEnabled=true, timestamp=1556829123435, dataCollectorsEnabled=true, customExitPointsEnabled=true, restAPIEnabled=true, maxApplications=-1, maxPolicies=-1, edition=ENTERPRISE, controllerBusinessTransactionLimitPerApplication=0]]
+14:33:04,458  INFO [Thread-0] ConfigurationChannel - Controller version [4.5.10]
+14:33:04,461  INFO [Thread-0] TransactionMonitoringService - Received application configuration property [is-async-activity-supported]=true
+14:33:04,472  INFO [Thread-0] TransactionConfigUpdater - Updating transactions.xml to /Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6/conf/web-node/transactions.xml
+14:33:04,570  INFO [Thread-0] TransactionMonitor - Setting Excluded BTs [EMPTY]
+14:33:04,572  INFO [Thread-0] ErrorMonitor - Setting ignore exceptions to :[]
+14:33:04,573  INFO [Thread-0] ErrorMonitor - Setting ignore message patterns to :[]
+14:33:04,574  INFO [Thread-0] ErrorMonitor - Setting max frames in root cause to :5
+14:33:04,574  INFO [Thread-0] StackTraceGenerator - Stack trace line limit set to: 200 (stack-trace-line-limit property is set to 0, but minimum value is 200.)
+14:33:04,574  INFO [Thread-0] ErrorMonitor - Setting stack trace line limit to :0
+14:33:04,575  INFO [Thread-0] LoggerRuleApplier - Applying Custom Logger Rules :: []
+14:33:04,575  INFO [Thread-0] ErrorMonitor - Setting excluded logger names to : []
+14:33:04,577  INFO [Thread-0] ErrorMonitor - JDK Exception Logger disabled set to false
+14:33:04,577  INFO [Thread-0] ErrorMonitor - JDK Message Logger disabled set to false
+14:33:04,577  INFO [Thread-0] ErrorMonitor - SLF4J Exception Logger disabled set to false
+14:33:04,577  INFO [Thread-0] ErrorMonitor - SLF4J Message Logger disabled set to false
+14:33:04,578  INFO [Thread-0] ErrorMonitor - Logback Formatted Message Logger disabled set to false
+14:33:04,578  INFO [Thread-0] ErrorMonitor - Logback Formatted Message Marker disabled set to false
+14:33:04,578  INFO [Thread-0] ErrorMonitor - Log4j Exception Logger disabled set to false
+14:33:04,578  INFO [Thread-0] ErrorMonitor - Log4j Message Logger disabled set to false
+14:33:04,579  INFO [Thread-0] ErrorMonitor - Capture of error and fatal logger error messages disabled set to false
+14:33:04,579  INFO [Thread-0] ErrorMonitor - Setting ignore logger msg patters to : []
+14:33:04,582  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'}
+14:33:04,585  INFO [Thread-0] AExitPointDelegate - Exit point delegate [HTTPExitPointDelegate] enabled = true
+14:33:04,585  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'} with number of configurations 1
+14:33:04,585  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Kafka'}
+14:33:04,586  INFO [Thread-0] AExitPointDelegate - Exit point delegate [KafkaExitPointDelegate] enabled = true
+14:33:04,586  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Kafka'} with number of configurations 1
+14:33:04,586  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'}
+14:33:04,591  INFO [Thread-0] AExitPointDelegate - Exit point delegate [MQExitPointDelegate] enabled = true
+14:33:04,591  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'} with number of configurations 1
+14:33:04,591  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'}
+14:33:04,593  INFO [Thread-0] AExitPointDelegate - Exit point delegate [ThriftExitPointDelegate] enabled = true
+14:33:04,593  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'} with number of configurations 1
+14:33:04,593  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'}
+14:33:04,594  INFO [Thread-0] AExitPointDelegate - Exit point delegate [JMSExitPointDelegate] enabled = true
+14:33:04,594  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'} with number of configurations 1
+14:33:04,594  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'}
+14:33:04,595  INFO [Thread-0] AExitPointDelegate - Exit point delegate [WebSocketExitPointDelegate] enabled = true
+14:33:04,595  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'} with number of configurations 1
+14:33:04,595  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'}
+14:33:04,596  INFO [Thread-0] AExitPointDelegate - Exit point delegate [RMIExitPointDelegate] enabled = true
+14:33:04,596  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'} with number of configurations 1
+14:33:04,597  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'}
+14:33:04,598  INFO [Thread-0] AExitPointDelegate - Exit point delegate [SQSExitPointDelegate] enabled = true
+14:33:04,598  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'} with number of configurations 1
+14:33:04,598  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'}
+14:33:04,599  INFO [Thread-0] AExitPointDelegate - Exit point delegate [S3ExitPointDelegate] enabled = true
+14:33:04,599  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'} with number of configurations 1
+14:33:04,599  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'}
+14:33:04,601  INFO [Thread-0] AExitPointDelegate - Exit point delegate [SNSExitPointDelegate] enabled = true
+14:33:04,602  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'} with number of configurations 1
+14:33:04,602  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'}
+14:33:04,602  INFO [Thread-0] AExitPointDelegate - Exit point delegate [MongoExitPointDelegate] enabled = true
+14:33:04,602  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'} with number of configurations 1
+14:33:04,602  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'}
+14:33:04,605  INFO [Thread-0] AExitPointDelegate - Exit point delegate [JDBCExitPointDelegate] enabled = true
+14:33:04,605  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'} with number of configurations 1
+14:33:04,606  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'}
+14:33:04,606  INFO [Thread-0] AExitPointDelegate - Exit point delegate [JoltExitPointDelegate] enabled = true
+14:33:04,606  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'} with number of configurations 1
+14:33:04,606  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'}
+14:33:04,609  INFO [Thread-0] AExitPointDelegate - Exit point delegate [RabbitMqExitPointDelegate] enabled = true
+14:33:04,609  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'} with number of configurations 1
+14:33:04,609  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'}
+14:33:04,609  INFO [Thread-0] AExitPointDelegate - Exit point delegate [AWS Exit Point Delegate] enabled = true
+14:33:04,609  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'} with number of configurations 1
+14:33:04,609  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'}
+14:33:04,612  INFO [Thread-0] AExitPointDelegate - Exit point delegate [WebServiceExitPointDelegate] enabled = true
+14:33:04,612  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'} with number of configurations 1
+14:33:04,612  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'}
+14:33:04,612  INFO [Thread-0] AExitPointDelegate - Exit point delegate [CassandraCQLExitPointDelegate] enabled = true
+14:33:04,612  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'} with number of configurations 1
+14:33:04,613  INFO [Thread-0] TransactionConfigChannel - Received Service End Point Definitions >> 
+[]
+14:33:04,615  INFO [Thread-0] TransactionConfigChannel - Received Service Endpoint Match Config >> 
+[{
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=90 , version=0    id = 90    name = EJB    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:EJB,   
+     attachedEntity:Type:APPLICATION, id:13,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='EJB_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=86 , version=0    id = 86    name = JMS    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:JMS,   
+     attachedEntity:Type:APPLICATION, id:13,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='DESTINATION_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=87 , version=0    id = 87    name = POJO    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:POJO,   
+     attachedEntity:Type:APPLICATION, id:13,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='FULLY_QUALIFIED_CLASS_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=89 , version=0    id = 89    name = SERVLET    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:SERVLET,   
+     attachedEntity:Type:APPLICATION, id:13,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='URI', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=85 , version=0    id = 85    name = SPRING_BEAN    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:SPRING_BEAN,   
+     attachedEntity:Type:APPLICATION, id:13,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='BEAN_ID_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=88 , version=0    id = 88    name = STRUTS_ACTION    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:STRUTS_ACTION,   
+     attachedEntity:Type:APPLICATION, id:13,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='ACTION_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=91 , version=0    id = 91    name = WEB_SERVICE    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:WEB_SERVICE,   
+     attachedEntity:Type:APPLICATION, id:13,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='SERVICE_NAME_AND_OPERATION_NAME', properties=[]} }
+}
+]
+14:33:04,615  INFO [Thread-0] BTOverflowCounter - Transactions cleanup detected. Resetting overflow transaction timer.
+14:33:04,615  INFO [Thread-0] TransactionMonitor - Changing max metric length to: 5000
+14:33:04,618  INFO [Thread-0] EUMConfig - EUM injected JS code template: ...
+14:33:04,618  INFO [Thread-0] EUMConfig - EUM beacon URL: col.eum-appdynamics.com
+14:33:04,618  INFO [Thread-0] EUMConfig - EUM async JS file URL: cdn.appdynamics.com
+14:33:04,618  INFO [Thread-0] EUMConfig - Global account name: customer1_afce24cd-8923-4f2a-bd1e-bd9d527ba4ac
+14:33:04,619  INFO [Thread-0] EUMConfig - Disabling automatic parsing and injection
+14:33:04,619  INFO [Thread-0] EUMConfig - Disabling manual injection rules
+14:33:04,620  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package excludes [java., javax., com.sun., sun., org., com.bea., com.weblogic., weblogic., com.ibm., com.mysql., com.oracle., oracle., com.microsoft.sqlserver., com.opensymphony., net.sf., jrockit., kodo., com.pointbase., persistence.antlr., com.informix., com.sybase.jdbc2., com.sybase.jdbc3., com.sybase.jdbc4., com.mongodb.connection.]
+14:33:04,620  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package always show [com.sun.jersey., org.apache.openejb., org.apache.cassandra., org.apache.kafka., org.apache.http., org.asynchttpclient., org.apache.camel.example., org.apache.camel.component.seda., org.mule.processor., org.jboss.soa.esb.client., org.springframework.integration., com.ibm.mq., org.apache.activemq., com.ibm.bpm., com.ibm.bpe., com.ibm.ws.]
+14:33:04,620  INFO [Thread-0] AgentConfigWatchdog - Received properties from controller, going to refresh.
+14:33:04,621  INFO [Thread-0] AgentConfigWatchdog - ************ Started applying service properties from controller ***************
+14:33:04,621  INFO [Thread-0] TransactionMonitor - Applying 'enable-soap-header-correlation', 'false'
+14:33:04,621  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-soap-header-correlation value false
+14:33:04,622  INFO [Thread-0] JaxRsConfiguration - Property rest-num-segments, Value 2
+14:33:04,622  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating rest-num-segments value 2
+14:33:04,622  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating log-request-payload value false
+14:33:04,622  INFO [Thread-0] NewTransactionWatchman - Property api-transaction-timeout-in-seconds, Value 300
+14:33:04,622  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating api-transaction-timeout-in-seconds value 300
+14:33:04,622  INFO [Thread-0] ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-correlation-for], value[]
+14:33:04,622  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating disable-exit-call-correlation-for value 
+14:33:04,623  INFO [Thread-0] TransactionMonitor - Applying 'slow-request-deviation', '200'
+14:33:04,623  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating slow-request-deviation value 200
+14:33:04,623  INFO [Thread-0] JDBCRuleApplier - Property jdbc-statements, Value 
+14:33:04,623  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-statements value 
+14:33:04,623  INFO [Thread-0] TransactionMonitor - Applying 'slow-request-threshold', '500'
+14:33:04,623  INFO [Thread-0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 500 ms, at interval 500 ms.
+14:33:04,623  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating slow-request-threshold value 500
+14:33:04,624  INFO [Thread-0] TransactionMonitor - Applying 'downstream-tx-detection-enabled', 'false'
+14:33:04,624  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating downstream-tx-detection-enabled value false
+14:33:04,624  INFO [Thread-0] JDBCConfiguration - Applying property capture-raw-sql, val false
+14:33:04,624  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating capture-raw-sql value false
+14:33:04,624  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating find-entry-points value false
+14:33:04,624  INFO [Thread-0] TransactionMonitor - Applying 'max-business-transactions', '50'
+14:33:04,624  INFO [Thread-0] BusinessTransactionRegistry - Max transactions set to 50
+14:33:04,624  INFO [Thread-0] TransactionMonitor - Agent will identify a maximum of [50] business transactions.
+14:33:04,625  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating max-business-transactions value 50
+14:33:04,625  INFO [Thread-0] TransactionMonitor - Applying 'slow-request-monitor-interval', '100'
+14:33:04,625  INFO [Thread-0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 100 ms, at interval 100 ms.
+14:33:04,625  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating slow-request-monitor-interval value 100
+14:33:04,625  INFO [Thread-0] JDBCRuleApplier - Property jdbc-prepared-statements, Value 
+14:33:04,625  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-prepared-statements value 
+14:33:04,625  INFO [Thread-0] JaxRsConfiguration - Property rest-uri-segment-scheme, Value first-n-segments
+14:33:04,625  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating rest-uri-segment-scheme value first-n-segments
+14:33:04,626  INFO [Thread-0] NewTransactionWatchman - Property api-thread-activity-timeout-in-seconds, Value 300
+14:33:04,626  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating api-thread-activity-timeout-in-seconds value 300
+14:33:04,626  INFO [Thread-0] TransactionMonitor - Applying 'min-load-per-minute-diagnostic-session-trigger', '10'
+14:33:04,626  INFO [Thread-0] TransactionMonitor - Minimum load per min on a BT to trigger diagnostic session on agent [10] requests.
+14:33:04,626  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating min-load-per-minute-diagnostic-session-trigger value 10
+14:33:04,626  INFO [Thread-0] TransactionMonitor - Applying 'enable-transaction-correlation', 'true'
+14:33:04,626  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-transaction-correlation value true
+14:33:04,626  INFO [Thread-0] JDBCRuleApplier - Property jdbc-connections, Value 
+14:33:04,627  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-connections value 
+14:33:04,627  INFO [Thread-0] ExitPointRuleApplier - ExitPointRuleApplier property disable-custom-exit-points-for value []
+14:33:04,627  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating disable-custom-exit-points-for value 
+14:33:04,627  INFO [Thread-0] JDBCRuleApplier - Property jdbc-callable-statements, Value 
+14:33:04,627  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-callable-statements value 
+14:33:04,627  INFO [Thread-0] JaxRsConfiguration - Property rest-transaction-naming, Value {class-annotation}/{method-annotation}.{http-method}
+14:33:04,628  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating rest-transaction-naming value {class-annotation}/{method-annotation}.{http-method}
+14:33:04,628  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating async-transaction-demarcator value 
+14:33:04,628  INFO [Thread-0] LatencyMonitoringConfiguration - End to End latency montioring threshold set to [0] ms
+14:33:04,629  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating end-to-end-message-latency-threshold-millis value 0
+14:33:04,629  INFO [Thread-0] ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-metrics-for], value[]
+14:33:04,629  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating disable-exit-call-metrics-for value 
+14:33:04,629  INFO [Thread-0] ServletRuleApplier - Applying property capture-error-urls, true
+14:33:04,629  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating capture-error-urls value true
+14:33:04,629  INFO [Thread-0] TransactionMonitor - Applying 'enable-default-http-error-code-reporter', 'true'
+14:33:04,629  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-default-http-error-code-reporter value true
+14:33:04,629  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -
+14:33:04,630  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+14:33:04,630  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating show-packages value 
+14:33:04,630  INFO [Thread-0] TransactionSnapshotService - Reset max-jdbc-calls-per-callgraph with new value 100
+14:33:04,630  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-callgraph value 100
+14:33:04,630  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating on-demand-snapshots value false
+14:33:04,630  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -
+14:33:04,630  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+14:33:04,630  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating dont-show-packages value 
+14:33:04,631  INFO [Thread-0] TransactionSnapshotService - Reset adaptive-callgraph-granularity with new value false
+14:33:04,631  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating adaptive-callgraph-granularity value false
+14:33:04,631  INFO [Thread-0] ApplicationStartupPolicy - Setting 'enable-startup-snapshot-policy' with value 'false'
+14:33:04,631  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-startup-snapshot-policy value false
+14:33:04,631  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -0
+14:33:04,631  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating callgraph-granularity-in-ms value 0
+14:33:04,631  INFO [Thread-0] TransactionSnapshotService - Reset max-jdbc-calls-per-snapshot with new value 500
+14:33:04,631  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-snapshot value 500
+14:33:04,632  INFO [Thread-0] TransactionSnapshotService - Reset min-duration-for-jdbc-call-in-ms with new value 10
+14:33:04,632  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating min-duration-for-jdbc-call-in-ms value 10
+14:33:04,632  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 30
+14:33:04,632  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating minimum-age-for-evaluation-in-minutes value 30
+14:33:04,632  INFO [Thread-0] LeakManager - Property changed leak-diagnostic-interval-in-minutes, Val [30]
+14:33:04,632  INFO [Thread-0] LeakManager - Changing leak diagnostic capture interval to 30
+14:33:04,632  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating leak-diagnostic-interval-in-minutes value 30
+14:33:04,633  INFO [Thread-0] BCIEngineService - BCIEngine service property enable-xml-bci-rules changed, new value true
+14:33:04,633  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-xml-bci-rules value true
+14:33:04,633  INFO [Thread-0] BCIEngineService - BCIEngine service property enable-json-bci-rules changed, new value true
+14:33:04,633  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-json-bci-rules value true
+14:33:04,633  INFO [Thread-0] AgentConfigWatchdog - ------------ Finished applying service properties from controller ---------------
+
+14:33:04,635  INFO [Thread-0] ConfigurationChannel - Initialized app agent with latest configuration from controller
+14:33:04,661  INFO [Thread-0] XMLConfigManager - Agent will poll for new configuration from controller every [60] seconds
+14:33:04,661  INFO [Thread-0] Java17AgentService. - Starting the GC Visibility Service.
+14:33:04,665  INFO [Thread-0] GCVisibilityInitializer - Registering listeners for GC events 
+14:33:04,676  INFO [Thread-0] DerivedMetricService - Derived metric: DerivedMetric{metricIdentifier=Metric Identifier[JVM|Memory:Heap|Custom Current Usage Percentage] ID[0] super=DerivedMetricExpression{operation=multiply, expressions=[DerivedMetricExpression{operation=divide, expressions=[MetricFetch{agentRawMetricIdentifier=Metric Identifier[JVM|Memory:Heap|Current Usage (MB)] ID[0], testStaticValue=''}, MetricFetch{agentRawMetricIdentifier=Metric Identifier[JVM|Memory:Heap|Max Available (MB)] ID[0], testStaticValue=''}]}, StaticNumber{staticValue=10000}]}}
+14:33:04,721  INFO [Thread-0] TransactionMonitoringService - OSGi configuration rule applier has been activated
+14:33:04,721  INFO [Thread-0] TransactionMonitoringService - Reading transaction config file from the controller.
+14:33:04,731  INFO [Thread-0] TransactionMonitoringService - Parsed Transaction definitions successfully from [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6/conf/web-node/transactions.xml]
+14:33:04,834  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-vertx-http] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.http.VertxHttpConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.http.VertxHttpConfiguration 1
+14:33:04,841  INFO [Thread-0] ServletEntryPointDelegate - Servlet Monitoring enabled=true
+14:33:04,842  INFO [Thread-0] ServletRuleApplier - Apply servlet entry point monitoring = true, apply service end point config = true
+14:33:04,849  INFO [Thread-0] ServletRuleApplier - Adding SPRING MVC dispatcher rules
+14:33:04,849  INFO [Thread-0] ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+14:33:04,850  INFO [Thread-0] ServletRuleApplier - Applying Mule HTTP Receiver rules
+14:33:04,857  INFO [Thread-0] ServletRuleApplier - Applying URI Capture rules
+14:33:04,858  INFO [Thread-0] ServletRuleApplier - Capturing HttpServletResponse.setStatus() calls
+14:33:04,858  INFO [Thread-0] ServletRuleApplier - Applying rule to capture Play related error codes
+14:33:04,893  INFO [Thread-0] ServletRuleApplier - Applying rules: Fork-join rules
+14:33:04,893  INFO [Thread-0] ServletRuleApplier - Applying rules: Spray.io rules
+14:33:04,895  INFO [Thread-0] scalaAkkaHttpRuleApplier - Applying rules: Akka Http rules
+14:33:04,899  INFO [Thread-0] WebMethodsRuleApplier - Applying Web Methods HTTP Receiver rules
+14:33:04,900  INFO [Thread-0] ServletRuleApplier - Applying rules: Jolt Exit Point Rules
+14:33:04,901  INFO [Thread-0] ServletRuleApplier - Applying rules: WebMethods Message Broker rules
+14:33:04,909  INFO [Thread-0] ServletRuleApplier - Applying rules: Netty Custom Activity
+14:33:04,910  INFO [Thread-0] VertxHttpRuleApplier - Applying rules: Vert.x HTTP Rules
+14:33:04,911  INFO [Thread-0] WebObjectsRuleApplier - Applying WebObject rules
+14:33:04,930  INFO [Thread-0] SpringIntegrationRuleApplier - Applying Spring Integration Rules
+14:33:04,932  INFO [Thread-0] SpringIntegrationRuleApplier - spring-integration-receive-marker-classes = null
+14:33:04,932  INFO [Thread-0] SpringIntegrationRuleApplier - Apply Spring Integration Receive Enclosing Marker Rules
+14:33:04,935  INFO [Thread-0] EJBEntryPointDelegate - Applying RMI Rules
+14:33:04,936  INFO [Thread-0] RMIRuleApplier - Applying JBoss Remoting Rules
+14:33:04,946  INFO [Thread-0] RMIRuleApplier - Applying Websphere RMI-IIOP Rules
+14:33:04,961  INFO [Thread-0] RMIRuleApplier - Applying JRMP RMI Rules
+14:33:04,967  INFO [Thread-0] POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [3]
+14:33:04,967  INFO [Thread-0] POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+14:33:04,971  INFO [Thread-0] JMSEntryPointDelegate - JMS monitoring is enabled
+14:33:04,974  INFO [Thread-0] JMSEntryPointDelegate - Adding MDB Annotation onMessage rule 
+14:33:04,974  INFO [Thread-0] JMSEntryPointDelegate - Adding Spring Integration MDB rule 
+14:33:05,042  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Ning async http client rules
+14:33:05,056  INFO [Thread-0] jrubyJRubyRuleApplier - Applying rules: JRuby Httparty Rules
+14:33:05,057  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Netty Async Channel
+14:33:05,061  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Ribbon Async
+14:33:05,063  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Jetty v9
+14:33:05,064  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Jetty v8
+14:33:05,067  INFO [Thread-0] MQExitPointDelegate - MQ put/get rules registered
+14:33:05,164  INFO [Thread-0] JDBCRulesApplier - Applying rules: JDCB Common
+14:33:05,191  INFO [Thread-0] JDBCRulesApplier - Applying rules: JDBC mutable
+14:33:05,202  INFO [Thread-0] JMSExitPointDelegate - Applying Amazon SQS Rules
+14:33:05,207  INFO [Thread-0] sqsSQSRuleApplier - Applying rules: Amazon SQS Rules
+14:33:05,208  INFO [Thread-0] AWSExitPointDelegate - Applying DynamoDB Rules
+14:33:05,212  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [instrumented-aws-services] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.amazon.generic.AWSGenericRuleApplier.updateAmazonConfig(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.amazon.generic.AWSGenericRuleApplier 1
+14:33:05,216  INFO [Thread-0] s3S3ExitPointDelegate - Applying Amazon S3 Rules
+14:33:05,219  INFO [Thread-0] s3S3RuleApplier - Applying rules: Amazon S3 Rules
+14:33:05,222  INFO [Thread-0] VertxMessageExitPointDelegate - Applying Vertx-Message Rules
+14:33:05,223  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-vertx-message-entry] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.message.VertxMessageEntryConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.message.VertxMessageEntryConfiguration 1
+14:33:05,224  INFO [Thread-0] VertxMessageRuleApplier - Applying rules: Vert.x Message Rules
+14:33:05,224  INFO [Thread-0] snsSNSExitPointDelegate - Applying Amazon SNS Rules
+14:33:05,226  INFO [Thread-0] snsSNSRuleApplier - Applying rules: Amazon SNS Rules
+14:33:05,226  INFO [Thread-0] kafkaKafkaExitPointDelegate - Applying Apache Kafka Rules
+14:33:05,238  INFO [Thread-0] kafkaKafkaRuleApplier - Applying rules: Apache Kafka Rules
+14:33:05,239  INFO [Thread-0] MongoExitPointDelegate - Applying MongoDB rules
+14:33:05,243  INFO [Thread-0] MongoDBRuleApplier - Applying rules: MongoDB Rules
+14:33:05,272  INFO [Thread-0] BCIFixer - Scheduling BCIFixer at [900000] ms intervals.
+14:33:05,273  INFO [Thread-0] DynamicRulesManager - Reading current dynamic rules from [/Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6/conf/web-node/bcirules.xml]
+14:33:05,279  INFO [Thread-0] TransactionConfigChannel - Applying out of the box exit point rules
+14:33:05,295  INFO [Thread-0] ExitPointRuleApplier - Adding rules for exit point type [[SAP, Mail, LDAP, DangaMemcache, Coherence, EHCache, REDIS, MongoDB, Memcache]]
+14:33:05,295  INFO [Thread-0] TransactionMonitoringService - Initializing thread delegate and resetting transaction delegate if needed. The current value of [use-new-async-correlation]=true
+14:33:05,308  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [max-async-transformed-classes] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier.setMaxAsyncTransformedClasses(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier 1
+14:33:05,309  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [max-async-transformed-classes-by-package] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier.setMaxAsyncTransformedClassesByPackage(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier 1
+14:33:05,310  INFO [Thread-0] AsyncCorrelationRuleApplier - TMS.Configure >> [maxAsyncTransformedClasses] to 100
+14:33:05,310  INFO [Thread-0] AsyncCorrelationRuleApplier - TMS.Configure >> [maxAsyncTransformedClassesByPackage] to 50
+14:33:05,316  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+14:33:05,317  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+14:33:05,318  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+14:33:05,319  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+14:33:05,324  INFO [Thread-0] TransactionMonitoringService - Initialized [NEW] threads delegate
+14:33:05,324  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+14:33:05,325  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+14:33:05,325  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+14:33:05,325  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+14:33:05,325  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+14:33:05,325  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='call', type=EQUALS, pattern='call'}] 
+14:33:05,326  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+14:33:05,326  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='doRun', type=EQUALS, pattern='doRun'}] 
+14:33:05,326  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+14:33:05,326  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='k', type=EQUALS, pattern='k'}] 
+14:33:05,340  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-async-correlation-for] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier.setEnableAsync(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier 1
+14:33:05,841  INFO [Thread-0] JavaAgent - JVM Process Persistence File <pid = 20773    nodeDirectory = /Users/junoyang/source/helloWorld/lib/javaagent/4.5    appName = hello-one    tierName = web    nodeName = web-node    homeDirectory = /Users/junoyang/source/helloWorld    machineId = 104    uniqueHostId = JUNOYANG-M-C2A6    controllerHost = localhost    controllerPort = 8080    accountKey = afce24cd-8923-4f2a-bd1e-bd9d527ba4ac    versionDirectory = /Users/junoyang/source/helloWorld/lib/javaagent/4.5/ver4.3.7.6> was written
+Started AppDynamics Java Agent Successfully.
+14:33:05,848  INFO [Thread-0] JavaAgent - Started AppDynamics Java Agent Successfully.
+14:33:05,858  INFO [AD Thread Pool-Global0] TransformationManager - Class transformations will take place in a background thread
+14:33:05,883  INFO [main] TransactionMonitor - Creating new BTContext for thread Id [1]
+14:33:05,909  INFO [Thread-4] TransactionMonitor - Creating new BTContext for thread Id [28]
+14:33:05,912  INFO [AD Thread Pool-Global1] TransformationManager - Class sun/net/www/protocol/http/HttpURLConnection is scheduled for re-transformation
+1, port-8989 : <h1>From port 8989 </h1>client-9
+--<h1>From port 8988 </h1>client-9-relay
+
+
+average : 784
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

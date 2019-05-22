@@ -1,0 +1,5 @@
+<multiple-inheritance-rules>
+    <instrumentation-properties>
+        <property name="bci-fixer-other-classes" value="TestHelloWorld$1,java.util.concurrent.ThreadPoolExecutor$Worker,java.util.concurrent.Executors$RunnableAdapter,java.lang.ApplicationShutdownHooks"/>
+    </instrumentation-properties>
+</multiple-inheritance-rules>

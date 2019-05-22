@@ -1,0 +1,6 @@
+<multiple-inheritance-rules>
+    <instrumentation-properties>
+        <property name="dynamic-servlet-classes" value="BackendService$SetRequestCount,BackendService$SetSleepTime,BackendService"/>
+        <property name="bci-fixer-other-classes" value="javax.servlet.http.HttpServlet,org.eclipse.jetty.server.handler.ContextHandler,org.eclipse.jetty.server.Server,BackendService$1"/>
+    </instrumentation-properties>
+</multiple-inheritance-rules>

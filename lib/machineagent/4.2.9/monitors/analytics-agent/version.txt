@@ -1,0 +1,6 @@
+buildName=30-4.2.9.next-build
+buildHash=9d8042e2218f1887257cf2c758c5b5d76e658185
+buildTimestamp=2016-10-22T01:18:25+0000
+buildNumber=23133
+jobName=build-machine-agent
+version=4.2.9.0

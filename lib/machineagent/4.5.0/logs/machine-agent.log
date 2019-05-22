@@ -1,0 +1,585 @@
+[main] 06 Aug 2018 09:38:01,496  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[system-thread-0] 06 Aug 2018 09:38:02,057  INFO SecondStageSystem - Starting main system with features Features(features=[dmm, basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 06 Aug 2018 09:38:02,328  INFO SystemAgent - ####################################################################################
+[system-thread-0] 06 Aug 2018 09:38:02,329  INFO SystemAgent - Agent Install Directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0]
+[system-thread-0] 06 Aug 2018 09:38:02,329  INFO SystemAgent - Using Agent Version [Machine Agent v4.5.0.1341 GA Build Date 2018-07-13 23:37:26]
+[system-thread-0] 06 Aug 2018 09:38:02,330  INFO SystemAgent - JVM Runtime: 
+	java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_77-b03
+	java.io.tmpdir=/var/folders/8q/rgr01f1x02n92jkbj189gqg92z1z00/T/
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 06 Aug 2018 09:38:02,330  INFO SystemAgent - OS Runtime: 
+	os.name=Mac OS X
+	os.arch=x86_64
+	os.version=10.13.2
+	user.name=jun.ouyang
+	user.home=/Users/jun.ouyang
+	user.dir=/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0
+[system-thread-0] 06 Aug 2018 09:38:02,330  INFO SystemAgent - JVM Args : 
+[system-thread-0] 06 Aug 2018 09:38:02,330  INFO SystemAgent - JVM Runtime Name: 99263@jouyang-osx.local
+[system-thread-0] 06 Aug 2018 09:38:02,330  INFO SystemAgent - JVM PID: 99263
+[system-thread-0] 06 Aug 2018 09:38:02,331  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 06 Aug 2018 09:38:02,554  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 06 Aug 2018 09:38:02,561  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 06 Aug 2018 09:38:02,577  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [jouyang-osx.local]
+[system-thread-0] 06 Aug 2018 09:38:02,582  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:2bb9:2114:3c30:4ef0%utun0, fe80:0:0:0:6010:7fff:fe01:a265%awdl0, 10.10.41.191, 2600:1700:5ae0:1eb0:3166:f25e:f320:b523, 2600:1700:5ae0:1eb0:e055:205f:72ff:e63a, 2600:1700:5ae0:1eb0:1837:4382:ad51:9609, fe80:0:0:0:416:ac88:97a0:b2d2%en0, 192.168.1.66, fe80:0:0:0:0:0:0:1%lo0]]
+[system-thread-0] 06 Aug 2018 09:38:02,587  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 06 Aug 2018 09:38:02,587  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 06 Aug 2018 09:38:02,587  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 06 Aug 2018 09:38:02,587  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 06 Aug 2018 09:38:02,593  INFO SystemAgent - XML Controller Info Resolver found controller host [localhost]
+[system-thread-0] 06 Aug 2018 09:38:02,593  INFO SystemAgent - XML Controller Info Resolver found controller port [8080]
+[system-thread-0] 06 Aug 2018 09:38:02,609  INFO SystemAgent - XML Agent Account Info Resolver using account access key [****]
+[system-thread-0] 06 Aug 2018 09:38:02,609  INFO SystemAgent - XML Agent Account Info Resolver did not find account name. Using default account name [customer1]
+[system-thread-0] 06 Aug 2018 09:38:02,612  INFO SystemAgent - Keystore file /Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/conf/cacerts.jks was not found
+[system-thread-0] 06 Aug 2018 09:38:02,630  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 06 Aug 2018 09:38:02,631  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 06 Aug 2018 09:38:02,651  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 06 Aug 2018 09:38:02,655  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 06 Aug 2018 09:38:02,659  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(4)]
+[ConfigExecutor-0] 06 Aug 2018 09:38:02,659  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 06 Aug 2018 09:38:02,664  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 06 Aug 2018 09:38:02,664  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 06 Aug 2018 09:38:03,018  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 06 Aug 2018 09:38:03,019  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 06 Aug 2018 09:38:03,026  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 06 Aug 2018 09:38:03,095  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 06 Aug 2018 09:38:03,106  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 06 Aug 2018 09:38:03,126  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 06 Aug 2018 09:38:03,140  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 06 Aug 2018 09:38:03,143  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 06 Aug 2018 09:38:03,147  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/analytics-agent/monitor.xml
+[system-thread-0] 06 Aug 2018 09:38:03,167  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:38:03,172  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 06 Aug 2018 09:38:03,172  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 06 Aug 2018 09:38:03,178  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 06 Aug 2018 09:38:03,180  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:38:03,183  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:38:03,183  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 06 Aug 2018 09:38:03,183  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 06 Aug 2018 09:38:03,185  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:38:03,185  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:38:03,185  INFO ManagedMonitorDelegate - Initializing managed monitor [SigarHardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:38:03,185  INFO ManagedMonitorDelegate - Executing managed monitor [SigarHardwareMonitor], task name [null]
+[system-thread-0] 06 Aug 2018 09:38:03,185  INFO ManagedMonitorDelegate - Task [null] for monitor [SigarHardwareMonitor] is SCHEDULED
+[system-thread-0] 06 Aug 2018 09:38:03,192  INFO JavaTaskCreator - Task classpath not specified,System classpath will be used.
+[system-thread-0] 06 Aug 2018 09:38:03,271  WARN SigarConfig - No task file found. Will use default configuration. /Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/JavaHardwareMonitor/task.xml
+[system-thread-0] 06 Aug 2018 09:38:03,271  INFO SigarDelegate - Operating system is supported [MacOSX]
+[system-thread-0] 06 Aug 2018 09:38:03,829  INFO NodeMonitorManager - Directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/unmanaged] not found, continuing.
+[system-thread-0] 06 Aug 2018 09:38:03,829  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors]
+[system-thread-0] 06 Aug 2018 09:38:03,829  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 06 Aug 2018 09:38:03,830  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 06 Aug 2018 09:38:03,836  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 06 Aug 2018 09:38:03,836  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 06 Aug 2018 09:38:03,836  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 06 Aug 2018 09:38:03,838  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 06 Aug 2018 09:38:03,838  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:38:32,781  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:38:32,781  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:38:32,781  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 06 Aug 2018 09:38:33,387  INFO ServersExtensionModule - OS is NON_SUPPORTED
+[ExtensionStarter-ServerMonitoring] 06 Aug 2018 09:38:33,387  WARN ServersExtensionModule - OS Mac OS X is not supported.
+[null-config-threadpool-0] 06 Aug 2018 09:38:33,451  WARN ExtensionManager - Failed to start extension ServerMonitoring.
+java.util.concurrent.ExecutionException: com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 2 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+2) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath()
+    for parameter 0 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+3) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4) Could not find a suitable constructor in java.lang.Class. Classes must have either one (and only one) constructor annotated with @Inject or a zero-argument constructor that is not private.
+  at java.lang.Class.class(Class.java:119)
+  while locating java.lang.Class<? extends com.appdynamics.sim.agent.extensions.servers.model.RawCollector<?>>
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4 errors
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.startExtension(DefaultExtensionContext.java:105)
+	at com.appdynamics.voltron.extensions.ExtensionManager.addNewExtensions(ExtensionManager.java:137)
+	at com.appdynamics.voltron.extensions.ExtensionManager.internalApply(ExtensionManager.java:89)
+	at com.appdynamics.voltron.extensions.ExtensionManager.access$000(ExtensionManager.java:35)
+	at com.appdynamics.voltron.extensions.ExtensionManager$1.run(ExtensionManager.java:74)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 2 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+2) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath()
+    for parameter 0 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+3) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4) Could not find a suitable constructor in java.lang.Class. Classes must have either one (and only one) constructor annotated with @Inject or a zero-argument constructor that is not private.
+  at java.lang.Class.class(Class.java:119)
+  while locating java.lang.Class<? extends com.appdynamics.sim.agent.extensions.servers.model.RawCollector<?>>
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4 errors
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:466)
+	at com.google.inject.internal.InternalInjectorCreator.initializeStatically(InternalInjectorCreator.java:155)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:107)
+	at com.google.inject.Guice.createInjector(Guice.java:96)
+	at com.google.inject.Guice.createInjector(Guice.java:73)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.startExtensionInternal(DefaultExtensionContext.java:185)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.access$200(DefaultExtensionContext.java:31)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext$1.run(DefaultExtensionContext.java:97)
+	... 5 more
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:38:33,519  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:38:33,519  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:38:33,519  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:38:33,527  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:38:33,528 ERROR CGroupFileSystemRootProvider - Could not find CGroup files in following path(s) : [/sys/fs/cgroup, /cgroup]
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:38:33,529  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:38:33,552  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:38:33,552  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:38:33,552  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 06 Aug 2018 09:38:33,629  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-2] 06 Aug 2018 09:40:29,996  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 06 Aug 2018 09:40:29,996  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 06 Aug 2018 09:40:29,996  INFO SecondStageSystem - Stopping main system with features Features(features=[dmm, basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 06 Aug 2018 09:40:29,996  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 06 Aug 2018 09:40:29,996  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 06 Aug 2018 09:40:29,997  INFO ManagedMonitorDelegate - Scheduled Task [SigarHardwareMonitor] Stopped
+[Thread-2] 06 Aug 2018 09:40:29,997  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 06 Aug 2018 09:40:29,997  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 06 Aug 2018 09:40:29,997  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 06 Aug 2018 09:40:29,997  INFO SystemAgent - Stopped scheduler
+[Thread-2] 06 Aug 2018 09:40:29,998  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 06 Aug 2018 09:40:29,998  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:40:29,998  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:40:29,998  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:40:29,998  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:40:29,998  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:40:29,999  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 06 Aug 2018 09:40:30,000  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 06 Aug 2018 09:40:30,000  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 06 Aug 2018 09:40:30,000  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 06 Aug 2018 09:40:30,000  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 06 Aug 2018 09:40:30,000  INFO SystemAgent - Machine Agent Stopped!
+[main] 06 Aug 2018 09:40:39,946  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[system-thread-0] 06 Aug 2018 09:40:40,396  INFO SecondStageSystem - Starting main system with features Features(features=[dmm, basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 06 Aug 2018 09:40:40,558  INFO SystemAgent - ####################################################################################
+[system-thread-0] 06 Aug 2018 09:40:40,559  INFO SystemAgent - Agent Install Directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0]
+[system-thread-0] 06 Aug 2018 09:40:40,559  INFO SystemAgent - Using Agent Version [Machine Agent v4.5.0.1341 GA Build Date 2018-07-13 23:37:26]
+[system-thread-0] 06 Aug 2018 09:40:40,559  INFO SystemAgent - JVM Runtime: 
+	java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_77-b03
+	java.io.tmpdir=/var/folders/8q/rgr01f1x02n92jkbj189gqg92z1z00/T/
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 06 Aug 2018 09:40:40,559  INFO SystemAgent - OS Runtime: 
+	os.name=Mac OS X
+	os.arch=x86_64
+	os.version=10.13.2
+	user.name=jun.ouyang
+	user.home=/Users/jun.ouyang
+	user.dir=/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0
+[system-thread-0] 06 Aug 2018 09:40:40,559  INFO SystemAgent - JVM Args : 
+[system-thread-0] 06 Aug 2018 09:40:40,560  INFO SystemAgent - JVM Runtime Name: 99446@jouyang-osx.local
+[system-thread-0] 06 Aug 2018 09:40:40,560  INFO SystemAgent - JVM PID: 99446
+[system-thread-0] 06 Aug 2018 09:40:40,560  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 06 Aug 2018 09:40:40,706  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 06 Aug 2018 09:40:40,711  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 06 Aug 2018 09:40:40,722  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [jouyang-osx.local]
+[system-thread-0] 06 Aug 2018 09:40:40,725  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:2bb9:2114:3c30:4ef0%utun0, fe80:0:0:0:6010:7fff:fe01:a265%awdl0, 10.10.41.191, 2600:1700:5ae0:1eb0:3166:f25e:f320:b523, 2600:1700:5ae0:1eb0:e055:205f:72ff:e63a, 2600:1700:5ae0:1eb0:1837:4382:ad51:9609, fe80:0:0:0:416:ac88:97a0:b2d2%en0, 192.168.1.66, fe80:0:0:0:0:0:0:1%lo0]]
+[system-thread-0] 06 Aug 2018 09:40:40,728  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 06 Aug 2018 09:40:40,728  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 06 Aug 2018 09:40:40,728  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 06 Aug 2018 09:40:40,728  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 06 Aug 2018 09:40:40,731  INFO SystemAgent - XML Controller Info Resolver found controller host [localhost]
+[system-thread-0] 06 Aug 2018 09:40:40,731  INFO SystemAgent - XML Controller Info Resolver found controller port [8080]
+[system-thread-0] 06 Aug 2018 09:40:40,737  INFO SystemAgent - XML Agent Account Info Resolver using account access key [****]
+[system-thread-0] 06 Aug 2018 09:40:40,737  INFO SystemAgent - XML Agent Account Info Resolver did not find account name. Using default account name [customer1]
+[system-thread-0] 06 Aug 2018 09:40:40,739  INFO SystemAgent - Keystore file /Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/conf/cacerts.jks was not found
+[system-thread-0] 06 Aug 2018 09:40:40,750  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 06 Aug 2018 09:40:40,750  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 06 Aug 2018 09:40:40,760  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 06 Aug 2018 09:40:40,764  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 06 Aug 2018 09:40:40,766  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(4)]
+[ConfigExecutor-0] 06 Aug 2018 09:40:40,766  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 06 Aug 2018 09:40:40,771  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 06 Aug 2018 09:40:40,771  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 06 Aug 2018 09:40:40,925  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 06 Aug 2018 09:40:40,925  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 06 Aug 2018 09:40:40,928  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 06 Aug 2018 09:40:40,969  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 06 Aug 2018 09:40:40,977  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 06 Aug 2018 09:40:40,991  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 06 Aug 2018 09:40:41,001  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 06 Aug 2018 09:40:41,002  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 06 Aug 2018 09:40:41,005  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/analytics-agent/monitor.xml
+[system-thread-0] 06 Aug 2018 09:40:41,021  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:40:41,026  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 06 Aug 2018 09:40:41,026  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 06 Aug 2018 09:40:41,031  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 06 Aug 2018 09:40:41,033  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:40:41,037  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:40:41,037  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 06 Aug 2018 09:40:41,037  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 06 Aug 2018 09:40:41,039  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:40:41,039  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:40:41,039  INFO ManagedMonitorDelegate - Initializing managed monitor [SigarHardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:40:41,039  INFO ManagedMonitorDelegate - Executing managed monitor [SigarHardwareMonitor], task name [null]
+[system-thread-0] 06 Aug 2018 09:40:41,039  INFO ManagedMonitorDelegate - Task [null] for monitor [SigarHardwareMonitor] is SCHEDULED
+[system-thread-0] 06 Aug 2018 09:40:41,043  INFO JavaTaskCreator - Task classpath not specified,System classpath will be used.
+[system-thread-0] 06 Aug 2018 09:40:41,102  WARN SigarConfig - No task file found. Will use default configuration. /Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/JavaHardwareMonitor/task.xml
+[system-thread-0] 06 Aug 2018 09:40:41,102  INFO SigarDelegate - Operating system is supported [MacOSX]
+[system-thread-0] 06 Aug 2018 09:40:41,649  INFO NodeMonitorManager - Directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/unmanaged] not found, continuing.
+[system-thread-0] 06 Aug 2018 09:40:41,649  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors]
+[system-thread-0] 06 Aug 2018 09:40:41,650  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 06 Aug 2018 09:40:41,650  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 06 Aug 2018 09:40:41,653  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 06 Aug 2018 09:40:41,654  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 06 Aug 2018 09:40:41,654  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 06 Aug 2018 09:40:41,655  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 06 Aug 2018 09:40:41,655  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:41:10,869  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:41:10,869  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:41:10,869  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 06 Aug 2018 09:41:11,559  INFO ServersExtensionModule - OS is NON_SUPPORTED
+[ExtensionStarter-ServerMonitoring] 06 Aug 2018 09:41:11,559  WARN ServersExtensionModule - OS Mac OS X is not supported.
+[null-config-threadpool-0] 06 Aug 2018 09:41:11,627  WARN ExtensionManager - Failed to start extension ServerMonitoring.
+java.util.concurrent.ExecutionException: com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 2 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+2) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath()
+    for parameter 0 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+3) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4) Could not find a suitable constructor in java.lang.Class. Classes must have either one (and only one) constructor annotated with @Inject or a zero-argument constructor that is not private.
+  at java.lang.Class.class(Class.java:119)
+  while locating java.lang.Class<? extends com.appdynamics.sim.agent.extensions.servers.model.RawCollector<?>>
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4 errors
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.startExtension(DefaultExtensionContext.java:105)
+	at com.appdynamics.voltron.extensions.ExtensionManager.addNewExtensions(ExtensionManager.java:137)
+	at com.appdynamics.voltron.extensions.ExtensionManager.internalApply(ExtensionManager.java:89)
+	at com.appdynamics.voltron.extensions.ExtensionManager.access$000(ExtensionManager.java:35)
+	at com.appdynamics.voltron.extensions.ExtensionManager$1.run(ExtensionManager.java:74)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 2 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+2) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath()
+    for parameter 0 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+3) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4) Could not find a suitable constructor in java.lang.Class. Classes must have either one (and only one) constructor annotated with @Inject or a zero-argument constructor that is not private.
+  at java.lang.Class.class(Class.java:119)
+  while locating java.lang.Class<? extends com.appdynamics.sim.agent.extensions.servers.model.RawCollector<?>>
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4 errors
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:466)
+	at com.google.inject.internal.InternalInjectorCreator.initializeStatically(InternalInjectorCreator.java:155)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:107)
+	at com.google.inject.Guice.createInjector(Guice.java:96)
+	at com.google.inject.Guice.createInjector(Guice.java:73)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.startExtensionInternal(DefaultExtensionContext.java:185)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.access$200(DefaultExtensionContext.java:31)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext$1.run(DefaultExtensionContext.java:97)
+	... 5 more
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:41:11,747  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:41:11,747  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:41:11,748  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:41:11,753  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:41:11,754 ERROR CGroupFileSystemRootProvider - Could not find CGroup files in following path(s) : [/sys/fs/cgroup, /cgroup]
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:41:11,755  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:41:11,778  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:41:11,778  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:41:11,778  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 06 Aug 2018 09:41:11,787  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-2] 06 Aug 2018 09:45:30,244  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 06 Aug 2018 09:45:30,244  INFO SecondStageSystem - Stopping main system with features Features(features=[dmm, basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 06 Aug 2018 09:45:30,245  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 06 Aug 2018 09:45:30,245  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 06 Aug 2018 09:45:30,245  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 06 Aug 2018 09:45:30,246  INFO ManagedMonitorDelegate - Scheduled Task [SigarHardwareMonitor] Stopped
+[Thread-2] 06 Aug 2018 09:45:30,246  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 06 Aug 2018 09:45:30,246  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 06 Aug 2018 09:45:30,246  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 06 Aug 2018 09:45:30,246  INFO SystemAgent - Stopped scheduler
+[Thread-2] 06 Aug 2018 09:45:30,246  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 06 Aug 2018 09:45:30,246  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:45:30,246  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:45:30,247  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:45:30,247  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:45:30,247  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:45:30,247  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:45:30,247  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:45:30,247  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:45:30,247  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:45:30,248  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:45:30,248  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:45:30,248  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:45:30,248  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 06 Aug 2018 09:45:30,248  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 06 Aug 2018 09:45:30,248  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 06 Aug 2018 09:45:30,249  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 06 Aug 2018 09:45:30,249  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 06 Aug 2018 09:45:30,249  INFO SystemAgent - Machine Agent Stopped!
+[main] 06 Aug 2018 09:45:48,541  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[system-thread-0] 06 Aug 2018 09:45:49,483  INFO SecondStageSystem - Starting main system with features Features(features=[dmm, basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 06 Aug 2018 09:45:49,649  INFO SystemAgent - ####################################################################################
+[system-thread-0] 06 Aug 2018 09:45:49,650  INFO SystemAgent - Agent Install Directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0]
+[system-thread-0] 06 Aug 2018 09:45:49,650  INFO SystemAgent - Using Agent Version [Machine Agent v4.5.0.1341 GA Build Date 2018-07-13 23:37:26]
+[system-thread-0] 06 Aug 2018 09:45:49,650  INFO SystemAgent - JVM Runtime: 
+	java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_77-b03
+	java.io.tmpdir=/var/folders/8q/rgr01f1x02n92jkbj189gqg92z1z00/T/
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 06 Aug 2018 09:45:49,651  INFO SystemAgent - OS Runtime: 
+	os.name=Mac OS X
+	os.arch=x86_64
+	os.version=10.13.2
+	user.name=jun.ouyang
+	user.home=/Users/jun.ouyang
+	user.dir=/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0
+[system-thread-0] 06 Aug 2018 09:45:49,651  INFO SystemAgent - JVM Args : 
+[system-thread-0] 06 Aug 2018 09:45:49,651  INFO SystemAgent - JVM Runtime Name: 99731@jouyang-osx.local
+[system-thread-0] 06 Aug 2018 09:45:49,651  INFO SystemAgent - JVM PID: 99731
+[system-thread-0] 06 Aug 2018 09:45:49,652  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 06 Aug 2018 09:45:49,799  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 06 Aug 2018 09:45:49,805  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 06 Aug 2018 09:45:49,816  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [jouyang-osx.local]
+[system-thread-0] 06 Aug 2018 09:45:49,819  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:2bb9:2114:3c30:4ef0%utun0, fe80:0:0:0:6010:7fff:fe01:a265%awdl0, 10.10.41.191, 2600:1700:5ae0:1eb0:3166:f25e:f320:b523, 2600:1700:5ae0:1eb0:e055:205f:72ff:e63a, 2600:1700:5ae0:1eb0:1837:4382:ad51:9609, fe80:0:0:0:416:ac88:97a0:b2d2%en0, 192.168.1.66, fe80:0:0:0:0:0:0:1%lo0]]
+[system-thread-0] 06 Aug 2018 09:45:49,823  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 06 Aug 2018 09:45:49,824  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 06 Aug 2018 09:45:49,824  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 06 Aug 2018 09:45:49,824  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 06 Aug 2018 09:45:49,830  INFO SystemAgent - XML Controller Info Resolver found controller host [localhost]
+[system-thread-0] 06 Aug 2018 09:45:49,830  INFO SystemAgent - XML Controller Info Resolver found controller port [8080]
+[system-thread-0] 06 Aug 2018 09:45:49,835  INFO SystemAgent - XML Agent Account Info Resolver using account access key [****]
+[system-thread-0] 06 Aug 2018 09:45:49,835  INFO SystemAgent - XML Agent Account Info Resolver did not find account name. Using default account name [customer1]
+[system-thread-0] 06 Aug 2018 09:45:49,837  INFO SystemAgent - Keystore file /Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/conf/cacerts.jks was not found
+[system-thread-0] 06 Aug 2018 09:45:49,849  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 06 Aug 2018 09:45:49,850  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 06 Aug 2018 09:45:49,859  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 06 Aug 2018 09:45:49,862  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 06 Aug 2018 09:45:49,864  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(4)]
+[ConfigExecutor-0] 06 Aug 2018 09:45:49,864  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 06 Aug 2018 09:45:49,867  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 06 Aug 2018 09:45:49,867  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 06 Aug 2018 09:45:50,001  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 06 Aug 2018 09:45:50,001  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 06 Aug 2018 09:45:50,003  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 06 Aug 2018 09:45:50,036  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 06 Aug 2018 09:45:50,040  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 06 Aug 2018 09:45:50,053  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 06 Aug 2018 09:45:50,063  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 06 Aug 2018 09:45:50,064  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 06 Aug 2018 09:45:50,067  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/analytics-agent/monitor.xml
+[system-thread-0] 06 Aug 2018 09:45:50,082  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:45:50,086  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 06 Aug 2018 09:45:50,086  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 06 Aug 2018 09:45:50,091  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 06 Aug 2018 09:45:50,093  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:45:50,096  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:45:50,096  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 06 Aug 2018 09:45:50,096  INFO MonitorConfigReader - Reading monitor config file:/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 06 Aug 2018 09:45:50,098  INFO MonitorConfigReader - os name [mac os x] version [10.13.2-lion]
+[system-thread-0] 06 Aug 2018 09:45:50,099  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:45:50,099  INFO ManagedMonitorDelegate - Initializing managed monitor [SigarHardwareMonitor]
+[system-thread-0] 06 Aug 2018 09:45:50,099  INFO ManagedMonitorDelegate - Executing managed monitor [SigarHardwareMonitor], task name [null]
+[system-thread-0] 06 Aug 2018 09:45:50,099  INFO ManagedMonitorDelegate - Task [null] for monitor [SigarHardwareMonitor] is SCHEDULED
+[system-thread-0] 06 Aug 2018 09:45:50,102  INFO JavaTaskCreator - Task classpath not specified,System classpath will be used.
+[system-thread-0] 06 Aug 2018 09:45:50,148  WARN SigarConfig - No task file found. Will use default configuration. /Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/JavaHardwareMonitor/task.xml
+[system-thread-0] 06 Aug 2018 09:45:50,149  INFO SigarDelegate - Operating system is supported [MacOSX]
+[system-thread-0] 06 Aug 2018 09:45:50,714  INFO NodeMonitorManager - Directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors/unmanaged] not found, continuing.
+[system-thread-0] 06 Aug 2018 09:45:50,714  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/Users/jun.ouyang/source/helloWorld/lib/machineagent/4.5.0/monitors]
+[system-thread-0] 06 Aug 2018 09:45:50,714  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 06 Aug 2018 09:45:50,715  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 06 Aug 2018 09:45:50,719  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 06 Aug 2018 09:45:50,719  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 06 Aug 2018 09:45:50,719  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 06 Aug 2018 09:45:50,721  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 06 Aug 2018 09:45:50,721  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:46:19,968  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:46:19,969  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 06 Aug 2018 09:46:19,969  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 06 Aug 2018 09:46:20,765  INFO ServersExtensionModule - OS is NON_SUPPORTED
+[ExtensionStarter-ServerMonitoring] 06 Aug 2018 09:46:20,766  WARN ServersExtensionModule - OS Mac OS X is not supported.
+[null-config-threadpool-0] 06 Aug 2018 09:46:20,829  WARN ExtensionManager - Failed to start extension ServerMonitoring.
+java.util.concurrent.ExecutionException: com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 2 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+2) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath()
+    for parameter 0 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+3) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4) Could not find a suitable constructor in java.lang.Class. Classes must have either one (and only one) constructor annotated with @Inject or a zero-argument constructor that is not private.
+  at java.lang.Class.class(Class.java:119)
+  while locating java.lang.Class<? extends com.appdynamics.sim.agent.extensions.servers.model.RawCollector<?>>
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4 errors
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.startExtension(DefaultExtensionContext.java:105)
+	at com.appdynamics.voltron.extensions.ExtensionManager.addNewExtensions(ExtensionManager.java:137)
+	at com.appdynamics.voltron.extensions.ExtensionManager.internalApply(ExtensionManager.java:89)
+	at com.appdynamics.voltron.extensions.ExtensionManager.access$000(ExtensionManager.java:35)
+	at com.appdynamics.voltron.extensions.ExtensionManager$1.run(ExtensionManager.java:74)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating com.google.common.base.Supplier<java.util.List<java.lang.String>> annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 2 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+2) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.RawSimCollectorScriptPath()
+    for parameter 0 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+3) No implementation for java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand() was bound.
+  while locating java.lang.String annotated with @com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessCommand()
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.SimCollectorProcessBuilderFromContentProvider.<init>(SimCollectorProcessBuilderFromContentProvider.java:41)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:32) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4) Could not find a suitable constructor in java.lang.Class. Classes must have either one (and only one) constructor annotated with @Inject or a zero-argument constructor that is not private.
+  at java.lang.Class.class(Class.java:119)
+  while locating java.lang.Class<? extends com.appdynamics.sim.agent.extensions.servers.model.RawCollector<?>>
+    for parameter 1 at com.appdynamics.sim.agent.extensions.servers.collector.LocalSimCollectorScriptContentProvider.<init>(LocalSimCollectorScriptContentProvider.java:38)
+  at com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule.configure(ContentRawCollectorModule.java:27) (via modules: com.appdynamics.sim.agent.extensions.servers.ServersExtensionModule -> com.appdynamics.sim.agent.extensions.servers.collector.ContentRawCollectorModule)
+
+4 errors
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:466)
+	at com.google.inject.internal.InternalInjectorCreator.initializeStatically(InternalInjectorCreator.java:155)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:107)
+	at com.google.inject.Guice.createInjector(Guice.java:96)
+	at com.google.inject.Guice.createInjector(Guice.java:73)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.startExtensionInternal(DefaultExtensionContext.java:185)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.access$200(DefaultExtensionContext.java:31)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext$1.run(DefaultExtensionContext.java:97)
+	... 5 more
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:46:20,971  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:46:20,971  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:46:20,971  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:46:20,977  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:46:20,979 ERROR CGroupFileSystemRootProvider - Could not find CGroup files in following path(s) : [/sys/fs/cgroup, /cgroup]
+[ExtensionStarter-DockerMonitoring] 06 Aug 2018 09:46:20,981  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:46:21,004  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:46:21,004  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 06 Aug 2018 09:46:21,004  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 06 Aug 2018 09:46:21,010  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-2] 06 Aug 2018 09:46:30,408  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 06 Aug 2018 09:46:30,408  INFO SecondStageSystem - Stopping main system with features Features(features=[dmm, basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 06 Aug 2018 09:46:30,408  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 06 Aug 2018 09:46:30,408  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 06 Aug 2018 09:46:30,409  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 06 Aug 2018 09:46:30,409  INFO ManagedMonitorDelegate - Scheduled Task [SigarHardwareMonitor] Stopped
+[Thread-2] 06 Aug 2018 09:46:30,409  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:46:30,409  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:46:30,409  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 06 Aug 2018 09:46:30,409  INFO SystemAgent - Stopped agent monitor manager
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:46:30,410  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 06 Aug 2018 09:46:30,410  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 06 Aug 2018 09:46:30,410  INFO SystemAgent - Stopped scheduler
+[Thread-2] 06 Aug 2018 09:46:30,410  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 06 Aug 2018 09:46:30,410  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 06 Aug 2018 09:46:30,410  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:46:30,411  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:46:30,411  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:46:30,411  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 06 Aug 2018 09:46:30,411  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:46:30,412  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:46:30,412  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:46:30,412  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 06 Aug 2018 09:46:30,412  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 06 Aug 2018 09:46:30,412  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 06 Aug 2018 09:46:30,412  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 06 Aug 2018 09:46:30,412  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 06 Aug 2018 09:46:30,413  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 06 Aug 2018 09:46:30,413  INFO SystemAgent - Machine Agent Stopped!

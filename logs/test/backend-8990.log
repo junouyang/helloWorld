@@ -1,0 +1,1010 @@
+Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [application222]
+Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [behindDB]
+Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [behindDB]
+Full Agent Registration Info Resolver using selfService [false]
+Full Agent Registration Info Resolver using selfService [false]
+Full Agent Registration Info Resolver using application name [application222]
+Full Agent Registration Info Resolver using tier name [behindDB]
+Full Agent Registration Info Resolver using node name [behindDB]
+Install Directory resolved to[/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver is running
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [application222]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [behindDB]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [behindDB]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using application name [application222]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using tier name [behindDB]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using node name [behindDB]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver finished running
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Agent runtime directory set to [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: AgentInstallManager - Agent node directory set to [behindDB]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: JavaAgent - Using Java Agent Version [Server Agent v4.3.0.0 GA #14663 rba4be4bd6e9075d98afb71f720d1c52b57ab471d 112-4.3.0.next-build]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: JavaAgent - Running IBM Java Agent [No]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: JavaAgent - Java Agent Directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0]
+[Thread-0] Thu Nov 02 11:46:38 PDT 2017[INFO]: JavaAgent - Java Agent AppAgent directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0]
+Agent Logging Directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0/logs/behindDB]
+11:46:38,732  INFO [Thread-0] BusinessTransactions - Starting BT Logs at Thu Nov 02 11:46:38 PDT 2017
+11:46:38,732  INFO [Thread-0] BusinessTransactions - ###########################################################
+11:46:38,733  INFO [Thread-0] BusinessTransactions - Using Java Agent Version [Server Agent v4.3.0.0 GA #14663 rba4be4bd6e9075d98afb71f720d1c52b57ab471d 112-4.3.0.next-build]
+11:46:38,733  INFO [Thread-0] BusinessTransactions - Running IBM Java Agent [No]
+11:46:38,733  INFO [Thread-0] JavaAgent - ####################################################################################
+11:46:38,734  INFO [Thread-0] JavaAgent - Java Agent Directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0]
+11:46:38,734  INFO [Thread-0] JavaAgent - Java Agent AppAgent directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0]
+11:46:38,734  INFO [Thread-0] JavaAgent - Using Java Agent Version [Server Agent v4.3.0.0 GA #14663 rba4be4bd6e9075d98afb71f720d1c52b57ab471d 112-4.3.0.next-build]
+11:46:38,734  INFO [Thread-0] JavaAgent - All agent classes have been pre-loaded
+11:46:38,748  INFO [Thread-0] AgentKernel - Starting Java Agent at Thu Nov 02 11:46:38 PDT 2017 ...
+11:46:38,748  INFO [Thread-0] AgentKernel - Time zone: Pacific Standard Time
+11:46:38,804  INFO [Thread-0] XMLConfigManager - Orchestration is disabled - disabling virtualization resolvers by default.
+11:46:38,815  INFO [Thread-0] XMLConfigManager - Default Controller Info Resolver found system property [appdynamics.controller.hostName] for controller host name [localhost]
+11:46:38,815  INFO [Thread-0] XMLConfigManager - Default Controller Info Resolver found system property [appdynamics.controller.port] for controller port [8080]
+11:46:38,851  INFO [Thread-0] XMLConfigManager - Default Host Identifier Resolver using host name for unique host identifier [jouyang-osx.corp.appdynamics.com]
+11:46:38,858  INFO [Thread-0] XMLConfigManager - Default IP Address Resolver found IP addresses [[fe80:0:0:0:54ea:6cff:feb1:a031%awdl0, 10.10.40.70, fe80:0:0:0:f65c:89ff:fe8c:c917%en0, 10.0.64.211, fe80:0:0:0:0:0:0:1%lo0]]
+11:46:38,858  INFO [Thread-0] XMLConfigManager - Default Agent Account Info Resolver found system property [appdynamics.agent.accountAccessKey] for account access key [SJ5b2m7d1$354]
+11:46:38,859  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [application222]
+11:46:38,859  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [behindDB]
+11:46:38,860  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [behindDB]
+11:46:38,869  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using selfService [false]
+11:46:38,878  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using selfService [false]
+11:46:38,878  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using application name [application222]
+11:46:38,878  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using tier name [behindDB]
+11:46:38,878  INFO [Thread-0] XMLConfigManager - Full Agent Registration Info Resolver using node name [behindDB]
+11:46:38,888  INFO [Thread-0] XMLConfigManager - XML Controller Info Resolver found controller host [localhost]
+11:46:38,888  WARN [Thread-0] XMLConfigManager - XML Controller Info Resolver found invalid controller port information [$controller.port] in controller-info.xml; Please specify a valid value if it is not already set in system properties.
+11:46:38,899  INFO [Thread-0] XMLConfigManager - XML Controller Info Resolver found controller host [localhost]
+11:46:38,899  WARN [Thread-0] XMLConfigManager - XML Controller Info Resolver found invalid controller port information [$controller.port] in controller-info.xml; Please specify a valid value if it is not already set in system properties.
+11:46:38,908  INFO [Thread-0] XMLConfigManager - XML Agent Account Info Resolver did not find account name since [$account.name] is considered a token only. Using default account name [customer1]
+11:46:38,908  INFO [Thread-0] XMLConfigManager - XML Agent Account Info Resolver using account access key [SJ5b2m7d1$354]
+11:46:38,909  INFO [Thread-0] XMLConfigManager - Configuration Channel is using ControllerInfo:: host:[localhost] port:[8080] sslEnabled:[unknown] keystoreFile:[DEFAULT:cacerts.jks] use-encrypted-credentials:[false] secureCredentialStoreFileName:[] secureCredentialStorePassword:[] use-ssl-client-auth:[false] asymmetricKeysStoreFilename:[] asymmetricKeysStorePassword:[] asymmetricKeyPassword:[] validation:[UNSPECIFIED]
+11:46:39,108  INFO [Thread-0] AgentConfigWatchdog - Agent overwrite set to false
+11:46:39,114  INFO [Thread-0] AgentConfigWatchdog - Parsed 2 filters from <sensitive-data-filters> section
+11:46:39,122  INFO [Thread-0] AgentConfigWatchdog - Service properties for SnapshotService=[{enable-startup-snapshot-policy=true, on-demand-snapshots=true, coalesced-cg-generation=true}]
+11:46:39,123  INFO [Thread-0] AgentConfigWatchdog - Service properties for TransactionMonitoringService=[{capture-raw-sql=true, config-file-path=transactions.xml, service-endpoint-config-file-path=service-endpoints.xml}]
+11:46:39,123  INFO [Thread-0] AgentConfigWatchdog - Service properties for JMXService=[{jmx-gc-majorCollectionBean=, config-file-path=jmx-config.xml, jmx-gc-minorCollectionBean=, jmx-shell=false, jmx-mbeanserver-findDelayInMinutes=1, jmx-use-local-xml-config=false}]
+11:46:39,127  INFO [Thread-0] AgentConfigWatchdog - Service properties for ObjectMonitoringService=[{enable-collection-monitoring=false, minimum-age-for-evaluation-in-minutes=5, jmap-histo-option=-all, enable-object-size-monitoring=false, minimum-size-for-evaluation-in-mb=5, disable-collection-capture=false, enable-instance-monitoring=false, collection-capture-period-in-minutes=30}]
+11:46:39,127  INFO [Thread-0] AgentConfigWatchdog - Service properties for AgentDiagnosticsService=[{memory-monitor-methods=, memory-monitoring-enable=false, call-tracer-methods=, memory-monitor-max-depth=500, memory-monitor-class-filter=, memory-monitoring-interval-in-minutes=10, enable-thread-dump=false, memory-monitor-static-fields=, dump-all-threads=true, memory-monitor-total-objects=500, thread-dump-logger=log4j, enable-shutdown-hook=false, thread-dump-interval=300}]
+11:46:39,128  INFO [Thread-0] AgentConfigWatchdog - Service properties for InstrumentationSdkPluginManager=[{sdk-plugin-directory=sdk-plugins}]
+11:46:39,128  INFO [Thread-0] AgentConfigWatchdog - Service properties for DynamicServiceManager=[{external-service-directory=external-services}]
+11:46:39,128  INFO [Thread-0] AgentConfigWatchdog - Service properties for MultiAgentManager=[{enabled=true, num.agents=0}]
+11:46:39,162  INFO [Thread-0] XMLConfigManager - Node will not be marked as historical at shutdown
+11:46:39,166  INFO [Thread-0] AgentKernel - JVM Runtime: 
+	java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_77-b03
+	java.io.tmpdir=/var/folders/8q/rgr01f1x02n92jkbj189gqg92z1z00/T/
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+11:46:39,166  INFO [Thread-0] AgentKernel - OS Runtime: 
+	os.name=Mac OS X
+	os.arch=x86_64
+	os.version=10.11.6
+	user.name=jun.ouyang
+	user.home=/Users/jun.ouyang
+	user.dir=/Users/jun.ouyang/source/helloWorld
+11:46:39,167  INFO [Thread-0] AgentKernel - Filtering data with key = [appdynamics.agent.accountAccessKey]
+11:46:39,171  INFO [Thread-0] AgentKernel - JVM Args : -Dappdynamics.controller.hostName=localhost | -Dappdynamics.controller.port=8080 | -Dappdynamics.agent.applicationName=application222 | -Dappdynamics.agent.accountAccessKey=***** | -javaagent:/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/javaagent.jar | -Dappdynamics.agent.tierName=behindDB | -Dappdynamics.agent.nodeName=behindDB | 
+11:46:39,172  INFO [Thread-0] AgentKernel - JVM Runtime Name: 96303@jouyang-osx.corp.appdynamics.com
+11:46:39,172  INFO [Thread-0] AgentKernel - JVM PID: 96303
+11:46:39,172  INFO [Thread-0] AgentKernel - Running non-obfuscated agent
+Running non-obfuscated agent
+11:46:39,173  INFO [Thread-0] AgentKernel - No debugger attached
+11:46:39,203  INFO [Thread-0] MetricHandler - Metric Service is : [enabled].
+11:46:39,265  INFO [Thread-0] SecurityConfig - Processing security properties [disabled-features] = [NONE]
+11:46:39,266  INFO [Thread-0] SecurityConfig - SecurityConfig {logRequestPayloadDisabled=false, rawSQLCaptureDisabled=false, customExitSnapDataDisabled=false, methodInvocationDataGathererDisabled=false, httpDataGathererDisabled=false, infoPointsDisabled=false }
+11:46:39,266  INFO [Thread-0] KernelProperties - For Kernel property 'disabled-features' added listener 'com.singularity.ee.agent.appagent.kernel.config.SecurityConfig', notified with value 'NONE'
+11:46:39,335  INFO [Thread-0] LifeCycleManager - Starting service [Agent17Service]
+11:46:39,336  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively Agent17Service :classcom.singularity.ee.agent.appagent.services.java17.Java17AgentService
+11:46:39,337  INFO [Thread-0] LifeCycleManager - Started service [Agent17Service]
+11:46:39,337  INFO [Thread-0] LifeCycleManager - Starting service [JMXService]
+11:46:39,387  INFO [Thread-0] JMXService - ###### Using config from controller for JMX operations #########
+11:46:39,389  INFO [Thread-0] ServerMBeanManager - Initialized MBean Finder with delay=120 secs
+11:46:39,408  INFO [Thread-0] MemoryMetricGenerator - Identified minor collection bean :PS Scavenge
+11:46:39,408  INFO [Thread-0] MemoryMetricGenerator - Identified major collection bean :PS MarkSweep
+11:46:39,409  INFO [Thread-0] MemoryMetricGenerator - Initialized Minor Collection GC metrics
+11:46:39,410  INFO [Thread-0] MemoryMetricGenerator - Initialized Major Collection GC metrics
+11:46:39,410  INFO [Thread-0] MemoryMetricGenerator - Initialized Ovearll GC metrics
+11:46:39,412  INFO [Thread-0] MemoryMetricGenerator - Initialized Memory Pool MX Beans [Code Cache, Metaspace, Compressed Class Space, PS Eden Space, PS Survivor Space, PS Old Gen]
+11:46:39,416  INFO [Thread-0] JVMMetricReporter - Number of processors 8
+11:46:39,418  INFO [Thread-0] JMXService - JVM JMX Metric collection initialized with update interval [60] seconds
+11:46:39,420  INFO [Thread-0] HeapShortageMonitor - HeapStorageMonitor is now active
+11:46:39,482  INFO [Thread-0] LifeCycleManager - Started service [JMXService]
+11:46:39,483  INFO [Thread-0] LifeCycleManager - Starting service [Agent16Service]
+11:46:39,484  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively Agent16Service :classcom.singularity.ee.agent.appagent.services.java16.Java16AgentService
+11:46:39,487  INFO [Thread-0] LifeCycleManager - Started service [Agent16Service]
+11:46:39,487  INFO [Thread-0] LifeCycleManager - Starting service [LogParserService]
+11:46:39,489  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively LogParserService :classcom.singularity.ee.agent.appagent.services.LogEventService
+11:46:39,498  INFO [Thread-0] LifeCycleManager - Started service [LogParserService]
+11:46:39,498  INFO [Thread-0] LifeCycleManager - Starting service [DerivedMetricService]
+11:46:39,499  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively DerivedMetricService :classcom.singularity.ee.agent.appagent.services.derivedmetric.DerivedMetricService
+11:46:39,500  INFO [Thread-0] LifeCycleManager - Started service [DerivedMetricService]
+11:46:39,500  INFO [Thread-0] LifeCycleManager - Starting service [MultiAgentManager]
+11:46:39,506  INFO [Thread-0] LifeCycleManager - Started service [MultiAgentManager]
+11:46:39,506  INFO [Thread-0] LifeCycleManager - Starting service [BCIEngine]
+11:46:39,514  INFO [Thread-0] ClassMemoryLimitTracker - Class Memory limit check before retransform  is enabled
+11:46:39,515  INFO [Thread-0] Java16AgentService - Class retransformation supported in current JVM version
+11:46:39,548  INFO [Thread-0] InstrumentationHandler - Registered class file transformer for re-transformation
+11:46:39,554  INFO [Thread-0] BCIEngineService - BCI Early Rule Appliers are bypassed because retransformation is supported
+11:46:39,555  INFO [Thread-0] LifeCycleManager - Started service [BCIEngine]
+11:46:39,555  INFO [Thread-0] LifeCycleManager - Starting service [SnapshotService]
+11:46:39,571  INFO [Thread-0] TransactionSnapshotService - Agent object monitoring is disabled
+11:46:39,571  INFO [Thread-0] TransactionSnapshotService - Coalesced Call-Stack Sampling is: enabled
+11:46:39,572  INFO [Thread-0] TransactionSnapshotService - CallStackSampler TryLock bounds in Micro Sec: 500
+11:46:39,575  INFO [Thread-0] TransactionSnapshotService - Enable-Contention-Tracking property set to: true
+11:46:39,639  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [generated-class-patterns] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker.resetConfig(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker 1
+11:46:39,640  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-generated-class-patterns] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker.enableDefault(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker 1
+11:46:39,647  INFO [Thread-0] TopBackendsProcessor - Started TopBackendsProcessor to process every [100] ms
+11:46:39,648  INFO [Thread-0] TopBackendsProcessor - Started TopBackendsReporter to report every [5] mins
+11:46:39,664  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -null
+11:46:39,665  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -null
+11:46:39,665  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+11:46:39,665  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -null
+11:46:39,666  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+11:46:39,666  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  hotspot-granularity-in-ms  Value -null
+11:46:39,674  INFO [Thread-0] RequestSegmentDataReporter - Request Segment Data reporter setup to report at interval [10000]
+11:46:39,682  INFO [Thread-0] ApplicationStartupPolicy - Startup policy true
+11:46:39,724  INFO [Thread-0] LifeCycleManager - Started service [SnapshotService]
+11:46:39,724  INFO [Thread-0] LifeCycleManager - Starting service [TransactionMonitoringService]
+11:46:39,738  INFO [Thread-0] SqlCacheHolder - Starting with global and thread-local SQL data caching strategy
+11:46:40,012  INFO [Thread-0] SlowAndStallRequestMonitor - Stall Request checker setup
+11:46:40,012  INFO [Thread-0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 300 ms, at interval 300 ms.
+11:46:40,015  INFO [Thread-0] Java16DeadlockDetector - Deadlock Detector is scheduled to run every [300] seconds.
+11:46:40,058  INFO [Thread-0] LoggerMessageProcessor - LoggerMessageProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@4f955751
+11:46:40,061  INFO [Thread-0] AgentErrorProcessor - AgentErrorProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@1a782245
+11:46:40,072  INFO [Thread-0] ErrorRegistry - Error Registry initialized
+11:46:40,081  INFO [Thread-0] AsyncCorrelationADDRepository - Started ADD registration thread to run every [10] seconds
+11:46:40,081  INFO [Thread-0] AsyncCorrelationADDRepository - Max ADD registrations allowed [500]
+11:46:40,082  INFO [Thread-0] AsyncCorrelationADDRepository - Reporting ADD registration failures every [5] minutes
+11:46:40,092  INFO [Thread-0] JVMThreadCPUTimeCalculator - BT CPU Monitoring will stay enabled. Time taken to calculate Thread CPU Time for [1000] iterations is [3 ms] which is within the allowed budget of [10 ms]
+11:46:40,094  INFO [Thread-0] ServiceEndPointADDRegistrar - Starting ADD Registrar with registration period [10] secs
+11:46:40,133  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [group-unmonitoried-backends] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor.setGroupUnmonitoredBackends(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor 1
+11:46:40,134  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> setting [use-new-async-correlation] to true
+11:46:40,134  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [use-flat-thread-chain-model] to true
+11:46:40,134  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [bSyncMetricAggregator] to true
+11:46:40,134  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [asyncAllMetrics] to null
+11:46:40,134  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [useNewEJB3NamingRule] to false
+11:46:40,134  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [disableSocketCollection] to false
+11:46:40,135  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [devModeSuspendCPM] to 500
+11:46:40,135  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [jdbcLRUCacheSize] to 50
+11:46:40,135  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [support-cross-app-correlation] to true
+11:46:40,135  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.CHECK_BT_EXCLUDES_EARLY+"] to false
+11:46:40,135  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxAsyncTransformedClasses] to 100
+11:46:40,135  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxAsyncTransformedClassesByPackage] to 50
+11:46:40,135  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxEJBTransformedClasses] to 500
+11:46:40,136  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxEJBTransformedClassesByPackage] to 200
+11:46:40,136  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [maxTransformationsPerInterceptor] to 500
+11:46:40,136  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.disableInfoProviderMBean+"] to false
+11:46:40,136  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.infoProviderDetailMode+"] to false
+11:46:40,136  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.maxETELatencyTimestampRetentionInSeconds+"] to 300
+11:46:40,136  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.eteLatencyTimestampScanRetentionIntervalInSeconds+"] to 60
+11:46:40,137  INFO [Thread-0] TransactionMonitoringService - TMS.Configure >> [enableLogGuidInjection] to false
+11:46:40,151  INFO [Thread-0] TransactionMonitoringService - Initialized [NEW] TransactionDelegate
+11:46:40,178  INFO [Thread-0] JaxRsConfiguration - Property capture-raw-sql, Value true
+11:46:40,179  INFO [Thread-0] JaxRsConfiguration - Property config-file-path, Value transactions.xml
+11:46:40,179  INFO [Thread-0] JaxRsConfiguration - Property service-endpoint-config-file-path, Value service-endpoints.xml
+11:46:40,187  INFO [Thread-0] JDBCRuleApplier - Enabled JDBC Driver support for 13 drivers
+11:46:40,188  INFO [Thread-0] JDBCRuleApplier - DBCam integration enabled=false
+11:46:40,192  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [oracle-clientid-index] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration.setOracleClientIndex(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration 1
+11:46:40,192  INFO [Thread-0] JDBCConfiguration - Applying property capture-raw-sql, val true
+11:46:40,193  INFO [Thread-0] JDBCConfiguration - Applying property config-file-path, val transactions.xml
+11:46:40,193  INFO [Thread-0] JDBCConfiguration - Applying property service-endpoint-config-file-path, val service-endpoints.xml
+11:46:40,194  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-new-jdbc-ruleapplier] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCExitPointDelegate.enableNewJDBCRuleApplier(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCExitPointDelegate 1
+11:46:40,194  INFO [Thread-0] SocketRuleApplier - BCI disabled for Socket stats collection
+11:46:40,195  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [socket-enabled] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.network.SocketConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.network.SocketConfiguration 1
+11:46:40,217  INFO [Thread-0] LifeCycleManager - Started service [TransactionMonitoringService]
+11:46:40,217  INFO [Thread-0] LifeCycleManager - Starting service [ObjectMonitoringService]
+11:46:40,404  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-collection-monitoring changed to false
+11:46:40,404  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 5
+11:46:40,404  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property jmap-histo-option changed to -all
+11:46:40,404  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-object-size-monitoring changed to false
+11:46:40,429  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-size-for-evaluation-in-mb changed to 5
+11:46:40,430  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to false
+11:46:40,430  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property enable-instance-monitoring changed to false
+11:46:40,430  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property collection-capture-period-in-minutes changed to 30
+11:46:40,430  INFO [Thread-0] LifeCycleManager - Started service [ObjectMonitoringService]
+11:46:40,430  INFO [Thread-0] LifeCycleManager - Starting service [AgentDiagnosticsService]
+11:46:40,432  INFO [Thread-0] LifeCycleManager -  Service instantiated reflectively AgentDiagnosticsService :classcom.singularity.ee.agent.appagent.services.agentdiagnostics.AgentDiagnosticsService
+11:46:40,442  INFO [Thread-0] AgentDiagnosticConfig - Setting Memory Monitor Enabled false
+11:46:40,442  INFO [Thread-0] AgentDiagnosticConfig - Memory Monitor max stack depth set to 500
+11:46:40,442  INFO [Thread-0] AgentDiagnosticConfig - Memory Monitor total objects set to 500
+11:46:40,443  INFO [Thread-0] MemoryMonitor - Updated monitor class names []. Removed all tracked method objects.
+11:46:40,444  INFO [Thread-0] AgentDiagnosticConfig - Setting Thread Dump Enabled false
+11:46:40,444  INFO [Thread-0] AgentDiagnosticsService - Seeting up Thread dump logger to Log4j based logger context com.singularity.diagnostics.ThreadDumpLogger
+11:46:40,445  INFO [Thread-0] ThreadDumpLogger - #############################################################
+11:46:40,445  INFO [Thread-0] ThreadDumpLogger - Agent Diagnostics Logs at Thu Nov 02 11:46:40 PDT 2017
+11:46:40,445  INFO [Thread-0] ThreadDumpLogger - #############################################################
+11:46:40,445  INFO [Thread-0] AgentDiagnosticConfig - Setting Shutdown hook Enabled false
+11:46:40,445  INFO [Thread-0] AgentDiagnosticsService - JVM Shutdown hook is disabled
+11:46:40,455  INFO [Thread-0] AgentDiagnosticsService - Starting up Agent Diagnostic Logger, setting up Thread dump frequency to [300] seconds
+11:46:40,456  INFO [Thread-0] MemoryMonitor - BCI Rules to apply for Methods[]
+11:46:40,456  INFO [Thread-0] MethodRuleApplier - Finished applying new rule set for {}
+11:46:40,457  INFO [Thread-0] MemoryMonitor - Clearing all current objects from methods being tracked {}
+11:46:40,457  INFO [Thread-0] MemoryMonitor - BCI Rules to apply for Classes[null]
+11:46:40,457  INFO [Thread-0] ClassRuleApplier - Finished applying new rule set for []
+11:46:40,457  INFO [Thread-0] MemoryMonitor - Updated object names to log []
+11:46:40,458  INFO [Thread-0] MemoryMonitor - Memory Monitor started with enabled[false], interval[10]
+11:46:40,458  INFO [Thread-0] MethodRuleApplier - Finished applying new rule set for {}
+11:46:40,458  INFO [Thread-0] LifeCycleManager - Started service [AgentDiagnosticsService]
+11:46:40,458  INFO [Thread-0] LifeCycleManager - Starting service [InstrumentationSdkPluginManager]
+11:46:40,497  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [instrumentation-sdk-cpm-limit] to method [public void com.singularity.ee.agent.appagent.kernel.InstrumentationSdkPluginRuleApplier.setInstrumentationSdkCpmLimit(int)] in class class com.singularity.ee.agent.appagent.kernel.InstrumentationSdkPluginRuleApplier 1
+11:46:40,498  INFO [Thread-0] InstrumentationSdkPluginManager - Scheduling InstrumentationSdkPluginManager at interval of 30 seconds
+11:46:40,500  INFO [Thread-0] InstrumentationSdkPluginManager - Polling SDK directories during startup
+11:46:40,500  INFO [Thread-0] InstrumentationSdkPluginManager - Using instrumentation sdk directory [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0/sdk-plugins]
+11:46:40,501  INFO [Thread-0] LifeCycleManager - Started service [InstrumentationSdkPluginManager]
+11:46:40,501  INFO [Thread-0] LifeCycleManager - Starting service [DynamicServiceManager]
+11:46:40,506  INFO [Thread-0] LifeCycleManager - Started service [DynamicServiceManager]
+11:46:40,514  INFO [Thread-0] ConfigurationChannel - Filtering data with key = [appdynamics.agent.accountAccessKey]
+11:46:40,516  INFO [Thread-0] ConfigurationChannel - Filtering data with key = [appdynamics.agent.accountAccessKey]
+11:46:40,535  INFO [Thread-0] ConfigurationChannel - Detected node meta info: [Name:ProcessID, Value:96303, Name:appdynamics.ip.addresses, Value:fe80:0:0:0:54ea:6cff:feb1:a031%awdl0,10.10.40.70,fe80:0:0:0:f65c:89ff:fe8c:c917%en0,10.0.64.211,fe80:0:0:0:0:0:0:1%lo0, Name:supportsDevMode, Value:true]
+11:46:40,535  INFO [Thread-0] ConfigurationChannel - Sending Registration request with: Application Name [application222], Tier Name [behindDB], Node Name [behindDB], Host Name [jouyang-osx.corp.appdynamics.com] Node Unique Local ID [behindDB], Version [Server Agent v4.3.0.0 GA #14663 rba4be4bd6e9075d98afb71f720d1c52b57ab471d 112-4.3.0.next-build]
+11:46:50,827  INFO [Thread-0] ConfigurationChannel - Auto agent registration attempted: Application Name [application222] Component Name [behindDB] Node Name [behindDB]
+11:46:50,827  INFO [Thread-0] ConfigurationChannel - Auto agent registration SUCCEEDED!
+11:46:50,828  INFO [Thread-0] ConfigurationChannel - Registration information received Node ID[17] Component ID[17] Application ID [10]
+Registered app server agent with Node ID[17] Component ID[17] Application ID [10]
+11:46:50,828  INFO [Thread-0] ConfigurationChannel -      controllerGUID[1509578341] accountGUID[edec8af6-a9fe-489a-b9d5-48f5b27b0a35]
+11:46:51,001  INFO [Thread-0] ConfigurationChannel - Account edition from controller = ENTERPRISE
+11:46:51,002  INFO [Thread-0] ConfigurationChannel - New account profile [AccountProfile [dataRetentionInMinutes=-1, agentTypesSupported=[APP_AGENT, DOT_NET_APP_AGENT, DOT_NET_MACHINE_AGENT, MACHINE_AGENT, NODEJS_APP_AGENT, NODEJS_MACHINE_AGENT], automationEnabled=true, azureAutoScalingEnabled=false, systemsPanelEnabled=true, memoryMonitoringEnabled=true, startDateOfTrial=null, endDateOfTrial=null, businessTransactionLimit=50, nodeLimit=-1, transactionCorrelationEnabled=true, snapshotsEnabled=true, snapshotsWithFullCallGraphsEnabled=true, automaticSnapshotsForSlowAndErrorRequestsEnabled=true, sqlDiagnosticsEnabled=true, hardwareMonitoringEnabled=true, jvmMonitoringEnabled=true, clrMonitoringEnabled=true, endUserExperienceMonitoringEnabled=true, backendDetectionEnabled=true, errorMonitoringEnabled=true, customDashboardsEnabled=true, reportingEnabled=true, baselinesEnabled=true, advancedAnalysisEnabled=true, policiesEnabled=true, alertingEnabled=true, informationPointsEnabled=true, topCallsEnabled=true, problemsEnabled=true, informationalEventsEnabled=true, metricBrowserEnabled=true, timestamp=1509578445595, dataCollectorsEnabled=true, customExitPointsEnabled=true, restAPIEnabled=true, maxApplications=-1, maxPolicies=-1, edition=ENTERPRISE, controllerBusinessTransactionLimitPerApplication=0]]
+11:46:51,003  INFO [Thread-0] ConfigurationChannel - Controller version [4.5.0]
+11:46:51,006  INFO [Thread-0] TransactionMonitoringService - Received application configuration property [is-async-activity-supported]=true
+11:46:51,032  INFO [Thread-0] TransactionConfigUpdater - Updating transactions.xml to /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0/conf/behindDB/transactions.xml
+11:46:51,202  INFO [Thread-0] TransactionMonitor - Setting Excluded BTs [EMPTY]
+11:46:51,203  INFO [Thread-0] ErrorMonitor - Setting ignore exceptions to :[]
+11:46:51,203  INFO [Thread-0] ErrorMonitor - Setting ignore message patterns to :[]
+11:46:51,204  INFO [Thread-0] ErrorMonitor - Setting max frames in root cause to :5
+11:46:51,205  INFO [Thread-0] StackTraceGenerator - Stack trace line limit set to: 200 (stack-trace-line-limit property is set to 0, but minimum value is 200.)
+11:46:51,205  INFO [Thread-0] ErrorMonitor - Setting stack trace line limit to :0
+11:46:51,205  INFO [Thread-0] LoggerRuleApplier - Applying Custom Logger Rules :: []
+11:46:51,205  INFO [Thread-0] ErrorMonitor - Setting excluded logger names to : []
+11:46:51,206  INFO [Thread-0] ErrorMonitor - JDK Exception Logger disabled set to false
+11:46:51,207  INFO [Thread-0] ErrorMonitor - JDK Message Logger disabled set to false
+11:46:51,207  INFO [Thread-0] ErrorMonitor - SLF4J Exception Logger disabled set to false
+11:46:51,207  INFO [Thread-0] ErrorMonitor - SLF4J Message Logger disabled set to false
+11:46:51,207  INFO [Thread-0] ErrorMonitor - Logback Formatted Message Logger disabled set to false
+11:46:51,207  INFO [Thread-0] ErrorMonitor - Logback Formatted Message Marker disabled set to false
+11:46:51,207  INFO [Thread-0] ErrorMonitor - Log4j Exception Logger disabled set to false
+11:46:51,208  INFO [Thread-0] ErrorMonitor - Log4j Message Logger disabled set to false
+11:46:51,208  INFO [Thread-0] ErrorMonitor - Capture of error and fatal logger error messages disabled set to false
+11:46:51,208  INFO [Thread-0] ErrorMonitor - Setting ignore logger msg patters to : []
+11:46:51,210  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'}
+11:46:51,214  INFO [Thread-0] AExitPointDelegate - Exit point delegate [HTTPExitPointDelegate] enabled = true
+11:46:51,214  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'} with number of configurations 1
+11:46:51,214  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Kafka'}
+11:46:51,215  INFO [Thread-0] AExitPointDelegate - Exit point delegate [KafkaExitPointDelegate] enabled = true
+11:46:51,215  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Kafka'} with number of configurations 1
+11:46:51,215  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'}
+11:46:51,222  INFO [Thread-0] AExitPointDelegate - Exit point delegate [MQExitPointDelegate] enabled = true
+11:46:51,222  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'} with number of configurations 1
+11:46:51,222  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'}
+11:46:51,224  INFO [Thread-0] AExitPointDelegate - Exit point delegate [ThriftExitPointDelegate] enabled = true
+11:46:51,224  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'} with number of configurations 1
+11:46:51,224  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'}
+11:46:51,224  INFO [Thread-0] AExitPointDelegate - Exit point delegate [JMSExitPointDelegate] enabled = true
+11:46:51,225  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'} with number of configurations 1
+11:46:51,225  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'}
+11:46:51,226  INFO [Thread-0] AExitPointDelegate - Exit point delegate [WebSocketExitPointDelegate] enabled = true
+11:46:51,226  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'} with number of configurations 1
+11:46:51,226  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'}
+11:46:51,228  INFO [Thread-0] AExitPointDelegate - Exit point delegate [RMIExitPointDelegate] enabled = true
+11:46:51,229  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'} with number of configurations 1
+11:46:51,229  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'}
+11:46:51,230  INFO [Thread-0] AExitPointDelegate - Exit point delegate [SQSExitPointDelegate] enabled = true
+11:46:51,230  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'} with number of configurations 1
+11:46:51,231  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'}
+11:46:51,232  INFO [Thread-0] AExitPointDelegate - Exit point delegate [S3ExitPointDelegate] enabled = true
+11:46:51,232  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'} with number of configurations 1
+11:46:51,232  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'}
+11:46:51,234  INFO [Thread-0] AExitPointDelegate - Exit point delegate [SNSExitPointDelegate] enabled = true
+11:46:51,234  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'} with number of configurations 1
+11:46:51,234  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'}
+11:46:51,234  INFO [Thread-0] AExitPointDelegate - Exit point delegate [MongoExitPointDelegate] enabled = true
+11:46:51,235  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'} with number of configurations 1
+11:46:51,235  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'}
+11:46:51,238  INFO [Thread-0] AExitPointDelegate - Exit point delegate [JDBCExitPointDelegate] enabled = true
+11:46:51,238  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'} with number of configurations 1
+11:46:51,238  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'}
+11:46:51,239  INFO [Thread-0] AExitPointDelegate - Exit point delegate [JoltExitPointDelegate] enabled = true
+11:46:51,239  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'} with number of configurations 1
+11:46:51,239  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'}
+11:46:51,243  INFO [Thread-0] AExitPointDelegate - Exit point delegate [RabbitMqExitPointDelegate] enabled = true
+11:46:51,243  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'} with number of configurations 1
+11:46:51,243  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'}
+11:46:51,243  INFO [Thread-0] AExitPointDelegate - Exit point delegate [AWS Exit Point Delegate] enabled = true
+11:46:51,243  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'} with number of configurations 1
+11:46:51,244  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'}
+11:46:51,247  INFO [Thread-0] AExitPointDelegate - Exit point delegate [WebServiceExitPointDelegate] enabled = true
+11:46:51,248  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'} with number of configurations 1
+11:46:51,248  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'}
+11:46:51,248  INFO [Thread-0] AExitPointDelegate - Exit point delegate [CassandraCQLExitPointDelegate] enabled = true
+11:46:51,248  INFO [Thread-0] BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'} with number of configurations 1
+11:46:51,248  INFO [Thread-0] TransactionConfigChannel - Received Service End Point Definitions >> 
+[]
+11:46:51,251  INFO [Thread-0] TransactionConfigChannel - Received Service Endpoint Match Config >> 
+[{
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=69 , version=0    id = 69    name = EJB    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:EJB,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='EJB_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=65 , version=0    id = 65    name = JMS    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:JMS,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='DESTINATION_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=66 , version=0    id = 66    name = POJO    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:POJO,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='FULLY_QUALIFIED_CLASS_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=68 , version=0    id = 68    name = SERVLET    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:SERVLET,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='URI', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=64 , version=0    id = 64    name = SPRING_BEAN    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:SPRING_BEAN,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='BEAN_ID_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=67 , version=0    id = 67    name = STRUTS_ACTION    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:STRUTS_ACTION,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='ACTION_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=70 , version=0    id = 70    name = WEB_SERVICE    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:WEB_SERVICE,   
+     attachedEntity:Type:APPLICATION, id:10,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='SERVICE_NAME_AND_OPERATION_NAME', properties=[]} }
+}
+]
+11:46:51,252  INFO [Thread-0] BTOverflowCounter - Transactions cleanup detected. Resetting overflow transaction timer.
+11:46:51,252  INFO [Thread-0] TransactionMonitor - Changing max metric length to: 5000
+11:46:51,256  INFO [Thread-0] EUMConfig - EUM injected JS code template: ...
+11:46:51,256  INFO [Thread-0] EUMConfig - EUM beacon URL: col.eum-appdynamics.com
+11:46:51,257  INFO [Thread-0] EUMConfig - EUM async JS file URL: cdn.appdynamics.com
+11:46:51,257  INFO [Thread-0] EUMConfig - Global account name: customer1_edec8af6-a9fe-489a-b9d5-48f5b27b0a35
+11:46:51,257  INFO [Thread-0] EUMConfig - Disabling automatic parsing and injection
+11:46:51,257  INFO [Thread-0] EUMConfig - Disabling manual injection rules
+11:46:51,259  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package excludes [java., javax., com.sun., sun., org., com.bea., com.weblogic., weblogic., com.ibm., com.mysql., com.oracle., oracle., com.microsoft.sqlserver., com.opensymphony., net.sf., jrockit., kodo., com.pointbase., persistence.antlr., com.informix., com.sybase.jdbc2., com.sybase.jdbc3., com.sybase.jdbc4., com.mongodb.connection.]
+11:46:51,259  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package always show [com.sun.jersey., org.apache.openejb., org.apache.cassandra., org.apache.kafka., org.apache.http., org.asynchttpclient., org.apache.camel.example., org.apache.camel.component.seda., org.mule.processor., org.jboss.soa.esb.client., org.springframework.integration.]
+11:46:51,259  INFO [Thread-0] AgentConfigWatchdog - Received properties from controller, going to refresh.
+11:46:51,260  INFO [Thread-0] AgentConfigWatchdog - ************ Started applying service properties from controller ***************
+11:46:51,261  INFO [Thread-0] TransactionMonitor - Applying 'enable-soap-header-correlation', 'false'
+11:46:51,261  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-soap-header-correlation value false
+11:46:51,261  INFO [Thread-0] JaxRsConfiguration - Property rest-num-segments, Value 2
+11:46:51,261  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating rest-num-segments value 2
+11:46:51,262  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating log-request-payload value false
+11:46:51,262  INFO [Thread-0] NewTransactionWatchman - Property api-transaction-timeout-in-seconds, Value 300
+11:46:51,262  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating api-transaction-timeout-in-seconds value 300
+11:46:51,262  INFO [Thread-0] ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-correlation-for], value[]
+11:46:51,262  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating disable-exit-call-correlation-for value 
+11:46:51,263  INFO [Thread-0] TransactionMonitor - Applying 'slow-request-deviation', '200'
+11:46:51,263  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating slow-request-deviation value 200
+11:46:51,263  INFO [Thread-0] JDBCRuleApplier - Property jdbc-statements, Value 
+11:46:51,263  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-statements value 
+11:46:51,263  INFO [Thread-0] TransactionMonitor - Applying 'slow-request-threshold', '500'
+11:46:51,264  INFO [Thread-0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 500 ms, at interval 500 ms.
+11:46:51,264  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating slow-request-threshold value 500
+11:46:51,264  INFO [Thread-0] TransactionMonitor - Applying 'downstream-tx-detection-enabled', 'false'
+11:46:51,264  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating downstream-tx-detection-enabled value false
+11:46:51,264  INFO [Thread-0] JDBCConfiguration - Applying property capture-raw-sql, val false
+11:46:51,265  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating capture-raw-sql value false
+11:46:51,265  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating find-entry-points value false
+11:46:51,265  INFO [Thread-0] TransactionMonitor - Applying 'max-business-transactions', '50'
+11:46:51,265  INFO [Thread-0] BusinessTransactionRegistry - Max transactions set to 50
+11:46:51,265  INFO [Thread-0] TransactionMonitor - Agent will identify a maximum of [50] business transactions.
+11:46:51,265  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating max-business-transactions value 50
+11:46:51,266  INFO [Thread-0] TransactionMonitor - Applying 'slow-request-monitor-interval', '100'
+11:46:51,266  INFO [Thread-0] SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 100 ms, at interval 100 ms.
+11:46:51,266  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating slow-request-monitor-interval value 100
+11:46:51,266  INFO [Thread-0] JDBCRuleApplier - Property jdbc-prepared-statements, Value 
+11:46:51,266  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-prepared-statements value 
+11:46:51,267  INFO [Thread-0] JaxRsConfiguration - Property rest-uri-segment-scheme, Value first-n-segments
+11:46:51,267  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating rest-uri-segment-scheme value first-n-segments
+11:46:51,267  INFO [Thread-0] NewTransactionWatchman - Property api-thread-activity-timeout-in-seconds, Value 300
+11:46:51,267  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating api-thread-activity-timeout-in-seconds value 300
+11:46:51,267  INFO [Thread-0] TransactionMonitor - Applying 'min-load-per-minute-diagnostic-session-trigger', '10'
+11:46:51,267  INFO [Thread-0] TransactionMonitor - Minimum load per min on a BT to trigger diagnostic session on agent [10] requests.
+11:46:51,268  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating min-load-per-minute-diagnostic-session-trigger value 10
+11:46:51,268  INFO [Thread-0] TransactionMonitor - Applying 'enable-transaction-correlation', 'true'
+11:46:51,268  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-transaction-correlation value true
+11:46:51,268  INFO [Thread-0] JDBCRuleApplier - Property jdbc-connections, Value 
+11:46:51,268  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-connections value 
+11:46:51,268  INFO [Thread-0] ExitPointRuleApplier - ExitPointRuleApplier property disable-custom-exit-points-for value []
+11:46:51,269  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating disable-custom-exit-points-for value 
+11:46:51,269  INFO [Thread-0] JDBCRuleApplier - Property jdbc-callable-statements, Value 
+11:46:51,269  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jdbc-callable-statements value 
+11:46:51,269  INFO [Thread-0] JaxRsConfiguration - Property rest-transaction-naming, Value {class-annotation}/{method-annotation}.{http-method}
+11:46:51,270  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating rest-transaction-naming value {class-annotation}/{method-annotation}.{http-method}
+11:46:51,270  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating async-transaction-demarcator value 
+11:46:51,271  INFO [Thread-0] LatencyMonitoringConfiguration - End to End latency montioring threshold set to [0] ms
+11:46:51,271  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating end-to-end-message-latency-threshold-millis value 0
+11:46:51,271  INFO [Thread-0] ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-metrics-for], value[]
+11:46:51,271  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating disable-exit-call-metrics-for value 
+11:46:51,271  INFO [Thread-0] ServletRuleApplier - Applying property capture-error-urls, true
+11:46:51,271  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating capture-error-urls value true
+11:46:51,272  INFO [Thread-0] TransactionMonitor - Applying 'enable-default-http-error-code-reporter', 'true'
+11:46:51,272  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-default-http-error-code-reporter value true
+11:46:51,272  INFO [Thread-0] TransactionSnapshotService - Reset coalesced-cg-generation with new value 
+11:46:51,272  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating coalesced-cg-generation value 
+11:46:51,272  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -
+11:46:51,272  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+11:46:51,273  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating show-packages value 
+11:46:51,273  INFO [Thread-0] TransactionSnapshotService - Reset max-jdbc-calls-per-callgraph with new value 100
+11:46:51,273  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-callgraph value 100
+11:46:51,273  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating on-demand-snapshots value false
+11:46:51,273  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -
+11:46:51,273  INFO [Thread-0] CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+11:46:51,274  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating dont-show-packages value 
+11:46:51,274  INFO [Thread-0] TransactionSnapshotService - Reset adaptive-callgraph-granularity with new value false
+11:46:51,274  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating adaptive-callgraph-granularity value false
+11:46:51,274  INFO [Thread-0] ApplicationStartupPolicy - Setting 'enable-startup-snapshot-policy' with value 'false'
+11:46:51,274  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-startup-snapshot-policy value false
+11:46:51,275  INFO [Thread-0] CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -0
+11:46:51,275  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating callgraph-granularity-in-ms value 0
+11:46:51,275  INFO [Thread-0] TransactionSnapshotService - Reset max-jdbc-calls-per-snapshot with new value 500
+11:46:51,275  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-snapshot value 500
+11:46:51,276  INFO [Thread-0] TransactionSnapshotService - Reset min-duration-for-jdbc-call-in-ms with new value 10
+11:46:51,276  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating min-duration-for-jdbc-call-in-ms value 10
+11:46:51,276  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property jmap-histo-option changed to 
+11:46:51,276  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating jmap-histo-option value 
+11:46:51,276  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to 
+11:46:51,277  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating disable-collection-capture value 
+11:46:51,277  INFO [Thread-0] ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 30
+11:46:51,277  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating minimum-age-for-evaluation-in-minutes value 30
+11:46:51,277  INFO [Thread-0] LeakManager - Property changed leak-diagnostic-interval-in-minutes, Val [30]
+11:46:51,277  INFO [Thread-0] LeakManager - Changing leak diagnostic capture interval to 30
+11:46:51,278  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating leak-diagnostic-interval-in-minutes value 30
+11:46:51,278  INFO [Thread-0] BCIEngineService - BCIEngine service property enable-xml-bci-rules changed, new value true
+11:46:51,278  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-xml-bci-rules value true
+11:46:51,278  INFO [Thread-0] BCIEngineService - BCIEngine service property enable-json-bci-rules changed, new value true
+11:46:51,278  INFO [Thread-0] AnnotationPropertyListenerManager - Propagating enable-json-bci-rules value true
+11:46:51,278  INFO [Thread-0] AgentConfigWatchdog - ------------ Finished applying service properties from controller ---------------
+
+11:46:51,281  INFO [Thread-0] ConfigurationChannel - Initialized app agent with latest configuration from controller
+11:46:51,404  INFO [Thread-0] XMLConfigManager - Agent will poll for new configuration from controller every [60] seconds
+11:46:51,404  INFO [Thread-0] Java17AgentService. - Starting the GC Visibility Service.
+11:46:51,408  INFO [Thread-0] GCVisibilityInitializer - Registering listeners for GC events 
+11:46:51,422  INFO [Thread-0] DerivedMetricService - Derived metric: DerivedMetric{metricIdentifier=Metric Identifier[JVM|Memory:Heap|Custom Current Usage Percentage] ID[0] super=DerivedMetricExpression{operation=multiply, expressions=[DerivedMetricExpression{operation=divide, expressions=[MetricFetch{agentRawMetricIdentifier=Metric Identifier[JVM|Memory:Heap|Current Usage (MB)] ID[0], testStaticValue=''}, MetricFetch{agentRawMetricIdentifier=Metric Identifier[JVM|Memory:Heap|Max Available (MB)] ID[0], testStaticValue=''}]}, StaticNumber{staticValue=10000}]}}
+11:46:51,476  INFO [Thread-0] TransactionMonitoringService - OSGi configuration rule applier has been activated
+11:46:51,477  INFO [Thread-0] TransactionMonitoringService - Reading transaction config file from the controller.
+11:46:51,493  INFO [Thread-0] TransactionMonitoringService - Parsed Transaction definitions successfully from [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0/conf/behindDB/transactions.xml]
+11:46:51,642  INFO [Thread-0] ServletEntryPointDelegate - Servlet Monitoring enabled=true
+11:46:51,643  INFO [Thread-0] ServletRuleApplier - Apply servlet entry point monitoring = true, apply service end point config = true
+11:46:51,654  INFO [Thread-0] ServletRuleApplier - Adding SPRING MVC dispatcher rules
+11:46:51,655  INFO [Thread-0] ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+11:46:51,657  INFO [Thread-0] ServletRuleApplier - Applying Mule HTTP Receiver rules
+11:46:51,664  INFO [Thread-0] ServletRuleApplier - Applying URI Capture rules
+11:46:51,665  INFO [Thread-0] ServletRuleApplier - Capturing HttpServletResponse.setStatus() calls
+11:46:51,666  INFO [Thread-0] ServletRuleApplier - Applying rule to capture Play related error codes
+11:46:51,709  INFO [Thread-0] ServletRuleApplier - Applying rules: Fork-join rules
+11:46:51,709  INFO [Thread-0] ServletRuleApplier - Applying rules: Spray.io rules
+11:46:51,718  INFO [Thread-0] WebMethodsRuleApplier - Applying Web Methods HTTP Receiver rules
+11:46:51,719  INFO [Thread-0] ServletRuleApplier - Applying rules: Jolt Exit Point Rules
+11:46:51,720  INFO [Thread-0] ServletRuleApplier - Applying rules: WebMethods Message Broker rules
+11:46:51,728  INFO [Thread-0] ServletRuleApplier - Applying rules: Netty Custom Activity
+11:46:51,728  INFO [Thread-0] WebObjectsRuleApplier - Applying WebObject rules
+11:46:51,755  INFO [Thread-0] SpringIntegrationRuleApplier - Applying Spring Integration Rules
+11:46:51,757  INFO [Thread-0] SpringIntegrationRuleApplier - spring-integration-receive-marker-classes = null
+11:46:51,758  INFO [Thread-0] SpringIntegrationRuleApplier - Apply Spring Integration Receive Enclosing Marker Rules
+11:46:51,762  INFO [Thread-0] EJBEntryPointDelegate - Applying RMI Rules
+11:46:51,763  INFO [Thread-0] RMIRuleApplier - Applying JBoss Remoting Rules
+11:46:51,774  INFO [Thread-0] RMIRuleApplier - Applying Websphere RMI-IIOP Rules
+11:46:51,790  INFO [Thread-0] RMIRuleApplier - Applying JRMP RMI Rules
+11:46:51,799  INFO [Thread-0] POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [3]
+11:46:51,799  INFO [Thread-0] POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=null}, entryPointType=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+11:46:51,805  INFO [Thread-0] JMSEntryPointDelegate - JMS monitoring is enabled
+11:46:51,810  INFO [Thread-0] JMSEntryPointDelegate - Adding MDB Annotation onMessage rule 
+11:46:51,810  INFO [Thread-0] JMSEntryPointDelegate - Adding Spring Integration MDB rule 
+11:46:51,908  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Ning async http client rules
+11:46:51,932  INFO [Thread-0] jrubyJRubyRuleApplier - Applying rules: JRuby Httparty Rules
+11:46:51,934  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Netty Async Channel
+11:46:51,942  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Ribbon Async
+11:46:51,946  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Jetty v9
+11:46:51,946  INFO [Thread-0] HTTPExitPointDelegate - Applying rules: Jetty v8
+11:46:51,950  INFO [Thread-0] MQExitPointDelegate - MQ put/get rules registered
+11:46:52,130  INFO [Thread-0] JDBCRulesApplier - Applying rules: JDCB Common
+11:46:52,177  INFO [Thread-0] JDBCRulesApplier - Applying rules: JDBC mutable
+11:46:52,198  INFO [Thread-0] JMSExitPointDelegate - Applying Amazon SQS Rules
+11:46:52,205  INFO [Thread-0] sqsSQSRuleApplier - Applying rules: Amazon SQS Rules
+11:46:52,206  INFO [Thread-0] AWSExitPointDelegate - Applying DynamoDB Rules
+11:46:52,212  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [instrumented-aws-services] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.amazon.generic.AWSGenericRuleApplier.updateAmazonConfig(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.amazon.generic.AWSGenericRuleApplier 1
+11:46:52,220  INFO [Thread-0] s3S3ExitPointDelegate - Applying Amazon S3 Rules
+11:46:52,224  INFO [Thread-0] s3S3RuleApplier - Applying rules: Amazon S3 Rules
+11:46:52,226  INFO [Thread-0] snsSNSExitPointDelegate - Applying Amazon SNS Rules
+11:46:52,229  INFO [Thread-0] snsSNSRuleApplier - Applying rules: Amazon SNS Rules
+11:46:52,229  INFO [Thread-0] kafkaKafkaExitPointDelegate - Applying Apache Kafka Rules
+11:46:52,237  INFO [Thread-0] kafkaKafkaRuleApplier - Applying rules: Apache Kafka Rules
+11:46:52,239  INFO [Thread-0] MongoExitPointDelegate - Applying MongoDB rules
+11:46:52,247  INFO [Thread-0] MongoDBRuleApplier - Applying rules: MongoDB Rules
+11:46:52,290  INFO [Thread-0] BCIFixer - Scheduling BCIFixer at [900000] ms intervals.
+11:46:52,292  INFO [Thread-0] DynamicRulesManager - Reading current dynamic rules from [/Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0/conf/behindDB/bcirules.xml]
+11:46:52,299  INFO [Thread-0] TransactionConfigChannel - Applying out of the box exit point rules
+11:46:52,328  INFO [Thread-0] ExitPointRuleApplier - Adding rules for exit point type [[SAP, Mail, LDAP, DangaMemcache, Coherence, EHCache, REDIS, MongoDB, Memcache]]
+11:46:52,330  INFO [Thread-0] TransactionMonitoringService - Initializing thread delegate and resetting transaction delegate if needed. The current value of [use-new-async-correlation]=true
+11:46:52,363  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+11:46:52,365  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+11:46:52,365  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+11:46:52,367  INFO [Thread-0] AsyncCorrelationRuleApplier - retention-config is null
+11:46:52,373  INFO [Thread-0] TransactionMonitoringService - Initialized [NEW] threads delegate
+11:46:52,373  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+11:46:52,373  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+11:46:52,374  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+11:46:52,374  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+11:46:52,374  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+11:46:52,374  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='call', type=EQUALS, pattern='call'}] 
+11:46:52,375  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+11:46:52,375  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='doRun', type=EQUALS, pattern='doRun'}] 
+11:46:52,375  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+11:46:52,376  INFO [Thread-0] AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='k', type=EQUALS, pattern='k'}] 
+11:46:52,400  INFO [Thread-0] AnnotationPropertyListenerManager - Will propagate value of property [enable-async-correlation-for] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier.setEnableAsync(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier 1
+11:46:53,634  INFO [Thread-0] JavaAgent - JVM Process Persistence File <pid = 66904    nodeDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3    appName = application222    tierName = behindDB    nodeName = behindDB    homeDirectory = /Users/jun.ouyang/source/helloWorld    machineId = 6    uniqueHostId = jouyang-osx.local    controllerHost = localhost    controllerPort = 8080    accountKey = 6b9c06d0-1851-4340-8c45-b6a4979f9a82    versionDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0> was found
+11:46:53,715  INFO [Thread-0] JavaAgent - Detected that JVM for PID 66904 is no longer active
+11:46:53,718  INFO [Thread-0] JavaAgent - JVM Process Persistence file <pid = 66904    nodeDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3    appName = application222    tierName = behindDB    nodeName = behindDB    homeDirectory = /Users/jun.ouyang/source/helloWorld    machineId = 6    uniqueHostId = jouyang-osx.local    controllerHost = localhost    controllerPort = 8080    accountKey = 6b9c06d0-1851-4340-8c45-b6a4979f9a82    versionDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0> does not match current controller or account - ignored
+11:46:53,733  INFO [Thread-0] JavaAgent - JVM Process Persistence File <pid = 96303    nodeDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3    appName = application222    tierName = behindDB    nodeName = behindDB    homeDirectory = /Users/jun.ouyang/source/helloWorld    machineId = 6    uniqueHostId = jouyang-osx.corp.appdynamics.com    controllerHost = localhost    controllerPort = 8080    accountKey = edec8af6-a9fe-489a-b9d5-48f5b27b0a35    versionDirectory = /Users/jun.ouyang/source/helloWorld/lib/javaagent/4.3/ver4.3.0.0> was written
+Started AppDynamics Java Agent Successfully.
+11:46:53,778  INFO [Thread-0] JavaAgent - Started AppDynamics Java Agent Successfully.
+11:46:53,832  INFO [AD Thread Pool-Global0] TransformationManager - Class transformations will take place in a background thread
+11:46:55,776  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/net/SocketFlow is scheduled for re-transformation
+11:46:58,376  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/ClassWriter is scheduled for re-transformation
+11:46:58,376  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/ClassVisitor is scheduled for re-transformation
+11:46:58,376  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/ByteVector is scheduled for re-transformation
+11:46:58,377  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/Item is scheduled for re-transformation
+11:46:58,377  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/MethodWriter is scheduled for re-transformation
+11:46:58,377  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/MethodVisitor is scheduled for re-transformation
+11:46:58,378  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/Type is scheduled for re-transformation
+11:46:58,378  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/Label is scheduled for re-transformation
+11:46:58,379  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/Frame is scheduled for re-transformation
+11:46:58,379  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/internal/org/objectweb/asm/AnnotationWriter is scheduled for re-transformation
+11:46:58,379  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/AnnotationVisitor is scheduled for re-transformation
+11:46:58,416  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/FieldWriter is scheduled for re-transformation
+11:46:58,416  INFO [AD Thread Pool-Global0] TransformationManager - Class jdk/internal/org/objectweb/asm/FieldVisitor is scheduled for re-transformation
+11:46:58,425  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/net/SocketFlow$Status is scheduled for re-transformation
+11:46:58,444  INFO [AD Thread Pool-Global0] TransformationManager - Class java/util/concurrent/ThreadPoolExecutor$Worker is scheduled for re-transformation
+11:46:58,635  INFO [qtp1937348256-47] BoundsEnforcer - BoundsEnforcer.PropertyListener is initialized
+11:46:58,636  INFO [qtp1937348256-47] BusinessTransactions - BT [1] Name [/backend] Type [SERVLET] Custom [false]
+11:46:58,636  INFO [qtp1937348256-47] BusinessTransactions - Discovery Stack 
+Thread Name:qtp1937348256-47
+ID:47
+Time:Thu Nov 02 11:46:58 PDT 2017
+State:RUNNABLE
+Priority:5
+
+org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:432)
+org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:175)
+org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1028)
+org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:136)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+org.eclipse.jetty.server.Server.handle(Server.java:445)
+org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:267)
+org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:224)
+org.eclipse.jetty.io.AbstractConnection$ReadCallback.run(AbstractConnection.java:358)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:601)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:532)
+java.lang.Thread.run(Thread.java:745)
+
+
+Received request : client-7746
+11:46:58,732  INFO [AD Thread Pool-Global1] TransformationManager - Class sun/net/www/protocol/http/HttpURLConnection is scheduled for re-transformation
+average : 608
+Received request : client-9748
+average : 359
+11:47:00,797  INFO [AD Thread Pool-Global1] TransformationManager - Class jdk/Exported is scheduled for re-transformation
+Received request : client-1750
+average : 277
+Received request : client-3754
+11:47:03,798  INFO [AD Thread Pool-Global0] AsyncCorrelationADDRepository - Sending ADDs to register [ApplicationDiagnosticData{key='BackendService$1', name=BackendService$1, diagnosticType=THREAD_TASK, configEntities=null, summary='BackendService$1'}]
+11:47:03,799  INFO [AD Thread Pool-Global0] AsyncCorrelationADDRepository - REST - Sending Binary request - URL [/controller/instance/6/btregistration] 
+********BT Registration Data********
+<node-id>
+17
+<node-id/>
+<account-key>
+edec8af6-a9fe-489a-b9d5-48f5b27b0a35
+<account-key/>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='BackendService$1', name=BackendService$1, diagnosticType=THREAD_TASK, configEntities=null, summary='BackendService$1'}>
+<application-diagnostic-data/>
+
+11:47:03,799  INFO [AD Thread Pool-Global1] BTRegistrationChannel - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/backend, componentId=17 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+11:47:03,799  INFO [AD Thread Pool-Global1] BTRegistrationChannel - Sending transactions to register [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/backend, componentId=17 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+11:47:03,799  INFO [AD Thread Pool-Global1] BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/6/btregistration] 
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, internalName=/backend, componentId=17 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+<business-transactions/>
+<node-id>
+17
+<node-id/>
+<account-key>
+edec8af6-a9fe-489a-b9d5-48f5b27b0a35
+<account-key/>
+
+11:47:03,802  INFO [AD Thread Pool-Global0] AsyncCorrelationADDRepository - REST
+Sending Binary payload Size : 1294 bytes
+11:47:03,803  INFO [AD Thread Pool-Global1] BTRegistrationChannel - REST
+Sending Binary payload Size : 2574 bytes
+average : 234
+11:47:04,161  INFO [AD Thread Pool-Global0] AsyncCorrelationADDRepository - REST - Reading Binary response - URL [null] - Size [888]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+<business-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<resolved-backend-calls>
+Size : 0
+<resolved-backend-calls/>
+<STATUS>
+Success
+<STATUS/>
+<registered-backends>
+Size : 0
+<registered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+<application-diagnostic-data>
+Size : 1
+<THREAD_TASK>::<{BackendService$1=1}>
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+
+11:47:04,161  INFO [AD Thread Pool-Global0] AsyncCorrelationADDRepository - Registered ADDs [{BackendService$1=1}]
+11:47:04,162  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - Sending ADDs to register [ApplicationDiagnosticData{key='/backend_SERVLET', name=/backend, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/backend'}]
+11:47:04,162  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/6/btregistration] 
+********BT Registration Data********
+<node-id>
+17
+<node-id/>
+<account-key>
+edec8af6-a9fe-489a-b9d5-48f5b27b0a35
+<account-key/>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/backend_SERVLET', name=/backend, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/backend'}>
+<application-diagnostic-data/>
+
+11:47:04,166  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1509 bytes
+11:47:04,268  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [893]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+<business-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<resolved-backend-calls>
+Size : 0
+<resolved-backend-calls/>
+<STATUS>
+Success
+<STATUS/>
+<registered-backends>
+Size : 0
+<registered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/backend_SERVLET=4}>
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+
+11:47:04,268  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - Registered ADDs [{/backend_SERVLET=4}]
+11:47:04,363  INFO [AD Thread Pool-Global1] BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [3441]
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=2, name=/backend, entryPointType=SERVLET, internalName=/backend, componentId=17 ,applicationId=10, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=17, enabledForEUM=false, eumAutoEnablePossible=null}>
+<business-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<resolved-backend-calls>
+Size : 0
+<resolved-backend-calls/>
+<STATUS>
+Success
+<STATUS/>
+<registered-backends>
+Size : 0
+<registered-backends/>
+<Status Message>
+Successfully registered business transactions
+<Status Message/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+<application-diagnostic-data>
+Size : 0
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+
+11:47:04,365  INFO [AD Thread Pool-Global1] BusinessTransactionRegistry - Registered BT Name[/backend], Id[2]
+Received request : client-5759
+average : 208
+Received request : client-7763
+average : 191
+Received request : client-9767
+average : 179
+Received request : client-1771
+average : 170
+Received request : client-3773
+average : 162
+Received request : client-5786
+average : 157
+Received request : client-7782
+average : 152
+Received request : client-9784
+average : 148
+Received request : client-1788
+average : 145
+Received request : client-3793
+average : 142
+Received request : client-5798
+average : 140
+Received request : client-7803
+average : 138
+11:47:29,211  INFO [AD Thread-Metric Reporter0] MetricSender - Sending REST request - URL [/controller/instance/6/metricregistration]
+<request>
+<node-id>17</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:2|Component:17|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Burnt (ms/min)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:2|Component:17|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:17|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:2|Component:17|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Threads|Current No. of Threads"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:2|Component:17|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|SEP:4|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|End to End Messages per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:2|Component:17|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow End to End Messages"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:17|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Usage %"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:17|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:17|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:2|Component:17|Average CPU Used (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:2|Component:17|Average Wait Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:17|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average End to End Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:17|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Allocated-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|LiveData (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Freed-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:2|Component:17|Average Block Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Current Loaded Class Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:2|Component:17|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Total Classes Loaded"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:4|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Promoted-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:4|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:17|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:2|Component:17|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Custom Current Usage Percentage"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>edec8af6-a9fe-489a-b9d5-48f5b27b0a35</account-key>
+</request>
+
+Received request : client-9804
+average : 136
+11:47:30,803  INFO [AD Thread-Metric Reporter0] MetricSender - REST Response Received - URL [/controller/instance/6/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|End to End Messages per Minute"	id="1416"/>
+<metric	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	id="1295"/>
+<metric	name="JVM|Memory:Heap|Committed (MB)"	id="1296"/>
+<metric	name="BTM|Application Summary|Stall Count"	id="1427"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Average Wait Time (ms)"	id="1379"/>
+<metric	name="BTM|Application Summary|Average Response Time (ms)"	id="1408"/>
+<metric	name="BTM|Application Summary|Component:17|Average Response Time (ms)"	id="1439"/>
+<metric	name="JVM|Garbage Collection|Number of Major Collections Per Min"	id="1308"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Average Block Time (ms)"	id="1377"/>
+<metric	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	id="1315"/>
+<metric	name="JVM|Classes|Total Classes Loaded"	id="1313"/>
+<metric	name="BTM|Application Summary|Errors per Minute"	id="1420"/>
+<metric	name="BTM|Application Summary|Number of Slow Calls"	id="1424"/>
+<metric	name="JVM|Memory:Non-Heap|Committed (MB)"	id="1298"/>
+<metric	name="BTM|Application Summary|Normal Average Response Time (ms)"	id="1423"/>
+<metric	name="JVM|Garbage Collection|Allocated-Objects (MB)"	id="1303"/>
+<metric	name="BTM|Application Summary|Component:17|Stall Count"	id="1454"/>
+<metric	name="JVM|Process CPU Burnt (ms/min)"	id="1305"/>
+<metric	name="JVM|Memory:Heap|Used %"	id="1306"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Normal Average Response Time (ms)"	id="1478"/>
+<metric	name="JVM|Memory:Heap|Max Available (MB)"	id="1310"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Number of Very Slow Calls"	id="1371"/>
+<metric	name="JVM|Threads|Current No. of Threads"	id="1316"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Calls per Minute"	id="1365"/>
+<metric	name="BTM|Application Summary|Infrastructure Errors per Minute"	id="1421"/>
+<metric	name="BTM|Application Summary|Component:17|Number of Slow Calls"	id="1450"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:4|Errors per Minute"	id="1407"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Number of Slow Calls"	id="1369"/>
+<metric	name="JVM|Memory:Non-Heap|Current Usage (MB)"	id="1297"/>
+<metric	name="JVM|Garbage Collection|Freed-Objects (MB)"	id="1300"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Average CPU Used (ms)"	id="1375"/>
+<metric	name="BTM|Application Summary|Component:17|Errors per Minute"	id="1445"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Stall Count"	id="1373"/>
+<metric	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	id="1302"/>
+<metric	name="JVM|Memory:Heap|Custom Current Usage Percentage"	id="1301"/>
+<metric	name="BTM|Application Summary|Component:17|Calls per Minute"	id="1443"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Errors per Minute"	id="1367"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:4|Calls per Minute"	id="1403"/>
+<metric	name="BTM|Application Summary|Calls per Minute"	id="1413"/>
+<metric	name="JVM|Classes|Current Loaded Class Count"	id="1307"/>
+<metric	name="BTM|Application Summary|Component:17|Number of Very Slow Calls"	id="1452"/>
+<metric	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	id="1309"/>
+<metric	name="BTM|Application Summary|Number of Very Slow Calls"	id="1426"/>
+<metric	name="JVM|Garbage Collection|Promoted-Objects (MB)"	id="1294"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:4|Average Response Time (ms)"	id="1401"/>
+<metric	name="BTM|Application Summary|Average End to End Latency (ms)"	id="1402"/>
+<metric	name="JVM|Garbage Collection|LiveData (MB)"	id="1299"/>
+<metric	name="BTM|Application Summary|Number of Slow End to End Messages"	id="1425"/>
+<metric	name="BTM|Application Summary|Component:17|Infrastructure Errors per Minute"	id="1448"/>
+<metric	name="JVM|Process CPU Usage %"	id="1304"/>
+<metric	name="JVM|Memory:Heap|Current Usage (MB)"	id="1311"/>
+<metric	name="BTM|BTs|BT:2|Component:17|Average Response Time (ms)"	id="1362"/>
+</request>
+
+Received request : client-1808
+average : 134
+11:47:34,278  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - Sending ADDs to register [ApplicationDiagnosticData{key='BackendService$1_ASYNC', name=BackendService$1, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='BackendService$1'}]
+11:47:34,279  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/6/btregistration] 
+********BT Registration Data********
+<node-id>
+17
+<node-id/>
+<account-key>
+edec8af6-a9fe-489a-b9d5-48f5b27b0a35
+<account-key/>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='BackendService$1_ASYNC', name=BackendService$1, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='BackendService$1'}>
+<application-diagnostic-data/>
+
+11:47:34,281  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1521 bytes
+11:47:34,309  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [1787]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+<business-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<resolved-backend-calls>
+Size : 2
+<1>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:jouyang-osx.corp.appdynamics.com, Name:PORT, Value:8989]]>
+<2>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:jouyang-osx.corp.appdynamics.com, Name:PORT, Value:8990]]>
+<resolved-backend-calls/>
+<STATUS>
+Success
+<STATUS/>
+<registered-backends>
+Size : 0
+<registered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{BackendService$1_ASYNC=10}>
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+
+11:47:34,309  INFO [AD Thread Pool-Global0] ServiceEndPointADDRegistrar - Registered ADDs [{BackendService$1_ASYNC=10}]
+11:47:34,376  INFO [AD Thread Pool-Global1] BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/6/btregistration] 
+********BT Registration Data********
+<node-id>
+17
+<node-id/>
+<account-key>
+edec8af6-a9fe-489a-b9d5-48f5b27b0a35
+<account-key/>
+<self-resolved-backend-ids>
+Size : 1
+<2>
+<self-resolved-backend-ids/>
+<unregistered-backends>
+Size : 1
+<UnresolvedBackendCallInfo [id=0, resolutionInfo=NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:PORT, Value:8991, Name:HOST, Value:jouyang-osx.corp.appdynamics.com]], metaInfo=[], applicationId=0, createdOn=0, displayName=jouyang-osx.corp.appdynamics.com:8991, visualizationProperties=null, applicationComponentNodeId=0, applicationComponentId=0]>
+<unregistered-backends/>
+
+11:47:34,379  INFO [AD Thread Pool-Global1] BTRegistrationChannel - REST
+Sending Binary payload Size : 1607 bytes
+11:47:34,422  INFO [AD Thread Pool-Global1] BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [2208]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+<business-transactions/>
+<invalid-backends>
+Size : 0
+<invalid-backends/>
+<unregistered-transactions>
+Size : 0
+<unregistered-transactions/>
+<resolved-backend-calls>
+Size : 3
+<1>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:jouyang-osx.corp.appdynamics.com, Name:PORT, Value:8989]]>
+<2>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:jouyang-osx.corp.appdynamics.com, Name:PORT, Value:8990]]>
+<3>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:jouyang-osx.corp.appdynamics.com, Name:PORT, Value:8991]]>
+<resolved-backend-calls/>
+<STATUS>
+Success
+<STATUS/>
+<registered-backends>
+Size : 1
+<UnresolvedBackendCallInfo [id=3, resolutionInfo=NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:jouyang-osx.corp.appdynamics.com, Name:PORT, Value:8991]], metaInfo=[], applicationId=10, createdOn=0, displayName=jouyang-osx.corp.appdynamics.com:8991, visualizationProperties=null, applicationComponentNodeId=0, applicationComponentId=0]>
+<registered-backends/>
+<Status Message>
+No transactions sent by agent to register
+<Status Message/>
+<invalid-business-transactions>
+Size : 0
+<invalid-business-transactions/>
+<application-diagnostic-data>
+Size : 0
+<application-diagnostic-data/>
+<unregistered-backends>
+Size : 0
+<unregistered-backends/>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.appdynamics.machineagent</string>
+    <key>OnDemand</key>
+    <false/>
+    <!--
+        Environment variables.
+          To use an alternate version of Java, set JAVA_HOME here.
+    -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>JAVA_HOME</key>
+        <string>${MACHINE_AGENT_HOME}/jre/Contents/Home</string>
+    </dict>
+
+    <!--
+        For more information on program arguments to launch the machine agent, run
+          ${MACHINE_AGENT_HOME}/bin/machine-agent -h
+    -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>bash</string>
+        <string>${MACHINE_AGENT_HOME}/bin/machine-agent</string>
+        <string>${STD_JAVA_PROPS}</string>
+        <string>${NON_STD_JAVA_PROPS}</string>
+    </array>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <!--
+        For more information on keys - including setting resource limits, please run
+          man launchd.plist
+    -->
+</dict>
+</plist>
